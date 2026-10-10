@@ -1,0 +1,336 @@
+{
+  "model": "runs/scratch-ground-A/candidate.pt",
+  "kind": "matches",
+  "seed": 451011,
+  "paired_sides": true,
+  "opponent": "/workspace/work/modelwars/private-submission/runs/baseline/V13.pt",
+  "records": [
+    {
+      "seed": 451011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 300.71666666666664,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 76.45,
+      "kickoff_wait_seconds": 599.2833333333333,
+      "counts": [
+        34904,
+        19096,
+        0,
+        0
+      ],
+      "elapsed_seconds": 37.52326022500347,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 451011,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        52491,
+        1509,
+        0,
+        0
+      ],
+      "elapsed_seconds": 42.005783448010334,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 452020,
+      "team": 0,
+      "goals_for": 1,
+      "goals_against": 0,
+      "result": "W",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 69.08333333333333,
+      "first_touch_seconds": 40.28333333333333,
+      "kickoff_wait_seconds": 131.0,
+      "counts": [
+        8473,
+        21532,
+        0,
+        0
+      ],
+      "elapsed_seconds": 22.32598924000922,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 452020,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "censored_overtime_cap",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 120.0,
+      "first_touch_seconds": 64.01666666666667,
+      "kickoff_wait_seconds": 127.06666666666666,
+      "counts": [
+        32,
+        32792,
+        0,
+        0
+      ],
+      "elapsed_seconds": 23.20737247800571,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 453029,
+      "team": 0,
+      "goals_for": 2,
+      "goals_against": 0,
+      "result": "W",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 34.55,
+      "kickoff_wait_seconds": 122.98333333333333,
+      "counts": [
+        287,
+        25092,
+        0,
+        0
+      ],
+      "elapsed_seconds": 18.649635187000968,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 453029,
+      "team": 1,
+      "goals_for": 1,
+      "goals_against": 0,
+      "result": "W",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 34.55,
+      "kickoff_wait_seconds": 103.11666666666666,
+      "counts": [
+        7663,
+        16524,
+        0,
+        0
+      ],
+      "elapsed_seconds": 17.227098110990482,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 454038,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 50.56666666666667,
+      "kickoff_wait_seconds": 114.65,
+      "counts": [
+        0,
+        24879,
+        0,
+        0
+      ],
+      "elapsed_seconds": 17.41814786400937,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 454038,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 2,
+      "result": "L",
+      "end": "safety_cap",
+      "active_regulation_seconds": 8.9,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 50.583333333333336,
+      "kickoff_wait_seconds": 891.1,
+      "counts": [
+        46714,
+        7286,
+        0,
+        0
+      ],
+      "elapsed_seconds": 35.37340039599803,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 455047,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.71666666666664,
+      "active_overtime_seconds": 3.75,
+      "first_touch_seconds": 76.45,
+      "kickoff_wait_seconds": 126.98333333333333,
+      "counts": [
+        4114,
+        21773,
+        0,
+        0
+      ],
+      "elapsed_seconds": 19.399992999009555,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 455047,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        52491,
+        1509,
+        0,
+        0
+      ],
+      "elapsed_seconds": 36.46214801700262,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 456056,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "safety_cap",
+      "active_regulation_seconds": 3.816666666666667,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 50.56666666666667,
+      "kickoff_wait_seconds": 896.1833333333333,
+      "counts": [
+        49775,
+        4225,
+        0,
+        0
+      ],
+      "elapsed_seconds": 33.65175195199845,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 456056,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 50.583333333333336,
+      "kickoff_wait_seconds": 210.45,
+      "counts": [
+        2,
+        30625,
+        0,
+        0
+      ],
+      "elapsed_seconds": 17.783318918009172,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 457065,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.71666666666664,
+      "active_overtime_seconds": 3.75,
+      "first_touch_seconds": 76.45,
+      "kickoff_wait_seconds": 146.71666666666667,
+      "counts": [
+        4114,
+        22957,
+        0,
+        0
+      ],
+      "elapsed_seconds": 29.019705724989763,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 457065,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        52491,
+        1509,
+        0,
+        0
+      ],
+      "elapsed_seconds": 61.30250523900031,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 458074,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.71666666666664,
+      "active_overtime_seconds": 3.75,
+      "first_touch_seconds": 76.45,
+      "kickoff_wait_seconds": 146.71666666666667,
+      "counts": [
+        4114,
+        22957,
+        0,
+        0
+      ],
+      "elapsed_seconds": 34.52314867998939,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    },
+    {
+      "seed": 458074,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        52491,
+        1509,
+        0,
+        0
+      ],
+      "elapsed_seconds": 40.70217900999705,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot"
+    }
+  ],
+  "elapsed_seconds": 139.71752368399757,
+  "wins": 3,
+  "losses": 7,
+  "draws": 6,
+  "goals_for": 4,
+  "goals_against": 8,
+  "censored": 8
+}

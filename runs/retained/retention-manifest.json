@@ -14,10 +14,10 @@
     "selected/latest.pt": "d7064b2a0495e51f95465b6ca2dc75fa1cebc907fc2235729cbc1edbe2659d54",
     "selected/candidate.pt": "bda8a7a773d63526fea8a1449ff3971bba48317a05dd024eafc18827c1100011",
     "baseline/V13.pt": "579fa26010140514d2e9b7f0e2871bee569c594b7da8648e31ee1489007cd5b7",
-    "latest/latest.pt": "8317c089b7630d8d72ce632fe97bb64714ec6a4e5bdb8731eaadc7ea0dfb7131",
-    "latest/candidate.pt": "6b735a17bdbab803044c157bf32c38e5e1f66cfa4c482aec883da8552338a64d"
+    "latest/latest.pt": "e37b6283625d656edbeb5dfc840ed8ffcfe1c668e1a36d10220a2007afae06c4",
+    "latest/candidate.pt": "36f7460433eb4bf20cedfa878686f08ef5d17c847ee8dd59885c45b843883c7c"
   },
   "selected_lineage_decisions": 16384,
-  "latest_lineage_decisions": 32768,
-  "all_campaign_new_decisions": 65536
+  "latest_lineage_decisions": 49152,
+  "all_campaign_new_decisions": 98304
 }

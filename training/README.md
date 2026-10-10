@@ -2,7 +2,7 @@
 
 This private project is independent of ModelWars-RocketSim. It uses the organizer's unchanged 13-input, one-layer 64-unit GRU Policy with exactly 26,181 actor parameters and its original four modes / steering decoder. The critic is training-only, never part of the submitted actor. There are no Nexto/Necto assets, pretrained outputs, labels, old checkpoints, external datasets, runtime scripted overrides or additional actor controls.
 
-The original V13 initialization is preserved at `runs/baseline/V13.pt` and Git main commit `83d92a69c80930652c4d26be8db9f7ebea062e38`. The selected scratch candidate is a fresh permitted initialization of exactly that Policy class, subsequently trained only with PPO from real RocketSim experience. It is not a padded imported network or imitation model.
+The original V13 initialization is preserved at `runs/baseline/V13.pt` and original Git commit `83d92a69c80930652c4d26be8db9f7ebea062e38`. The selected scratch candidate is a fresh permitted initialization of exactly that Policy class, subsequently trained only with PPO from real RocketSim experience. It is not a padded imported network or imitation model.
 
 ## Domain limitation
 
@@ -36,4 +36,4 @@ The first starter continuations used the earlier zero-bootstrap bug, disclosed i
 
 ## Bounded retention
 
-Private backups retain: original baseline, selected complete A checkpoint, latest complete E learner checkpoint, the required actor dependencies, at most four legal historical actor policies, used-source snapshots and compact results. Failed candidate weights are not permanent archives. Upload a new managed set to a new file, download it, checksum and strict-load complete state, update the retention manifest, then retire only unreferenced managed backups. Do not delete old-project backups or unrelated Drive files. ZIPs never contain previous ZIPs.
+Private backups retain: original baseline, selected complete A checkpoint, latest complete A4 learner checkpoint, the required actor dependencies, at most four legal historical actor policies, used-source snapshots and compact results. Failed candidate weights are not permanent archives. Upload a new managed set to a new file, download it, checksum and strict-load complete state, update the retention manifest, then retire only unreferenced managed backups. Do not delete old-project backups or unrelated Drive files. ZIPs never contain previous ZIPs.

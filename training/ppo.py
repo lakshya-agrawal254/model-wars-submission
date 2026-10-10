@@ -51,7 +51,7 @@ def tensors(rows):
   running=delta+(.99*.95*running);adv[i]=running
  return x,mode,z,oldp,torch.tensor(adv),torch.tensor(adv+v,dtype=torch.float32)
 
-def update(actor,critic,ao,co,batches,epochs=4):
+def update(actor,critic,ao,co,batches,epochs=4,entropy_weight=.025):
  values=[tensors(r) for r in batches];alladv=torch.cat([v[4] for v in values]);mean=alladv.mean();std=alladv.std().clamp_min(1e-5);stats=[]
  # Recompute the FULL chronological actor prefix on every PPO epoch, h=None only at trial start.
  with torch.no_grad():
@@ -61,14 +61,14 @@ def update(actor,critic,ao,co,batches,epochs=4):
   for x,m,z,old,a,ret in values:
    l,s,h=actor(x);lp=log_probability(l,s,m,z);ratio=(lp-old).exp();adv=(a-mean)/std
    pg=-torch.minimum(ratio*adv,ratio.clamp(.8,1.2)*adv).mean()
-   entropy=Categorical(logits=l).entropy().mean();loss=pg-.025*entropy
+   entropy=Categorical(logits=l).entropy().mean();loss=pg-entropy_weight*entropy
    ao.zero_grad(set_to_none=True);loss.backward();norm=nn.utils.clip_grad_norm_(actor.parameters(),1.);assert torch.isfinite(norm);ao.step()
    value=critic(x);vl=.5*(value-ret).square().mean();co.zero_grad(set_to_none=True);vl.backward();nn.utils.clip_grad_norm_(critic.parameters(),1.);co.step()
    kl=((ratio-1)-(lp-old)).mean().detach().item();stats.append(dict(policy_loss=float(pg.detach()),value_loss=float(vl.detach()),entropy=float(entropy.detach()),approx_kl=kl,clip_fraction=float(((ratio-1).abs()>.2).float().mean()),gradient_norm=float(norm)))
   if stats[-1]['approx_kl']>.03:break
  return {k:float(np.mean([r[k] for r in stats])) for k in stats[0]}
 
-def main(output,decisions,stage,starting=None,resume=None,steps=256,scratch=False,opponents=None):
+def main(output,decisions,stage,starting=None,resume=None,steps=256,scratch=False,opponents=None,entropy_weight=.025):
  output.mkdir(parents=True,exist_ok=False);torch.set_num_threads(2);torch.use_deterministic_algorithms(True);torch.manual_seed(20261011);np.random.seed(20261011);random.seed(20261011)
  actor=Policy();critic=Critic();baseline=Policy().eval();base=ROOT/'runs/baseline/V13.pt';baseline.load_state_dict(torch.load(base,weights_only=True)['state_dict'])
  if not scratch:actor.load_state_dict(torch.load(starting or base,weights_only=True)['state_dict'],strict=True)
@@ -90,12 +90,12 @@ def main(output,decisions,stage,starting=None,resume=None,steps=256,scratch=Fals
    # Later stages preserve a 30% normal-match starting-state mixture.
    chosen='E' if stage in ['C','D'] and episode%3==0 else stage
    actor.eval();rows,summary=collect(actor,critic,pool[episode%len(pool)],20261011+episode*1009,chosen,episode%2,min(steps,target-count));batches.append(rows);summaries.append(summary);count+=len(rows);episode+=1
-  actor.train();stats=update(actor,critic,ao,co,batches)
+  actor.train();stats=update(actor,critic,ao,co,batches,entropy_weight=entropy_weight)
   history.append(dict(decisions=count,stage=stage,episodes=summaries,ppo=stats,elapsed_seconds=time.monotonic()-began))
-  rng=np.random.get_state();saved=dict(state_dict=actor.state_dict(),critic=critic.state_dict(),actor_optimizer=ao.state_dict(),critic_optimizer=co.state_dict(),decisions=count,episode=episode,torch_rng=torch.get_rng_state(),python_rng=random.getstate(),numpy_rng=(rng[0],rng[1].tolist(),*rng[2:]),history=history,configuration={'stage':stage,'actor_parameters':26181,'prediction':'explicitly absent; NOT native RLBot prediction','mode_entropy':.025,'steer_std':.35,'learning_rate':3e-4,'gamma':.99,'gae_lambda':.95,'ppo_clip':.2,'ppo_epochs':4,'max_kl':.03,'steps':steps,'seed':20261011,'opponents':[str(base)]+[str(p) for p in opponents or []],'reward_version':'ground-idle-v2','time_limits_bootstrapped':True,'initialization':'fresh exact Policy' if scratch else 'official starter or resumed actor','source_sha256':{n:hashlib.sha256((ROOT/'training'/n).read_bytes()).hexdigest() for n in ['ppo.py','sim_contract.py']} })
+  rng=np.random.get_state();saved=dict(state_dict=actor.state_dict(),critic=critic.state_dict(),actor_optimizer=ao.state_dict(),critic_optimizer=co.state_dict(),decisions=count,episode=episode,torch_rng=torch.get_rng_state(),python_rng=random.getstate(),numpy_rng=(rng[0],rng[1].tolist(),*rng[2:]),history=history,configuration={'stage':stage,'actor_parameters':26181,'prediction':'explicitly absent; NOT native RLBot prediction','mode_entropy':entropy_weight,'steer_std':.35,'learning_rate':3e-4,'gamma':.99,'gae_lambda':.95,'ppo_clip':.2,'ppo_epochs':4,'max_kl':.03,'steps':steps,'seed':20261011,'opponents':[str(base)]+[str(p) for p in opponents or []],'reward_version':'ground-idle-v2','time_limits_bootstrapped':True,'initialization':'fresh exact Policy' if scratch else 'official starter or resumed actor','source_sha256':{n:hashlib.sha256((ROOT/'training'/n).read_bytes()).hexdigest() for n in ['ppo.py','sim_contract.py']} })
   temp=output/'latest.tmp.pt';torch.save(saved,temp);temp.replace(output/'latest.pt')
   print('PPO',stage,count,stats['entropy'],stats['approx_kl'],sum(s['touches'] for s in summaries),flush=True)
  torch.save({'state_dict':actor.state_dict()},output/'candidate.pt');(output/'metrics.json').write_text(json.dumps(history,indent=2))
  print('COMPLETE',count,'SECONDS',time.monotonic()-began,flush=True)
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--output',required=True,type=Path);p.add_argument('--decisions',type=int,default=8192);p.add_argument('--stage',choices=list('ABCDE'),default='A');p.add_argument('--opponents',nargs='*',type=Path);p.add_argument('--scratch',action='store_true');p.add_argument('--steps',type=int,default=256);p.add_argument('--starting',type=Path);p.add_argument('--resume',type=Path);a=p.parse_args();main(a.output,a.decisions,a.stage,a.starting,a.resume,a.steps,a.scratch,a.opponents)
+ p=argparse.ArgumentParser();p.add_argument('--output',required=True,type=Path);p.add_argument('--decisions',type=int,default=8192);p.add_argument('--stage',choices=list('ABCDE'),default='A');p.add_argument('--opponents',nargs='*',type=Path);p.add_argument('--scratch',action='store_true');p.add_argument('--entropy-weight',type=float,default=.025);p.add_argument('--steps',type=int,default=256);p.add_argument('--starting',type=Path);p.add_argument('--resume',type=Path);a=p.parse_args();main(a.output,a.decisions,a.stage,a.starting,a.resume,a.steps,a.scratch,a.opponents,a.entropy_weight)

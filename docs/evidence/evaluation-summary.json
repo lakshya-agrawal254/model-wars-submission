@@ -86,5 +86,53 @@
     "promotion_pass": false,
     "evaluation_elapsed_seconds": 119.62102140100615,
     "raw_WLD_is_not_completed_match_WLD": true
+  },
+  {
+    "file": "dev-control-A.json",
+    "completed_wins": 3,
+    "completed_losses": 5,
+    "completed_draws": 0,
+    "unresolved": 8,
+    "observed_goals_for_including_capped_play": 4,
+    "observed_goals_against_including_capped_play": 8,
+    "independent_side_pairs": 8,
+    "conservative_pair_scores": [
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "one_sided_exact_pair_sign_p": 0.9921875,
+    "promotion_pass": false,
+    "evaluation_elapsed_seconds": 139.71752368399757,
+    "raw_WLD_is_not_completed_match_WLD": true
+  },
+  {
+    "file": "dev-A4.json",
+    "completed_wins": 0,
+    "completed_losses": 0,
+    "completed_draws": 0,
+    "unresolved": 16,
+    "observed_goals_for_including_capped_play": 0,
+    "observed_goals_against_including_capped_play": 0,
+    "independent_side_pairs": 8,
+    "conservative_pair_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "one_sided_exact_pair_sign_p": 1.0,
+    "promotion_pass": false,
+    "evaluation_elapsed_seconds": 150.36752314899059,
+    "raw_WLD_is_not_completed_match_WLD": true
   }
 ]

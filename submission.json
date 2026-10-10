@@ -14,8 +14,8 @@
     "algorithm": "PPO, conditional categorical and squashed-Normal Chase steering; separate training-only critic",
     "training_source": "Self-generated real RocketSim 2.2.1 physics through RLGym 2.0.1; no demonstrations or external pretrained models",
     "selected_actor_learner_decisions": 16384,
-    "all_branches_new_learner_decisions": 65536,
-    "latest_experimental_lineage_decisions": 32768,
+    "all_branches_new_learner_decisions": 98304,
+    "latest_experimental_lineage_decisions": 49152,
     "prediction_domain": "13 original columns; prediction positions/validity/time explicitly unavailable (zero). Native RLBot prediction-valid transfer not established.",
     "timing_domain": "60 Hz training callback decisions; actual RLBot callbacks not forced or resampled",
     "curriculum": "A ground; bounded B kickoff failed; C jump, D defence and E legal starter/own-policy self-play continuation failed screening. Best screened A retained as feasibility candidate, not promoted from rewards.",
@@ -29,7 +29,8 @@
       "training/evaluate.py"
     ],
     "used_source_snapshots": "training/used_sources (before optional-opponent RNG resume fix)",
-    "remaining_requirements": "Actual GUI acceptance, native matched-side evaluation, deadline/timezone and organizer submission/runtime/access confirmation"
+    "remaining_requirements": "Actual GUI acceptance, native matched-side evaluation, organizer submission/runtime/access confirmation; user-confirmed deadline 11 October 2026 07:00 IST",
+    "bounded_followup": "32768 continuation decisions from complete A checkpoint, lower entropy weight .005 with same A rewards/steps512/learning rates/observations/control; rejected for all-censored no-contact screening"
   },
   "live_acceptance": "NOT TESTED after edits; run preflight and GUI match",
   "checkpoint_sha256": "bda8a7a773d63526fea8a1449ff3971bba48317a05dd024eafc18827c1100011"
