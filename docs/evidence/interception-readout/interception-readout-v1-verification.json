@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "parameters": 26181,
+  "features": 13,
+  "tensor_names": [
+    "encoder.0.weight",
+    "encoder.0.bias",
+    "gru.weight_ih_l0",
+    "gru.weight_hh_l0",
+    "gru.bias_ih_l0",
+    "gru.bias_hh_l0",
+    "head.weight",
+    "head.bias"
+  ],
+  "optimizer_updates": 16,
+  "encoder_GRU_frozen_bit_exact": true,
+  "hidden_contract_bit_exact_on_identical_states": true,
+  "actor_sha256": "72f8338c383f54137181328667b8752602901eda6652a260664111fbd8ab767f",
+  "inference_sha256": "80ddba1c2c737ba46a0491c210f7dfd0dfb51340f1abb843c67bd70b3cc50613",
+  "native_game": "NOT TESTED"
+}

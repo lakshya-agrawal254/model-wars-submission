@@ -1,0 +1,506 @@
+[
+  {
+    "sequence": 0,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1640446037054062,
+    "initial_reference_steer": 0.03263414278626442,
+    "initial_candidate_steer": 0.10355370491743088,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 1,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1640446037054062,
+    "initial_reference_steer": 0.03263414278626442,
+    "initial_candidate_steer": 0.10355370491743088,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 2,
+    "mode_changes": 26,
+    "steering_abs_change": 0.14035895466804504,
+    "initial_reference_steer": -0.09835340827703476,
+    "initial_candidate_steer": -0.03821956366300583,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 3,
+    "mode_changes": 26,
+    "steering_abs_change": 0.14035895466804504,
+    "initial_reference_steer": -0.09835340827703476,
+    "initial_candidate_steer": -0.03821956366300583,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 4,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1469029039144516,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 5,
+    "mode_changes": 0,
+    "steering_abs_change": 0.14610104262828827,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 6,
+    "mode_changes": 0,
+    "steering_abs_change": 0.13959509134292603,
+    "initial_reference_steer": -0.2759781777858734,
+    "initial_candidate_steer": -0.22128644585609436,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 7,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17294509708881378,
+    "initial_reference_steer": -0.2759781777858734,
+    "initial_candidate_steer": -0.22128646075725555,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 8,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17216211557388306,
+    "initial_reference_steer": -0.1265559196472168,
+    "initial_candidate_steer": -0.05899806320667267,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 9,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17633669078350067,
+    "initial_reference_steer": -0.11122728884220123,
+    "initial_candidate_steer": -0.04325910657644272,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 10,
+    "mode_changes": 0,
+    "steering_abs_change": 0.14935560524463654,
+    "initial_reference_steer": -0.11453517526388168,
+    "initial_candidate_steer": -0.05224251374602318,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 11,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16967971622943878,
+    "initial_reference_steer": -0.11453517526388168,
+    "initial_candidate_steer": -0.05224251374602318,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 12,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16754908859729767,
+    "initial_reference_steer": -0.157280832529068,
+    "initial_candidate_steer": -0.07416167855262756,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 13,
+    "mode_changes": 0,
+    "steering_abs_change": 0.167551651597023,
+    "initial_reference_steer": -0.157280832529068,
+    "initial_candidate_steer": -0.07416168600320816,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 14,
+    "mode_changes": 0,
+    "steering_abs_change": 0.19200001657009125,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 15,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1730833202600479,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 16,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1508035808801651,
+    "initial_reference_steer": -0.26357099413871765,
+    "initial_candidate_steer": -0.18188756704330444,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 17,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15299707651138306,
+    "initial_reference_steer": -0.26357099413871765,
+    "initial_candidate_steer": -0.18188755214214325,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 18,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1723622828722,
+    "initial_reference_steer": -0.17000232636928558,
+    "initial_candidate_steer": -0.08287081122398376,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 19,
+    "mode_changes": 0,
+    "steering_abs_change": 0.191761314868927,
+    "initial_reference_steer": -0.1700022965669632,
+    "initial_candidate_steer": -0.08287075906991959,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 20,
+    "mode_changes": 0,
+    "steering_abs_change": 0.18659621477127075,
+    "initial_reference_steer": -0.21401384472846985,
+    "initial_candidate_steer": -0.1234218031167984,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 21,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17402905225753784,
+    "initial_reference_steer": -0.21401377022266388,
+    "initial_candidate_steer": -0.12342172861099243,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 22,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17111903429031372,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 23,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16166451573371887,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 24,
+    "mode_changes": 150,
+    "steering_abs_change": 0.13334491848945618,
+    "initial_reference_steer": -0.21401384472846985,
+    "initial_candidate_steer": -0.1234218031167984,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 25,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1685752421617508,
+    "initial_reference_steer": -0.21401377022266388,
+    "initial_candidate_steer": -0.12342172861099243,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 26,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1545090675354004,
+    "initial_reference_steer": -0.17000232636928558,
+    "initial_candidate_steer": -0.08287081122398376,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 27,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15289229154586792,
+    "initial_reference_steer": -0.1700022965669632,
+    "initial_candidate_steer": -0.08287075906991959,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 28,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17092961072921753,
+    "initial_reference_steer": 0.03263414278626442,
+    "initial_candidate_steer": 0.10355370491743088,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 29,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17092961072921753,
+    "initial_reference_steer": 0.03263414278626442,
+    "initial_candidate_steer": 0.10355370491743088,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 30,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1672188639640808,
+    "initial_reference_steer": -0.09835340827703476,
+    "initial_candidate_steer": -0.03821956366300583,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 31,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1672188639640808,
+    "initial_reference_steer": -0.09835340827703476,
+    "initial_candidate_steer": -0.03821956366300583,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 32,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16177710890769958,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 33,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16177701950073242,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 34,
+    "mode_changes": 116,
+    "steering_abs_change": 0.07741013914346695,
+    "initial_reference_steer": -0.2759781777858734,
+    "initial_candidate_steer": -0.22128644585609436,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 35,
+    "mode_changes": 0,
+    "steering_abs_change": 0.17197655141353607,
+    "initial_reference_steer": -0.2759781777858734,
+    "initial_candidate_steer": -0.22128646075725555,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 36,
+    "mode_changes": 0,
+    "steering_abs_change": 0.14266662299633026,
+    "initial_reference_steer": -0.1265559196472168,
+    "initial_candidate_steer": -0.05899806320667267,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 37,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16494880616664886,
+    "initial_reference_steer": -0.11122728884220123,
+    "initial_candidate_steer": -0.04325910657644272,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 38,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1467689722776413,
+    "initial_reference_steer": -0.11453517526388168,
+    "initial_candidate_steer": -0.05224251374602318,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 39,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16302534937858582,
+    "initial_reference_steer": -0.11453517526388168,
+    "initial_candidate_steer": -0.05224251374602318,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 40,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16192665696144104,
+    "initial_reference_steer": -0.157280832529068,
+    "initial_candidate_steer": -0.07416167855262756,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 41,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16192671656608582,
+    "initial_reference_steer": -0.157280832529068,
+    "initial_candidate_steer": -0.07416168600320816,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 42,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16177710890769958,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 43,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16177701950073242,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 44,
+    "mode_changes": 0,
+    "steering_abs_change": 0.1634167581796646,
+    "initial_reference_steer": -0.26357099413871765,
+    "initial_candidate_steer": -0.18188756704330444,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 45,
+    "mode_changes": 0,
+    "steering_abs_change": 0.163416787981987,
+    "initial_reference_steer": -0.26357099413871765,
+    "initial_candidate_steer": -0.18188755214214325,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 46,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16348884999752045,
+    "initial_reference_steer": -0.17000232636928558,
+    "initial_candidate_steer": -0.08287081122398376,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 47,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16348884999752045,
+    "initial_reference_steer": -0.1700022965669632,
+    "initial_candidate_steer": -0.08287075906991959,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 48,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16482286155223846,
+    "initial_reference_steer": -0.21401384472846985,
+    "initial_candidate_steer": -0.1234218031167984,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 49,
+    "mode_changes": 0,
+    "steering_abs_change": 0.16482287645339966,
+    "initial_reference_steer": -0.21401377022266388,
+    "initial_candidate_steer": -0.12342172861099243,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 50,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15367721021175385,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 51,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15367722511291504,
+    "initial_reference_steer": -0.28719550371170044,
+    "initial_candidate_steer": -0.2116249054670334,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 52,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15521866083145142,
+    "initial_reference_steer": -0.21401384472846985,
+    "initial_candidate_steer": -0.1234218031167984,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 53,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15521866083145142,
+    "initial_reference_steer": -0.21401377022266388,
+    "initial_candidate_steer": -0.12342172861099243,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 54,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15459488332271576,
+    "initial_reference_steer": -0.17000232636928558,
+    "initial_candidate_steer": -0.08287081122398376,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  },
+  {
+    "sequence": 55,
+    "mode_changes": 0,
+    "steering_abs_change": 0.15459488332271576,
+    "initial_reference_steer": -0.1700022965669632,
+    "initial_candidate_steer": -0.08287075906991959,
+    "initial_reference_mode": 1,
+    "initial_candidate_mode": 1
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "training_target_neutral": 3560,
+  "training_targets": 39600,
+  "neutral_target_speed_min": 1200.11962890625,
+  "neutral_target_speed_max": 1410.0635986328125,
+  "pairs": [
+    {
+      "side": 0,
+      "control_stationary_seconds": 0.0,
+      "failed_stationary_seconds": 8.1,
+      "neutral_first_second": 10.5,
+      "stopped_first_second_after_initial": 11.9,
+      "fixed_prefix_ablations": {
+        "failed": {
+          "neutral_states": 570,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 570
+        },
+        "geometric": {
+          "neutral_states": 566,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 566
+        },
+        "failed_with_original_mode_head": {
+          "neutral_states": 570,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 570
+        },
+        "failed_with_original_representation": {
+          "neutral_states": 566,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 566
+        }
+      }
+    },
+    {
+      "side": 1,
+      "control_stationary_seconds": 0.0,
+      "failed_stationary_seconds": 8.1,
+      "neutral_first_second": 10.5,
+      "stopped_first_second_after_initial": 11.9,
+      "fixed_prefix_ablations": {
+        "failed": {
+          "neutral_states": 570,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 570
+        },
+        "geometric": {
+          "neutral_states": 566,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 566
+        },
+        "failed_with_original_mode_head": {
+          "neutral_states": 570,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 570
+        },
+        "failed_with_original_representation": {
+          "neutral_states": 566,
+          "neutral_on_stationary": 486,
+          "neutral_on_failed_neutral": 566
+        }
+      }
+    }
+  ]
+}

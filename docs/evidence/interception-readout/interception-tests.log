@@ -1,0 +1,3 @@
+PASS test_geometry_is_independent_and_physics_feasible
+PASS test_forecast_is_real_physics_and_does_not_change_actor_contract
+PASS test_encoder_GRU_and_architecture_unchanged
