@@ -1,0 +1,18 @@
+{
+  "status": "non_live_preflight_pass_not_GUI_acceptance",
+  "root": "/workspace/work/modelwars/anchored-review-kit",
+  "cwd": "/workspace/work/modelwars",
+  "config_parsing_blue_orange": true,
+  "checkpoint_sha256": "02c53de3f88f28a522bfcec4ae0ca70d4c0eb9eda6beb6aeb65e0b7c9dd1d91a",
+  "features": 13,
+  "parameters": 26181,
+  "selector_empty_IndexError": true,
+  "native_actions": true,
+  "torch": "2.11.0+cpu",
+  "forbidden_root_checked": true,
+  "GUI_discovery": "NOT TESTED",
+  "GUI_launch": "NOT TESTED",
+  "gameplay": "NOT TESTED",
+  "no_training": true,
+  "no_live": true
+}
