@@ -1,0 +1,54 @@
+{
+  "run": "curriculum-C",
+  "cumulative_lineage_decisions": 20480,
+  "last_update": {
+    "decisions": 20480,
+    "stage": "C",
+    "episodes": [
+      {
+        "time_limit_bootstrap": -3.2834765911102295,
+        "seed": 20299353,
+        "stage": "C",
+        "team": 0,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          192,
+          180,
+          71,
+          69
+        ],
+        "latency_ms_mean": 0.1735746893984924
+      },
+      {
+        "time_limit_bootstrap": -3.603520154953003,
+        "seed": 20300362,
+        "stage": "E",
+        "team": 1,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          164,
+          185,
+          62,
+          101
+        ],
+        "latency_ms_mean": 0.17369045292525698
+      }
+    ],
+    "ppo": {
+      "policy_loss": -0.00039717555046081543,
+      "value_loss": 0.10784429451450706,
+      "entropy": 1.3018832206726074,
+      "approx_kl": 0.0009932746615959331,
+      "clip_fraction": 0.0068359375,
+      "gradient_norm": 0.17136902455240488
+    },
+    "elapsed_seconds": 7.301142226991942
+  },
+  "updates": 20
+}

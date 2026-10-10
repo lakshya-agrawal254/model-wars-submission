@@ -1,0 +1,52 @@
+{
+  "run": "long-ground-A3",
+  "cumulative_lineage_decisions": 24576,
+  "last_update": {
+    "decisions": 24576,
+    "stage": "A",
+    "episodes": [
+      {
+        "seed": 20331641,
+        "stage": "A",
+        "team": 0,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          564,
+          352,
+          28,
+          80
+        ],
+        "latency_ms_mean": 0.17310647488955055
+      },
+      {
+        "seed": 20332650,
+        "stage": "A",
+        "team": 1,
+        "touches": 1,
+        "first_touch_seconds": 0.8333333333333334,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          653,
+          253,
+          40,
+          78
+        ],
+        "latency_ms_mean": 0.17975798121483422
+      }
+    ],
+    "ppo": {
+      "policy_loss": -0.0033580120652914047,
+      "value_loss": 0.6538684237748384,
+      "entropy": 0.7533082365989685,
+      "approx_kl": 0.0016529177373740822,
+      "clip_fraction": 0.015380859375,
+      "gradient_norm": 0.35770152881741524
+    },
+    "elapsed_seconds": 16.587289842995233
+  },
+  "updates": 36
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "participant_editable_fork",
+  "name": "Lakshya V13 PPO",
+  "agent_id": "lakshya-agrawal254/v13-ppo",
+  "baseline_checkpoint_sha256": "579fa26010140514d2e9b7f0e2871bee569c594b7da8648e31ee1489007cd5b7",
+  "checkpoint_source": "Participant checkpoint",
+  "training_provenance": {
+    "project": "lakshya-agrawal254/model-wars-submission",
+    "base_commit": "83d92a69c80930652c4d26be8db9f7ebea062e38",
+    "official_template_commit": "5d8801361766cae4584245e9188edc64fd1d79c3",
+    "branch": "training/v13-ppo-curriculum-20261011",
+    "selected_candidate": "scratch-ground-A",
+    "initialization": "Fresh random initialization of unmodified official Policy; exact 13D / GRU / 26181 parameters. No old-project weights or labels.",
+    "algorithm": "PPO, conditional categorical and squashed-Normal Chase steering; separate training-only critic",
+    "training_source": "Self-generated real RocketSim 2.2.1 physics through RLGym 2.0.1; no demonstrations or external pretrained models",
+    "selected_actor_learner_decisions": 16384,
+    "all_branches_new_learner_decisions": 65536,
+    "latest_experimental_lineage_decisions": 32768,
+    "prediction_domain": "13 original columns; prediction positions/validity/time explicitly unavailable (zero). Native RLBot prediction-valid transfer not established.",
+    "timing_domain": "60 Hz training callback decisions; actual RLBot callbacks not forced or resampled",
+    "curriculum": "A ground; bounded B kickoff failed; C jump, D defence and E legal starter/own-policy self-play continuation failed screening. Best screened A retained as feasibility candidate, not promoted from rewards.",
+    "forbidden_sources_used": false,
+    "Nexto_Necto_weights_outputs_labels_used": false,
+    "old_RocketSim_project_artifacts_used": false,
+    "real_game_acceptance": "NOT TESTED: Linux cloud cannot launch Windows Rocket League",
+    "scripts": [
+      "training/ppo.py",
+      "training/sim_contract.py",
+      "training/evaluate.py"
+    ],
+    "used_source_snapshots": "training/used_sources (before optional-opponent RNG resume fix)",
+    "remaining_requirements": "Actual GUI acceptance, native matched-side evaluation, deadline/timezone and organizer submission/runtime/access confirmation"
+  },
+  "live_acceptance": "NOT TESTED after edits; run preflight and GUI match",
+  "checkpoint_sha256": "bda8a7a773d63526fea8a1449ff3971bba48317a05dd024eafc18827c1100011"
+}

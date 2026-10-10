@@ -1,0 +1,54 @@
+{
+  "run": "scratch-kickoff-B",
+  "cumulative_lineage_decisions": 24576,
+  "last_update": {
+    "decisions": 24576,
+    "stage": "B",
+    "episodes": [
+      {
+        "time_limit_bootstrap": -1.0112439393997192,
+        "seed": 20307425,
+        "stage": "B",
+        "team": 0,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          162,
+          180,
+          77,
+          93
+        ],
+        "latency_ms_mean": 0.17846818232669648
+      },
+      {
+        "time_limit_bootstrap": -0.8353105783462524,
+        "seed": 20308434,
+        "stage": "B",
+        "team": 1,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          152,
+          192,
+          74,
+          94
+        ],
+        "latency_ms_mean": 0.1906756154141931
+      }
+    ],
+    "ppo": {
+      "policy_loss": -0.0001619253307580948,
+      "value_loss": 0.15644765924662352,
+      "entropy": 1.331954374909401,
+      "approx_kl": 0.0009338596719317138,
+      "clip_fraction": 0.007080078125,
+      "gradient_norm": 0.11268247291445732
+    },
+    "elapsed_seconds": 15.642157135996968
+  },
+  "updates": 24
+}
