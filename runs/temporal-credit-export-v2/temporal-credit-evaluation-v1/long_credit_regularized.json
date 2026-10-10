@@ -1,0 +1,895 @@
+{
+  "name": "long_credit_regularized",
+  "model": "runs/temporal-credit-v1/long_credit_regularized/candidate.pt",
+  "records": [
+    {
+      "kind": "ground",
+      "seed": 1710011,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.1572905644894086
+    },
+    {
+      "kind": "ground",
+      "seed": 1710011,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.1507186650269432
+    },
+    {
+      "kind": "ground",
+      "seed": 1711020,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.126940352395953
+    },
+    {
+      "kind": "ground",
+      "seed": 1712029,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.1392534914420038
+    },
+    {
+      "kind": "ground",
+      "seed": 1711020,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.15013698237049133
+    },
+    {
+      "kind": "ground",
+      "seed": 1712029,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.13690102209996743
+    },
+    {
+      "kind": "ground",
+      "seed": 1713038,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.1531166173905755
+    },
+    {
+      "kind": "ground",
+      "seed": 1713038,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.1438257616326963
+    },
+    {
+      "kind": "ground",
+      "seed": 1714047,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.15708938940305314
+    },
+    {
+      "kind": "ground",
+      "seed": 1714047,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.13935725785914757
+    },
+    {
+      "kind": "ground",
+      "seed": 1715056,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.1484350704332529
+    },
+    {
+      "kind": "ground",
+      "seed": 1715056,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.16757177513985275
+    },
+    {
+      "kind": "ground",
+      "seed": 1716065,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.1556241326034069
+    },
+    {
+      "kind": "ground",
+      "seed": 1716065,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.15819644396995297
+    },
+    {
+      "kind": "ground",
+      "seed": 1717074,
+      "team": 0,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.15066404683845272
+    },
+    {
+      "kind": "ground",
+      "seed": 1717074,
+      "team": 1,
+      "kickoff_index": null,
+      "seconds_observed": 30.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": null,
+      "latency_ms_mean": 0.17904565512758885
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1712011,
+      "team": 1,
+      "kickoff_index": 0,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5398,
+        2,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.16426409035921097,
+      "latency_ms_mean": 0.15773124031882077
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1722018,
+      "team": 0,
+      "kickoff_index": 0,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5398,
+        2,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.16426409035921097,
+      "latency_ms_mean": 0.1569221336426886
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1712011,
+      "team": 0,
+      "kickoff_index": 0,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5398,
+        2,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.16426409035921097,
+      "latency_ms_mean": 0.16743892778996033
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1722018,
+      "team": 1,
+      "kickoff_index": 0,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5398,
+        2,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.16426409035921097,
+      "latency_ms_mean": 0.1648693533368512
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1713020,
+      "team": 1,
+      "kickoff_index": 1,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5399,
+        1,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.1281002014875412,
+      "latency_ms_mean": 0.1494131877283238
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1713020,
+      "team": 0,
+      "kickoff_index": 1,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5399,
+        1,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.1281002014875412,
+      "latency_ms_mean": 0.15793383919959456
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1723027,
+      "team": 0,
+      "kickoff_index": 1,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5399,
+        1,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.1281002014875412,
+      "latency_ms_mean": 0.1578454632922162
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1723027,
+      "team": 1,
+      "kickoff_index": 1,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5399,
+        1,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.1281002014875412,
+      "latency_ms_mean": 0.15641723684556955
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1714029,
+      "team": 0,
+      "kickoff_index": 2,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5397,
+        3,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.18612220883369446,
+      "latency_ms_mean": 0.14845976783329173
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1714029,
+      "team": 1,
+      "kickoff_index": 2,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5397,
+        3,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.1861222138007482,
+      "latency_ms_mean": 0.15573936747117573
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1724036,
+      "team": 0,
+      "kickoff_index": 2,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5397,
+        3,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.18612220883369446,
+      "latency_ms_mean": 0.15299448821611736
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1724036,
+      "team": 1,
+      "kickoff_index": 2,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5397,
+        3,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.1861222138007482,
+      "latency_ms_mean": 0.1714996820751198
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1715038,
+      "team": 0,
+      "kickoff_index": 3,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5299,
+        101,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.36869641459814395,
+      "latency_ms_mean": 0.17075332298258286
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1715038,
+      "team": 1,
+      "kickoff_index": 3,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5299,
+        101,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.3686964913169936,
+      "latency_ms_mean": 0.1728197874332114
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1725045,
+      "team": 0,
+      "kickoff_index": 3,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5299,
+        101,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.36869641459814395,
+      "latency_ms_mean": 0.1714107454905321
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1725045,
+      "team": 1,
+      "kickoff_index": 3,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5299,
+        101,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.3686964913169936,
+      "latency_ms_mean": 0.17270977744677415
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1716047,
+      "team": 0,
+      "kickoff_index": 4,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5281,
+        119,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.37325968587098,
+      "latency_ms_mean": 0.16614803120319266
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1716047,
+      "team": 1,
+      "kickoff_index": 4,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5281,
+        119,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.3732598623057373,
+      "latency_ms_mean": 0.17007988243238759
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1726054,
+      "team": 0,
+      "kickoff_index": 4,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5281,
+        119,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.37325968587098,
+      "latency_ms_mean": 0.17016680278175045
+    },
+    {
+      "kind": "kickoff",
+      "seed": 1726054,
+      "team": 1,
+      "kickoff_index": 4,
+      "seconds_observed": 90.0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5281,
+        119,
+        0,
+        0
+      ],
+      "flip_starts": 0,
+      "far_ball_flip_starts": 0,
+      "far_flip_definition": "actual flip rising edge at >800UU from ball; proxy, not proven unnecessary",
+      "chase_steer_abs_mean": 0.3732598623057373,
+      "latency_ms_mean": 0.16183100030940734
+    },
+    {
+      "seed": 1714020,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53999,
+        1,
+        0,
+        0
+      ],
+      "elapsed_seconds": 32.873154358996544,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    },
+    {
+      "seed": 1713011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53998,
+        2,
+        0,
+        0
+      ],
+      "elapsed_seconds": 33.66566882400366,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    },
+    {
+      "seed": 1713011,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53998,
+        2,
+        0,
+        0
+      ],
+      "elapsed_seconds": 33.55195319499762,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    },
+    {
+      "seed": 1714020,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53999,
+        1,
+        0,
+        0
+      ],
+      "elapsed_seconds": 33.44366871699458,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    },
+    {
+      "seed": 1715029,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53999,
+        1,
+        0,
+        0
+      ],
+      "elapsed_seconds": 33.11979941399477,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    },
+    {
+      "seed": 1715029,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53999,
+        1,
+        0,
+        0
+      ],
+      "elapsed_seconds": 33.53737526899204,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    },
+    {
+      "seed": 1716038,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53997,
+        3,
+        0,
+        0
+      ],
+      "elapsed_seconds": 33.44967483000073,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    },
+    {
+      "seed": 1716038,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        53997,
+        3,
+        0,
+        0
+      ],
+      "elapsed_seconds": 32.59069188100693,
+      "domain": "RocketSim; both agents use explicitly absent prediction fields, not native RLBot",
+      "kind": "match"
+    }
+  ],
+  "complete": true
+}

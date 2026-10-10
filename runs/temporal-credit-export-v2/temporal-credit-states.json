@@ -1,0 +1,133 @@
+{
+  "source": "real RocketSim validation states, no action/teacher labels",
+  "native_RLBot_recordings_available": false,
+  "states": 9216,
+  "sequences": [
+    {
+      "stage": "A",
+      "team": 0,
+      "kickoff_index": null,
+      "seed": 1715011,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "A",
+      "team": 1,
+      "kickoff_index": null,
+      "seed": 1715011,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "C",
+      "team": 0,
+      "kickoff_index": null,
+      "seed": 1716020,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "C",
+      "team": 1,
+      "kickoff_index": null,
+      "seed": 1716020,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "D",
+      "team": 0,
+      "kickoff_index": null,
+      "seed": 1717029,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "D",
+      "team": 1,
+      "kickoff_index": null,
+      "seed": 1717029,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "E",
+      "team": 0,
+      "kickoff_index": null,
+      "seed": 1718038,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "E",
+      "team": 1,
+      "kickoff_index": null,
+      "seed": 1718038,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 0,
+      "kickoff_index": 0,
+      "seed": 1716011,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 1,
+      "kickoff_index": 0,
+      "seed": 1716011,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 0,
+      "kickoff_index": 1,
+      "seed": 1717020,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 1,
+      "kickoff_index": 1,
+      "seed": 1717020,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 0,
+      "kickoff_index": 2,
+      "seed": 1718029,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 1,
+      "kickoff_index": 2,
+      "seed": 1718029,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 0,
+      "kickoff_index": 3,
+      "seed": 1719038,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 1,
+      "kickoff_index": 3,
+      "seed": 1719038,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 0,
+      "kickoff_index": 4,
+      "seed": 1720047,
+      "seconds": 8.533333333333333
+    },
+    {
+      "stage": "B",
+      "team": 1,
+      "kickoff_index": 4,
+      "seed": 1720047,
+      "seconds": 8.533333333333333
+    }
+  ]
+}

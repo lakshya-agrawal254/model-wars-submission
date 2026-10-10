@@ -1,0 +1,16 @@
+{
+  "name": "long_credit_regularized",
+  "new_decisions": 16384,
+  "requested_decisions": 16384,
+  "complete_budget": true,
+  "lineage_decisions": 32768,
+  "elapsed_seconds": 28.42211955699895,
+  "parameter_l2_change": 0.4141751229763031,
+  "configuration": {
+    "name": "long_credit_regularized",
+    "steps": 2048,
+    "gamma": 0.9995,
+    "gae_lambda": 0.9995,
+    "forecast_regularization": 0.01
+  }
+}

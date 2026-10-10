@@ -1,0 +1,16 @@
+{
+  "name": "short_original",
+  "new_decisions": 16384,
+  "requested_decisions": 16384,
+  "complete_budget": true,
+  "lineage_decisions": 32768,
+  "elapsed_seconds": 30.2854547570023,
+  "parameter_l2_change": 0.3118026852607727,
+  "configuration": {
+    "name": "short_original",
+    "steps": 256,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "forecast_regularization": 0.0
+  }
+}

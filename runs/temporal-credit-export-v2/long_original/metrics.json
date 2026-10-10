@@ -1,0 +1,218 @@
+[
+  {
+    "decisions": 20480,
+    "new_decisions": 4096,
+    "episodes": [
+      {
+        "time_limit_bootstrap": -5.019260883331299,
+        "seed": 3133299,
+        "stage": "A",
+        "team": 0,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          628,
+          732,
+          337,
+          351
+        ],
+        "latency_ms_mean": 0.14929012407094433
+      },
+      {
+        "time_limit_bootstrap": -4.6247711181640625,
+        "seed": 3134308,
+        "stage": "A",
+        "team": 1,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          661,
+          724,
+          306,
+          357
+        ],
+        "latency_ms_mean": 0.15617061036721225
+      }
+    ],
+    "ppo": {
+      "policy_loss": -0.0005272850394248962,
+      "value_loss": 0.19503301940858364,
+      "entropy": 1.3187413215637207,
+      "approx_kl": 0.00018006842947215773,
+      "clip_fraction": 0.0,
+      "gradient_norm": 0.08826976083219051,
+      "critic_gradient_norm": 0.6689883098006248,
+      "regularization_loss": 0.0,
+      "forecast_column_norm": 0.15822158753871918,
+      "old_logp_max_error": 9.5367431640625e-07,
+      "epochs": 4
+    },
+    "elapsed_seconds": 7.035955528001068
+  },
+  {
+    "decisions": 24576,
+    "new_decisions": 8192,
+    "episodes": [
+      {
+        "time_limit_bootstrap": -4.41775369644165,
+        "seed": 3135317,
+        "stage": "A",
+        "team": 0,
+        "touches": 1,
+        "first_touch_seconds": 1.1833333333333333,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          710,
+          679,
+          315,
+          344
+        ],
+        "latency_ms_mean": 0.14517695341709214
+      },
+      {
+        "time_limit_bootstrap": -4.617935657501221,
+        "seed": 3136326,
+        "stage": "A",
+        "team": 1,
+        "touches": 4,
+        "first_touch_seconds": 28.316666666666666,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          691,
+          716,
+          295,
+          346
+        ],
+        "latency_ms_mean": 0.16494433692315624
+      }
+    ],
+    "ppo": {
+      "policy_loss": -0.00017063552513718605,
+      "value_loss": 0.3124605417251587,
+      "entropy": 1.3124668896198273,
+      "approx_kl": 0.00010264581578667276,
+      "clip_fraction": 0.0,
+      "gradient_norm": 0.040343900211155415,
+      "critic_gradient_norm": 1.5017488598823547,
+      "regularization_loss": 0.0,
+      "forecast_column_norm": 0.15822158753871918,
+      "old_logp_max_error": 9.5367431640625e-07,
+      "epochs": 4
+    },
+    "elapsed_seconds": 13.895858534000581
+  },
+  {
+    "decisions": 28672,
+    "new_decisions": 12288,
+    "episodes": [
+      {
+        "time_limit_bootstrap": -4.470304012298584,
+        "seed": 3137335,
+        "stage": "A",
+        "team": 0,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          690,
+          760,
+          282,
+          316
+        ],
+        "latency_ms_mean": 0.15465716605689295
+      },
+      {
+        "time_limit_bootstrap": -4.8677802085876465,
+        "seed": 3138344,
+        "stage": "A",
+        "team": 1,
+        "touches": 1,
+        "first_touch_seconds": 5.016666666666667,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          742,
+          734,
+          264,
+          308
+        ],
+        "latency_ms_mean": 0.1646670280237572
+      }
+    ],
+    "ppo": {
+      "policy_loss": -0.0003331601619720459,
+      "value_loss": 0.23986568860709667,
+      "entropy": 1.2842650413513184,
+      "approx_kl": 9.145453805103898e-05,
+      "clip_fraction": 0.0,
+      "gradient_norm": 0.032409376464784145,
+      "critic_gradient_norm": 0.512977784499526,
+      "regularization_loss": 0.0,
+      "forecast_column_norm": 0.15822158753871918,
+      "old_logp_max_error": 9.5367431640625e-07,
+      "epochs": 4
+    },
+    "elapsed_seconds": 20.811963594998815
+  },
+  {
+    "decisions": 32768,
+    "new_decisions": 16384,
+    "episodes": [
+      {
+        "time_limit_bootstrap": -4.322309494018555,
+        "seed": 3139353,
+        "stage": "A",
+        "team": 0,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          731,
+          734,
+          302,
+          281
+        ],
+        "latency_ms_mean": 0.1549372807332361
+      },
+      {
+        "time_limit_bootstrap": -4.28403902053833,
+        "seed": 3140362,
+        "stage": "A",
+        "team": 1,
+        "touches": 0,
+        "first_touch_seconds": null,
+        "goals_for": 0,
+        "goals_against": 0,
+        "action_counts": [
+          748,
+          731,
+          248,
+          321
+        ],
+        "latency_ms_mean": 0.15539320646951182
+      }
+    ],
+    "ppo": {
+      "policy_loss": -0.0003721602261066437,
+      "value_loss": 0.14849592093378305,
+      "entropy": 1.2921518981456757,
+      "approx_kl": 6.384270818671212e-05,
+      "clip_fraction": 0.0,
+      "gradient_norm": 0.05957354325801134,
+      "critic_gradient_norm": 0.37779279239475727,
+      "regularization_loss": 0.0,
+      "forecast_column_norm": 0.15822158753871918,
+      "old_logp_max_error": 7.152557373046875e-07,
+      "epochs": 4
+    },
+    "elapsed_seconds": 27.965261828008806
+  }
+]

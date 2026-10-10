@@ -1,0 +1,25 @@
+{
+  "model": "model/V13.pt",
+  "forecast_column_norm": 0.15822158753871918,
+  "stress": [
+    {
+      "stress": "availability_only",
+      "states": 9216,
+      "mode_change_fraction": 0.1171875,
+      "mean_absolute_steer_change": 0.055636212887798644,
+      "mode_KL_mean": 0.0006519026131381148,
+      "behavior_joint_KL_mean": 0.007172189754783176,
+      "counterfactual_NOT_native_forecast": true
+    },
+    {
+      "stress": "counterfactual_six_features",
+      "states": 9216,
+      "mode_change_fraction": 0.12076822916666667,
+      "mean_absolute_steer_change": 0.07173950056635982,
+      "mode_KL_mean": 0.0004463498970519453,
+      "behavior_joint_KL_mean": 0.012065488395592183,
+      "counterfactual_NOT_native_forecast": true
+    }
+  ],
+  "interpretation": "Open-loop sensitivity on identical real-state sequences; fabricated stress inputs are not native recordings, labels, training data or gameplay evaluation."
+}

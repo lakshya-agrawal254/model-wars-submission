@@ -1,0 +1,7 @@
+{
+  "states": 9216,
+  "median_top_two_logit_margin": 0.058371543884277344,
+  "p95_top_two_logit_margin": 0.11983488500118256,
+  "mean_top_mode_probability": 0.34346391600492,
+  "interpretation": "Small margins explain greedy-mode sensitivity; does not prove causal PPO failure."
+}

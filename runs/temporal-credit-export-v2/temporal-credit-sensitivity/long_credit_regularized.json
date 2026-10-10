@@ -1,0 +1,25 @@
+{
+  "model": "runs/temporal-credit-v1/long_credit_regularized/candidate.pt",
+  "forecast_column_norm": 0.14950601756572723,
+  "stress": [
+    {
+      "stress": "availability_only",
+      "states": 9216,
+      "mode_change_fraction": 0.1533203125,
+      "mean_absolute_steer_change": 0.05009547795634717,
+      "mode_KL_mean": 0.000494908079733452,
+      "behavior_joint_KL_mean": 0.005585108231470157,
+      "counterfactual_NOT_native_forecast": true
+    },
+    {
+      "stress": "counterfactual_six_features",
+      "states": 9216,
+      "mode_change_fraction": 0.16829427083333334,
+      "mean_absolute_steer_change": 0.060486473437372804,
+      "mode_KL_mean": 0.00036890575854808816,
+      "behavior_joint_KL_mean": 0.008292884858184222,
+      "counterfactual_NOT_native_forecast": true
+    }
+  ],
+  "interpretation": "Open-loop sensitivity on identical real-state sequences; fabricated stress inputs are not native recordings, labels, training data or gameplay evaluation."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "short_credit",
+  "new_decisions": 16384,
+  "requested_decisions": 16384,
+  "complete_budget": true,
+  "lineage_decisions": 32768,
+  "elapsed_seconds": 31.179585841004155,
+  "parameter_l2_change": 0.22924713790416718,
+  "configuration": {
+    "name": "short_credit",
+    "steps": 256,
+    "gamma": 0.9995,
+    "gae_lambda": 0.9995,
+    "forecast_regularization": 0.0
+  }
+}
