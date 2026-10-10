@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checkpoint": "runs/outcome-flip-refinement-v1/latest.pt",
+  "parameters": 26181,
+  "observations": 13,
+  "Adam_parameter_states": 8,
+  "Adam_step_counts": [
+    144.0,
+    144.0,
+    144.0,
+    144.0,
+    144.0,
+    144.0,
+    144.0,
+    144.0
+  ],
+  "updates": 16,
+  "total_curriculum_updates": 144,
+  "authentic_callback_features": true,
+  "finite_13D_data": true,
+  "chronological_single_step_and_chunkcarry_parity": true,
+  "deterministic_repeat": true,
+  "no_new_actor_parameters": true,
+  "original_decoder": true,
+  "new_PPO_decisions": 0,
+  "native_RocketLeague": "UNTESTED"
+}

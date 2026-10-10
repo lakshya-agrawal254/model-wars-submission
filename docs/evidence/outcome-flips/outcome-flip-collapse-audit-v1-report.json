@@ -1,0 +1,95 @@
+{
+  "actual_neural_trajectory": {
+    "scene": {
+      "kind": "kickoff",
+      "side": 0,
+      "index": 4,
+      "enemy_index": 1,
+      "seed": 9997011
+    },
+    "rate": 60,
+    "schedule": null,
+    "first_contact": null,
+    "enemy_first_contact": 5.983333333333333,
+    "first_touch_advantage": null,
+    "flip_events": [],
+    "contacts": [],
+    "recoveries": [],
+    "stationary_seconds": 5.599999999999985,
+    "fallen_seconds": 0.0,
+    "circling_windows": 0,
+    "counts": [
+      0,
+      0,
+      420,
+      0
+    ],
+    "goals_for": 0,
+    "goals_against": 0,
+    "seconds_observed": 7.0,
+    "mode_transitions": [
+      {
+        "t": 0.0,
+        "mode": 2
+      }
+    ]
+  },
+  "sameprefix_model_ablation": {
+    "old128_on_sameprefix": {
+      "counts": [
+        0,
+        420,
+        0,
+        0
+      ],
+      "first_mode": 1,
+      "mean_jump_Chase_logit_difference": -1.1853880882263184
+    },
+    "rejected144": {
+      "counts": [
+        0,
+        0,
+        420,
+        0
+      ],
+      "first_mode": 2,
+      "mean_jump_Chase_logit_difference": 1.2632049322128296
+    },
+    "newmemory_oldhead": {
+      "counts": [
+        0,
+        10,
+        410,
+        0
+      ],
+      "first_mode": 1,
+      "mean_jump_Chase_logit_difference": 0.09650013595819473
+    },
+    "oldmemory_newhead": {
+      "counts": [
+        0,
+        0,
+        420,
+        0
+      ],
+      "first_mode": 2,
+      "mean_jump_Chase_logit_difference": 0.6680334210395813
+    }
+  },
+  "channels": [
+    58,
+    20,
+    53
+  ],
+  "old_Jump_minus_Chase_readout_at_channels": [
+    -0.12262342870235443,
+    -0.04173913598060608,
+    -0.2084185779094696
+  ],
+  "new_Jump_minus_Chase_readout_at_channels": [
+    -0.06704128533601761,
+    -0.10972614586353302,
+    -0.18048427999019623
+  ],
+  "causal_limit": "Hybrid models replay identical recorded observations, not independent closedloop gameplay. Isolates contributions onthisprefix; not proof ofallnative failure causes."
+}

@@ -1,0 +1,58 @@
+{
+  "method": "Balanced least-squares diagnostic of existing64D GRU features; whole-scene grouped headholdout, NOT independent recurrent-policy validation",
+  "ridge": 1e-06,
+  "rows": 32636,
+  "training": {
+    "per_class": {
+      "0": {
+        "n": 8913,
+        "accuracy": 0.8802872209132727
+      },
+      "1": {
+        "n": 99,
+        "accuracy": 1.0
+      },
+      "2": {
+        "n": 36,
+        "accuracy": 0.9166666666666666
+      }
+    },
+    "overall": 0.8817418213969939
+  },
+  "heldout_head": {
+    "per_class": {
+      "0": {
+        "n": 23123,
+        "accuracy": 0.696838645504476
+      },
+      "1": {
+        "n": 338,
+        "accuracy": 0.727810650887574
+      },
+      "2": {
+        "n": 127,
+        "accuracy": 0.6141732283464567
+      }
+    },
+    "overall": 0.6968373749364083
+  },
+  "full_fit": {
+    "per_class": {
+      "0": {
+        "n": 32036,
+        "accuracy": 0.8046572605818454
+      },
+      "1": {
+        "n": 437,
+        "accuracy": 0.977116704805492
+      },
+      "2": {
+        "n": 163,
+        "accuracy": 0.6932515337423313
+      }
+    },
+    "overall": 0.8064100992768721
+  },
+  "coefficient_norm": 236.67543380178483,
+  "qualifies_for_real_physics_probe": false
+}

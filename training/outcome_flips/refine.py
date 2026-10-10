@@ -1,5 +1,6 @@
 """One conditional student-prefix phase-memory refinement, no PPO/runtime hooks."""
 from world import *
+sys.path.insert(0,str(Path(__file__).parent))
 from train import diagnostics,agg
 from search import useful
 from student_search import CURRENT

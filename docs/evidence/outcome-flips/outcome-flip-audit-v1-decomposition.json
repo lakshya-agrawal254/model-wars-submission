@@ -1,0 +1,62 @@
+[
+  {
+    "model": "geometric",
+    "losses": {
+      "event_CE": 4.255812168121338,
+      "weighted_outside_KL": -3.015060076605458e-11,
+      "weighted_steering": 0.0
+    },
+    "gradient_norms": {
+      "event_CE": 5.478672504425049,
+      "weighted_outside_KL": 2.500993634413362e-09,
+      "weighted_steering": 0.0
+    },
+    "CE_vs_KL_cosine": 0.20304328203201294,
+    "CE_vs_steering_cosine": null,
+    "learn_mask_counts": {
+      "0": 0,
+      "1": 96,
+      "2": 96,
+      "3": 48
+    },
+    "total_sequence_rows": 7299,
+    "mean_Chase_minus_target_logit_gap": {
+      "2": 7.248224422335625,
+      "3": 6.711193859577179
+    },
+    "mean_target_probability": {
+      "2": 0.0007138250227095947,
+      "3": 0.0012182978352939244
+    }
+  },
+  {
+    "model": "prior8",
+    "losses": {
+      "event_CE": 4.1212849617004395,
+      "weighted_outside_KL": 0.00032029597787186503,
+      "weighted_steering": 0.008560007438063622
+    },
+    "gradient_norms": {
+      "event_CE": 5.646267890930176,
+      "weighted_outside_KL": 0.039632201194763184,
+      "weighted_steering": 2.9698753356933594
+    },
+    "CE_vs_KL_cosine": -0.7096309065818787,
+    "CE_vs_steering_cosine": -0.2652999758720398,
+    "learn_mask_counts": {
+      "0": 0,
+      "1": 96,
+      "2": 96,
+      "3": 48
+    },
+    "total_sequence_rows": 7299,
+    "mean_Chase_minus_target_logit_gap": {
+      "2": 7.007161428531011,
+      "3": 6.514984577894211
+    },
+    "mean_target_probability": {
+      "2": 0.0009079213929605127,
+      "3": 0.0014811372554201323
+    }
+  }
+]

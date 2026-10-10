@@ -1,0 +1,18 @@
+{
+  "status": "non_live_preflight_pass_not_GUI_acceptance",
+  "root": "/workspace/work/modelwars/outcome-flip-review-kit",
+  "cwd": "/workspace/work/modelwars/private-submission",
+  "config_parsing_blue_orange": true,
+  "checkpoint_sha256": "8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043",
+  "features": 13,
+  "parameters": 26181,
+  "selector_empty_IndexError": true,
+  "native_actions": true,
+  "torch": "2.11.0+cpu",
+  "forbidden_root_checked": false,
+  "GUI_discovery": "NOT TESTED",
+  "GUI_launch": "NOT TESTED",
+  "gameplay": "NOT TESTED",
+  "no_training": true,
+  "no_live": true
+}

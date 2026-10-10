@@ -1,0 +1,26 @@
+{
+  "geometric_60": {
+    "conditional_median_kickoff_first_touch_advantage": 0.06666666666666643,
+    "conditional_median_first_contact_ball_speed": 1800.0962524414062,
+    "conditional_median_first_contact_goalward_velocity": 1539.2162475585938,
+    "missed_contacts": 2
+  },
+  "geometric_120": {
+    "conditional_median_kickoff_first_touch_advantage": null,
+    "conditional_median_first_contact_ball_speed": 1595.443359375,
+    "conditional_median_first_contact_goalward_velocity": 1371.895263671875,
+    "missed_contacts": 15
+  },
+  "candidate128_60": {
+    "conditional_median_kickoff_first_touch_advantage": 0.04999999999999982,
+    "conditional_median_first_contact_ball_speed": 1808.2630004882812,
+    "conditional_median_first_contact_goalward_velocity": 1556.3724365234375,
+    "missed_contacts": 2
+  },
+  "candidate128_120": {
+    "conditional_median_kickoff_first_touch_advantage": null,
+    "conditional_median_first_contact_ball_speed": 1507.51513671875,
+    "conditional_median_first_contact_goalward_velocity": 1257.239501953125,
+    "missed_contacts": 15
+  }
+}

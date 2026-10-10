@@ -1,0 +1,52 @@
+{
+  "total_curriculum_updates": 144,
+  "refinement_updates": 16,
+  "stop": "Groundcontact regression>20pct;Kickoff regression>2/10;Stationary regression",
+  "candidate60": {
+    "trials": 18,
+    "contacts": 4,
+    "ground_contacts": 4,
+    "ground_trials": 8,
+    "kickoff_contacts": 0,
+    "kickoff_trials": 10,
+    "flips": 0,
+    "useful_flip_contacts": 0,
+    "trials_with_useful_flip_contact": 0,
+    "stationary_seconds": 80.29999999999981,
+    "fallen_seconds": 2.166666666666664,
+    "circling_windows": 0,
+    "repeated_flip_trials": 0,
+    "goals_for": 0,
+    "goals_against": 0,
+    "median_first_contact": 1.6333333333333333
+  },
+  "candidate120": {
+    "trials": 18,
+    "contacts": 3,
+    "ground_contacts": 3,
+    "ground_trials": 8,
+    "kickoff_contacts": 0,
+    "kickoff_trials": 10,
+    "flips": 0,
+    "useful_flip_contacts": 0,
+    "trials_with_useful_flip_contact": 0,
+    "stationary_seconds": 82.40833333333397,
+    "fallen_seconds": 0.0,
+    "circling_windows": 0,
+    "repeated_flip_trials": 0,
+    "goals_for": 0,
+    "goals_against": 0,
+    "median_first_contact": 1.4
+  },
+  "phase_channels": [
+    58,
+    20,
+    53
+  ],
+  "supervised_presentations": 92427,
+  "new_ppo_decisions": 0,
+  "elapsed_seconds": 18.163212682004087,
+  "candidate_sha256": "a00747c52b6c0c6c6767bbd90c76e33daf64419eacd1dad22122c5e27cc821b4",
+  "native": "UNTESTED",
+  "promoted": false
+}

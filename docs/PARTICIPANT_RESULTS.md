@@ -72,3 +72,7 @@ The fallback already passed the unmodified official GitHub Actions run **3807814
 ## Current private review status — 11 October 2026
 
 Main remains unchanged; the user now requires explicit approval before submission or replacement. Geometric remains the preferred Windows playing reference. The private eight-update Jump/release/Dodge feasibility candidate is rejected: no deterministic learned flips, no wins against its Geometric start in screening. See FLIP_FEASIBILITY_REVIEW.md and FORECAST_SCREEN_CORRECTION.md for all results and the correction to earlier forecast-domain metadata. No organizer sharing, main merge or submission is authorized or performed. Native RLBot validation remains incomplete; raw callback logs are still awaited.
+
+
+## Final bounded outcome-flip experiment (private review)
+See OUTCOME_FLIP_REVIEW.md and evidence/outcome-flips. Geometric remains preferred. 128 updates learned no actual dodges; optional diagnostic won 4/4 tiny 60Hz Geometric screen but went2/2 vsOriginal and increasedcircling. Conditional16update refinementfailedcontinuousJumpandstopped. Total144updates,881716supervisedpresentations,0PPO. Nativeacceptance untested, no mainreplacement orsubmission.
