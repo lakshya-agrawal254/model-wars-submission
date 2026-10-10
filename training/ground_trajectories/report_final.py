@@ -46,7 +46,7 @@ def main():
  'Deadline: 11 October 2026 07:00 IST (01:30 UTC). Stop speculative training by 05:15 IST; zero training was started in this task. Required remaining steps: Windows acceptance evidence, explicit user selection/approval, chosen-kit resealing and integrity checks after documentation, official GitHub Actions validation, and confirmed judge identity/read-access/handoff. User deferred judge identity. No merge, main replacement, organizer sharing/access or tournament submission has occurred. Deadline is not authorization.' ]
  (ROOT/'docs/FINAL_V13_COMPARISON.md').write_text('\n'.join(lines)+'\n')
  with (OUT/'summary.csv').open('w',newline='') as f:
-  writer=csv.DictWriter(f,fieldnames=['configuration','matches','W','L','D','U','GF','GA','stationary_seconds','observed_seconds','circling_windows','max_stationary_match_seconds','actual_dodges'])
+  writer=csv.DictWriter(f,lineterminator='\n',fieldnames=['configuration','matches','W','L','D','U','GF','GA','stationary_seconds','observed_seconds','circling_windows','max_stationary_match_seconds','actual_dodges'])
   writer.writeheader()
   for k,s in result['summary'].items():writer.writerow({'configuration':k,**{n:s[n] for n in writer.fieldnames if n!='configuration'}})
  print(json.dumps(dict(preservation=preservation,paired_uncertainty=pairs),indent=2))
