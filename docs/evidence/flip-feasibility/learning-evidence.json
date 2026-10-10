@@ -1,0 +1,142 @@
+[
+  {
+    "sequence": 0,
+    "event_frames": 9,
+    "target_probability_before": 0.0010223761200904846,
+    "target_probability_after": 0.0012893837410956621,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.05035107210278511
+  },
+  {
+    "sequence": 1,
+    "event_frames": 9,
+    "target_probability_before": 0.0009162657661363482,
+    "target_probability_after": 0.0011484778951853514,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.036046985536813736
+  },
+  {
+    "sequence": 2,
+    "event_frames": 9,
+    "target_probability_before": 0.0009163079084828496,
+    "target_probability_after": 0.001148509094491601,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.0403483510017395
+  },
+  {
+    "sequence": 3,
+    "event_frames": 9,
+    "target_probability_before": 0.0007960802759043872,
+    "target_probability_after": 0.0009883499005809426,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.044191908091306686
+  },
+  {
+    "sequence": 4,
+    "event_frames": 9,
+    "target_probability_before": 0.0007960452348925173,
+    "target_probability_after": 0.0009883090388029814,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.04364693909883499
+  },
+  {
+    "sequence": 5,
+    "event_frames": 9,
+    "target_probability_before": 0.0006785348523408175,
+    "target_probability_after": 0.0008329250849783421,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.04205424711108208
+  },
+  {
+    "sequence": 6,
+    "event_frames": 9,
+    "target_probability_before": 0.0010223756544291973,
+    "target_probability_after": 0.0012893835082650185,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.02082758955657482
+  },
+  {
+    "sequence": 7,
+    "event_frames": 9,
+    "target_probability_before": 0.0009162662900052965,
+    "target_probability_after": 0.001148478826507926,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.0360468290746212
+  },
+  {
+    "sequence": 8,
+    "event_frames": 9,
+    "target_probability_before": 0.0009163077920675278,
+    "target_probability_after": 0.001148509094491601,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.04140089079737663
+  },
+  {
+    "sequence": 9,
+    "event_frames": 9,
+    "target_probability_before": 0.0007960795192047954,
+    "target_probability_after": 0.0009883488528430462,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.0441906675696373
+  },
+  {
+    "sequence": 10,
+    "event_frames": 9,
+    "target_probability_before": 0.00079604476923123,
+    "target_probability_after": 0.0009883081074804068,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.04364068806171417
+  },
+  {
+    "sequence": 11,
+    "event_frames": 9,
+    "target_probability_before": 0.0006785346195101738,
+    "target_probability_after": 0.0008329246775247157,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.04205300658941269
+  },
+  {
+    "sequence": 12,
+    "event_frames": 18,
+    "target_probability_before": 0.0009651259751990438,
+    "target_probability_after": 0.0011979967821389437,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.03892519697546959
+  },
+  {
+    "sequence": 18,
+    "event_frames": 18,
+    "target_probability_before": 0.0009651257423684001,
+    "target_probability_after": 0.0011979964328929782,
+    "event_target_argmax_before": 0,
+    "event_target_argmax_after": 0,
+    "fixed_prefix_mode_changes": 0,
+    "steering_mae_change": 0.018205078318715096
+  }
+]

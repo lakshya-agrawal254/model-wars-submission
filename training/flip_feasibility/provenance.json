@@ -1,0 +1,10 @@
+{
+  "method": "8 full chronological-sequence supervised Adam updates from preserved Geometric V13; original compatible 8-parameter Adam state carried",
+  "labels": "Independently constructed legal Jump-release-Dodge sequences; successful real RocketSim contact+flip demonstrations selected; NOT pretrained labels or a runtime controller",
+  "data": "14 successful of24 complete chronological, up-to8second trajectories across both sides,60/120Hz, all five kickoff starts plus straight approaches",
+  "runtime": "Exact original 13D,26181parameter GRU, fourmode decoder, callback and hidden-state contract",
+  "new_ppo_decisions": 0,
+  "result": "REJECTED: no deterministic learned dodge events on independent trials; native game untested",
+  "eligibility": "No external pretrained model; official validator still required; not submitted or promoted",
+  "supervised_sample_presentations": 58392
+}

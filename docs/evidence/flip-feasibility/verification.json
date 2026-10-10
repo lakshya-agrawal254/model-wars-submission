@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "parameters": 26181,
+  "observations": 13,
+  "optimizer_parameters": 8,
+  "updates": 8,
+  "optimizer_step_counts": [
+    184.0,
+    184.0,
+    184.0,
+    184.0,
+    184.0,
+    184.0,
+    184.0,
+    184.0
+  ],
+  "full_sequence_vs_single_callback_parity": true,
+  "actor_weight_hashes": {
+    "encoder.0.weight": "808cb3b98387a179023d0e896068b7794b43c6a8c4d0bb796bc84a1e6e586eb7",
+    "encoder.0.bias": "d8c20992b05f724754d56916e09b4607b40d9604b09a8099bb012f0d98adcfbd",
+    "gru.weight_ih_l0": "7304a6dfa0b6c34989edb2c1db3d8fb7c43befcaf3c0ecd4681646c62414252d",
+    "gru.weight_hh_l0": "e161163f569e7bf334a19997a255f6c77e794d9cc9465bf119b9729a69176ce7",
+    "gru.bias_ih_l0": "4e11c8c1ae60e33bdfa20a3b531f77ee8c7f2dbb15494fee6ff1c021e628b457",
+    "gru.bias_hh_l0": "9a535bc2d66a204eabcb08b2fb8b4ed67c380a82a1544c991b2e202ff22f6cf6",
+    "head.weight": "b778d441fa2d76e0a7547bd9a61338163656734b61761df4eb7c2115007ffc81",
+    "head.bias": "9952f69b181e1b9ddfabf554d07fcda0595552653b9faf507595b2eaac9da00e"
+  },
+  "geometric_unchanged": true,
+  "official_runtime": "unchanged except package checkpoint identity and diagnostic-only logging",
+  "native_game": "UNTESTED"
+}

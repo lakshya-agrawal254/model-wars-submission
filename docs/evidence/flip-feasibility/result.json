@@ -1,0 +1,46 @@
+{
+  "baseline": {
+    "trials": 24,
+    "contacts": 12,
+    "flips": 0,
+    "stationary_seconds": 1.4166666666666665,
+    "airborne_seconds": 4.05,
+    "kickoffs": {
+      "60": {
+        "contacts": 10,
+        "trials": 10
+      },
+      "120": {
+        "contacts": 0,
+        "trials": 10
+      }
+    }
+  },
+  "candidate": {
+    "trials": 24,
+    "contacts": 12,
+    "flips": 0,
+    "stationary_seconds": 1.4166666666666665,
+    "airborne_seconds": 0.0,
+    "kickoffs": {
+      "60": {
+        "contacts": 10,
+        "trials": 10
+      },
+      "120": {
+        "contacts": 0,
+        "trials": 10
+      }
+    }
+  },
+  "reject_reasons": [
+    "No deterministic learned dodge events"
+  ],
+  "optimizer_updates": 8,
+  "new_ppo_decisions": 0,
+  "training_seconds": 18.958635240007425,
+  "selected_demonstrations": 14,
+  "candidate_sha256": "7b0f26dc751c0f87867d2101b883419e6005c9d26a41e687322edcc404c67f19",
+  "native_game": "UNTESTED",
+  "promotion": "NONE"
+}

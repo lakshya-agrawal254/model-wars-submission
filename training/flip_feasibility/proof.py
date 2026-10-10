@@ -12,15 +12,15 @@ def load():
  p=Policy().eval();p.load_state_dict(torch.load(GEO,weights_only=True)['state_dict']);return p
 
 @torch.inference_mode()
-def trial(rate,side,kind,sequence,seed=9830011,index=4,model=None):
+def trial(rate,side,kind,sequence,seed=9830011,index=4,model=None,onset_override=None,initial_speed=1000,ball_gap=2000,lateral=0):
  torch.set_num_threads(1);p=load() if model is None else model;w=ForecastWorld(seed,'B' if kind=='kickoff' else 'A',side,index if kind=='kickoff' else None);h=None;xs=[];modes=[];steers=[];trace=[];first=None;flips=[];lands=[];contact=[];previous_flip=False;previous_ground=True;start=time.monotonic()
  try:
   if kind!='kickoff':
    c=w.state.cars[w.our];sign=1 if side==0 else -1
-   c.physics.position=np.array([0,-sign*1200,17],np.float32);c.physics.euler_angles=np.array([0,sign*math.pi/2,0],np.float32);c.physics.linear_velocity=np.array([0,sign*1000,0],np.float32);c.physics.angular_velocity=np.zeros(3,np.float32);c.wheels_with_contact=(True,True,True,True)
-   w.state.ball.position=np.array([0,sign*800,93.15],np.float32);w.state=w.engine.set_state(w.state,{})
+   c.physics.position=np.array([0,-sign*1200,17],np.float32);c.physics.euler_angles=np.array([0,sign*math.pi/2,0],np.float32);c.physics.linear_velocity=np.array([0,sign*initial_speed,0],np.float32);c.physics.angular_velocity=np.zeros(3,np.float32);c.wheels_with_contact=(True,True,True,True)
+   w.state.ball.position=np.array([lateral,sign*(ball_gap-1200),93.15],np.float32);w.state=w.engine.set_state(w.state,{})
   # Settling/pursuit prefix precedes all interventions; nearball starts flip earlier than kickoff.
-  onset=.3 if kind!='kickoff' else 1.5
+  onset=(.3 if kind!='kickoff' else 1.5) if onset_override is None else onset_override
   schedule={'release':[(.1,2),(.1,1),(.05,3)],'no_release':[(.2,2),(.05,3)],'late':[(.1,2),(1.6,1),(.05,3)],'ground_dodge':[(.25,3)]}
   for n in range(rate*8):
    x=w.observe(w.our);l,s,h=p(torch.tensor(x[None]),h);mode=int(l.argmax());steer=float(s);t=n/rate
