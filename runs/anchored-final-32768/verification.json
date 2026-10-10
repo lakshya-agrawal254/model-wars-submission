@@ -1,0 +1,8 @@
+{
+  "status": "PASS complete model/critic/both optimizers/RNG/source/pool/anchor/inference restoration; no training",
+  "additional_PPO_decisions": 32768,
+  "lineage_PPO_decisions": 49152,
+  "parameters": 26181,
+  "inference_sha256": "663d586283a5548dd606e6aecf9905f4ca134d04e647b1c79c3d8c6896c5fc18",
+  "model_sha256": "02c53de3f88f28a522bfcec4ae0ca70d4c0eb9eda6beb6aeb65e0b7c9dd1d91a"
+}

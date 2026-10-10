@@ -1,0 +1,8 @@
+{
+  "additional_PPO_decisions": 32768,
+  "segment_decisions": 32768,
+  "elapsed_seconds": 42.24796703399625,
+  "lineage_PPO_decisions": 49152,
+  "budget_requested": 32768,
+  "complete_budget": true
+}

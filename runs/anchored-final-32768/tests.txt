@@ -1,0 +1,18 @@
+test_actual_duration_discount_and_time_limit_bootstrap (test_anchored_final.AnchoredTests.test_actual_duration_discount_and_time_limit_bootstrap) ... ok
+test_behavior_density_gradient_and_reference_KL (test_anchored_final.AnchoredTests.test_behavior_density_gradient_and_reference_KL) ... ok
+test_privileged_rewards_do_not_change_actor_observation (test_anchored_final.AnchoredTests.test_privileged_rewards_do_not_change_actor_observation) ... ok
+test_all_five_exact_kickoffs_both_sides (test_geometric_labels.GeometricTests.test_all_five_exact_kickoffs_both_sides) ... ok
+test_gru_full_sequence_matches_callbacks_exact_architecture (test_geometric_labels.GeometricTests.test_gru_full_sequence_matches_callbacks_exact_architecture) ... ok
+test_labels_only_official_features_and_mirrored_direction (test_geometric_labels.GeometricTests.test_labels_only_official_features_and_mirrored_direction) ... ok
+test_real_steering_sign_and_original_controls (test_geometric_labels.GeometricTests.test_real_steering_sign_and_original_controls) ... ok
+test_trained_candidate_reload_forecast_invariance_and_original_state (test_geometric_labels.GeometricTests.test_trained_candidate_reload_forecast_invariance_and_original_state) ... ok
+test_selected_complete_checkpoint_strict_load_and_rng (test_ppo_contract.CheckpointTests.test_selected_complete_checkpoint_strict_load_and_rng) ... ok
+test_actor_exact_contract_and_controls (test_ppo_contract.PPOTests.test_actor_exact_contract_and_controls) ... ok
+test_causal_full_sequence_equals_callback_inference (test_ppo_contract.PPOTests.test_causal_full_sequence_equals_callback_inference) ... ok
+test_joint_behavior_probability_and_finite_gradient (test_ppo_contract.PPOTests.test_joint_behavior_probability_and_finite_gradient) ... ok
+test_sim_observations_finite_missing_prediction_and_clocks (test_ppo_contract.PPOTests.test_sim_observations_finite_missing_prediction_and_clocks) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.865s
+
+OK

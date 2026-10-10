@@ -1,0 +1,338 @@
+{
+  "name": "original_diagnostics",
+  "candidate": "runs/anchored-final-32768/candidate.pt",
+  "records": [
+    {
+      "kind": "ground",
+      "seed": 6110011,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6110011,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6111020,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6111020,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6112029,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6112029,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6113038,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6113038,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6114047,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6114047,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6115056,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 6115056,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1800,
+        0,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6111011,
+      "team": 0,
+      "index": 0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5375,
+        25,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6111011,
+      "team": 1,
+      "index": 0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5375,
+        25,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6112020,
+      "team": 0,
+      "index": 1,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5382,
+        18,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6112020,
+      "team": 1,
+      "index": 1,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5382,
+        18,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6113029,
+      "team": 0,
+      "index": 2,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5375,
+        25,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6114038,
+      "team": 0,
+      "index": 3,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5375,
+        25,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6113029,
+      "team": 1,
+      "index": 2,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5375,
+        25,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6114038,
+      "team": 1,
+      "index": 3,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5375,
+        25,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6115047,
+      "team": 0,
+      "index": 4,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5256,
+        144,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 6115047,
+      "team": 1,
+      "index": 4,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        5256,
+        144,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    }
+  ],
+  "complete": true,
+  "confirmation": false
+}

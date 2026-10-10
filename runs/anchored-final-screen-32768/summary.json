@@ -1,0 +1,252 @@
+{
+  "A_diagnostics": {
+    "ground": {
+      "contacts": 0,
+      "trials": 12,
+      "median_first_contact_seconds_conditional": null,
+      "counts": [
+        21588,
+        12,
+        0,
+        0
+      ],
+      "neutral_fraction": 0.9994444444444445,
+      "jump_dodge_fraction": 0.0
+    },
+    "kickoff": {
+      "contacts": 9,
+      "trials": 10,
+      "median_first_contact_seconds_conditional": 50.583333333333336,
+      "counts": [
+        3949,
+        43487,
+        0,
+        0
+      ],
+      "neutral_fraction": 0.08324900919133148,
+      "jump_dodge_fraction": 0.0
+    }
+  },
+  "candidate_diagnostics": {
+    "ground": {
+      "contacts": 12,
+      "trials": 12,
+      "median_first_contact_seconds_conditional": 0.8916666666666666,
+      "counts": [
+        1824,
+        17360,
+        0,
+        0
+      ],
+      "neutral_fraction": 0.0950792326939116,
+      "jump_dodge_fraction": 0.0
+    },
+    "kickoff": {
+      "contacts": 10,
+      "trials": 10,
+      "median_first_contact_seconds_conditional": 3.35,
+      "counts": [
+        6569,
+        45502,
+        0,
+        0
+      ],
+      "neutral_fraction": 0.12615467342666745,
+      "jump_dodge_fraction": 0.0
+    }
+  },
+  "candidate_vs_A": {
+    "completed_WLD": [
+      5,
+      2,
+      0
+    ],
+    "unresolved": 1,
+    "observed_GF_GA": [
+      5,
+      4
+    ],
+    "conservative_score": 0.625,
+    "win_interval_descriptive": [
+      0.30573785458380187,
+      0.863158240538479
+    ],
+    "counts": [
+      50680,
+      115542,
+      0,
+      0
+    ],
+    "diagnostics": {
+      "productive_contacts": 87,
+      "nonproductive_contacts": 12,
+      "backward_contacts": 57,
+      "danger_clear_velocity_events_proxy": 3,
+      "goals_conceded_with_own_last_touch": 4,
+      "stationary_seconds": 830.8166666669209,
+      "circling_5second_windows_proxy": 13
+    }
+  },
+  "candidate_vs_baseline": {
+    "completed_WLD": [
+      3,
+      3,
+      0
+    ],
+    "unresolved": 2,
+    "observed_GF_GA": [
+      4,
+      4
+    ],
+    "conservative_score": 0.375,
+    "win_interval_descriptive": [
+      0.13684175946152105,
+      0.6942621454161981
+    ],
+    "counts": [
+      38221,
+      135354,
+      0,
+      0
+    ],
+    "diagnostics": {
+      "productive_contacts": 98,
+      "nonproductive_contacts": 12,
+      "backward_contacts": 75,
+      "danger_clear_velocity_events_proxy": 3,
+      "goals_conceded_with_own_last_touch": 4,
+      "stationary_seconds": 619.8500000001749,
+      "circling_5second_windows_proxy": 13
+    }
+  },
+  "candidate_vs_geo": {
+    "completed_WLD": [
+      0,
+      8,
+      0
+    ],
+    "unresolved": 0,
+    "observed_GF_GA": [
+      1,
+      10
+    ],
+    "conservative_score": 0.0,
+    "win_interval_descriptive": [
+      0.0,
+      0.3244156195108769
+    ],
+    "counts": [
+      18489,
+      132352,
+      0,
+      0
+    ],
+    "diagnostics": {
+      "productive_contacts": 83,
+      "nonproductive_contacts": 2,
+      "backward_contacts": 65,
+      "danger_clear_velocity_events_proxy": 2,
+      "goals_conceded_with_own_last_touch": 8,
+      "stationary_seconds": 305.3999999999879,
+      "circling_5second_windows_proxy": 16
+    }
+  },
+  "geo_diagnostics": {
+    "ground": {
+      "contacts": 12,
+      "trials": 12,
+      "median_first_contact_seconds_conditional": 0.8916666666666666,
+      "counts": [
+        3495,
+        15136,
+        0,
+        0
+      ],
+      "neutral_fraction": 0.187590574848371,
+      "jump_dodge_fraction": 0.0
+    },
+    "kickoff": {
+      "contacts": 10,
+      "trials": 10,
+      "median_first_contact_seconds_conditional": 3.35,
+      "counts": [
+        3988,
+        38223,
+        0,
+        0
+      ],
+      "neutral_fraction": 0.09447774276847268,
+      "jump_dodge_fraction": 0.0
+    }
+  },
+  "geo_vs_baseline": {
+    "completed_WLD": [
+      1,
+      7,
+      0
+    ],
+    "unresolved": 0,
+    "observed_GF_GA": [
+      3,
+      9
+    ],
+    "conservative_score": 0.125,
+    "win_interval_descriptive": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "counts": [
+      22622,
+      125546,
+      0,
+      0
+    ],
+    "diagnostics": {
+      "productive_contacts": 97,
+      "nonproductive_contacts": 5,
+      "backward_contacts": 93,
+      "danger_clear_velocity_events_proxy": 3,
+      "goals_conceded_with_own_last_touch": 9,
+      "stationary_seconds": 354.13333333332747,
+      "circling_5second_windows_proxy": 2
+    }
+  },
+  "original_diagnostics": {
+    "ground": {
+      "contacts": 0,
+      "trials": 12,
+      "median_first_contact_seconds_conditional": null,
+      "counts": [
+        21600,
+        0,
+        0,
+        0
+      ],
+      "neutral_fraction": 1.0,
+      "jump_dodge_fraction": 0.0
+    },
+    "kickoff": {
+      "contacts": 0,
+      "trials": 10,
+      "median_first_contact_seconds_conditional": null,
+      "counts": [
+        53526,
+        474,
+        0,
+        0
+      ],
+      "neutral_fraction": 0.9912222222222222,
+      "jump_dodge_fraction": 0.0
+    }
+  },
+  "training": {
+    "additional_PPO_decisions": 32768,
+    "segment_decisions": 32768,
+    "elapsed_seconds": 42.24796703399625,
+    "lineage_PPO_decisions": 49152,
+    "budget_requested": 32768,
+    "complete_budget": true
+  },
+  "stop_reason": "0 completed wins and 8 losses versus geometric reference; extension rule failed. No confirmation seeds used.",
+  "submission": "Blocked pending explicit user approval; main untouched."
+}

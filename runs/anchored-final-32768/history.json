@@ -1,0 +1,212 @@
+[
+  {
+    "additional_PPO_decisions": 16384,
+    "rollouts": [
+      {
+        "goals_for": 0,
+        "goals_against": 0,
+        "productive_contacts": 2,
+        "nonproductive_contacts": 0,
+        "touches": 4,
+        "stationary_decisions": 27,
+        "index": 0,
+        "seed": 5110011,
+        "stage": "E",
+        "team": 0,
+        "callback_Hz": 60,
+        "opponent": "runs/retained/baseline/V13.pt",
+        "first_contact_seconds": 3.3666666666666667,
+        "counts": [
+          286,
+          3777,
+          9,
+          24
+        ],
+        "mean_car_ball_distance": 1664.627254538238
+      },
+      {
+        "goals_for": 0,
+        "goals_against": 0,
+        "productive_contacts": 4,
+        "nonproductive_contacts": 0,
+        "touches": 7,
+        "stationary_decisions": 16,
+        "index": 1,
+        "seed": 5111020,
+        "stage": "E",
+        "team": 1,
+        "callback_Hz": 60,
+        "opponent": "runs/retained/baseline/V13.pt",
+        "first_contact_seconds": 3.9166666666666665,
+        "counts": [
+          283,
+          3795,
+          8,
+          10
+        ],
+        "mean_car_ball_distance": 1811.4660008326173
+      },
+      {
+        "goals_for": 1,
+        "goals_against": 1,
+        "productive_contacts": 4,
+        "nonproductive_contacts": 0,
+        "touches": 9,
+        "stationary_decisions": 30,
+        "index": 2,
+        "seed": 5112029,
+        "stage": "E",
+        "team": 0,
+        "callback_Hz": 60,
+        "opponent": "runs/retained/baseline/V13.pt",
+        "first_contact_seconds": 3.9,
+        "counts": [
+          214,
+          3859,
+          10,
+          13
+        ],
+        "mean_car_ball_distance": 1564.7187627889216
+      },
+      {
+        "goals_for": 0,
+        "goals_against": 1,
+        "productive_contacts": 4,
+        "nonproductive_contacts": 0,
+        "touches": 9,
+        "stationary_decisions": 41,
+        "index": 3,
+        "seed": 5113038,
+        "stage": "E",
+        "team": 1,
+        "callback_Hz": 60,
+        "opponent": "runs/retained/selected/candidate.pt",
+        "first_contact_seconds": 4.25,
+        "counts": [
+          188,
+          3888,
+          4,
+          16
+        ],
+        "mean_car_ball_distance": 1881.1068453527987
+      }
+    ],
+    "training": {
+      "policy_loss": 0.0007180911488831043,
+      "reference_joint_KL": 0.0026137853328691563,
+      "critic_loss": 1.9653413037303835,
+      "PPO_approx_KL": 0.0025946374180421117,
+      "actor_gradient_norm": 1.5199439637362957,
+      "critic_gradient_norm": 0.07529355864971876,
+      "return_loss_scale": 1.9775136709213257,
+      "epochs": 4,
+      "warm_critic": true
+    },
+    "segment_elapsed_seconds": 20.93774681200739
+  },
+  {
+    "additional_PPO_decisions": 32768,
+    "rollouts": [
+      {
+        "goals_for": 0,
+        "goals_against": 0,
+        "productive_contacts": 0,
+        "nonproductive_contacts": 0,
+        "touches": 0,
+        "stationary_decisions": 9,
+        "index": 4,
+        "seed": 5114047,
+        "stage": "E",
+        "team": 0,
+        "callback_Hz": 120,
+        "opponent": "runs/geometric-retained/latest.pt",
+        "first_contact_seconds": null,
+        "counts": [
+          173,
+          3901,
+          12,
+          10
+        ],
+        "mean_car_ball_distance": 2625.310554046184
+      },
+      {
+        "goals_for": 0,
+        "goals_against": 0,
+        "productive_contacts": 0,
+        "nonproductive_contacts": 0,
+        "touches": 0,
+        "stationary_decisions": 9,
+        "index": 5,
+        "seed": 5115056,
+        "stage": "E",
+        "team": 1,
+        "callback_Hz": 120,
+        "opponent": "runs/retained/selected/candidate.pt",
+        "first_contact_seconds": null,
+        "counts": [
+          460,
+          3611,
+          12,
+          13
+        ],
+        "mean_car_ball_distance": 2905.2923594266176
+      },
+      {
+        "goals_for": 0,
+        "goals_against": 0,
+        "productive_contacts": 0,
+        "nonproductive_contacts": 0,
+        "touches": 0,
+        "stationary_decisions": 19,
+        "index": 6,
+        "seed": 5116065,
+        "stage": "E",
+        "team": 0,
+        "callback_Hz": 120,
+        "opponent": "runs/retained/baseline/V13.pt",
+        "first_contact_seconds": null,
+        "counts": [
+          473,
+          3591,
+          15,
+          17
+        ],
+        "mean_car_ball_distance": 2969.0059452056885
+      },
+      {
+        "goals_for": 0,
+        "goals_against": 0,
+        "productive_contacts": 0,
+        "nonproductive_contacts": 0,
+        "touches": 2,
+        "stationary_decisions": 9,
+        "index": 7,
+        "seed": 5117074,
+        "stage": "E",
+        "team": 1,
+        "callback_Hz": 120,
+        "opponent": "runs/retained/baseline/V13.pt",
+        "first_contact_seconds": 20.766666666666666,
+        "counts": [
+          125,
+          3956,
+          7,
+          8
+        ],
+        "mean_car_ball_distance": 2338.6999517306685
+      }
+    ],
+    "training": {
+      "policy_loss": -0.00012784937280230224,
+      "reference_joint_KL": 0.0021658551195287146,
+      "critic_loss": 0.009272793562558945,
+      "PPO_approx_KL": 8.234607719259657e-05,
+      "actor_gradient_norm": 0.14605187810957432,
+      "critic_gradient_norm": 0.17177061224356294,
+      "return_loss_scale": 1.0,
+      "epochs": 4,
+      "warm_critic": false
+    },
+    "segment_elapsed_seconds": 41.71164837499964
+  }
+]
