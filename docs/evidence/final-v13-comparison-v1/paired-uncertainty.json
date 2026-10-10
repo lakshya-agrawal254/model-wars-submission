@@ -1,0 +1,110 @@
+{
+  "ground64_vs_outcome128_60": {
+    "seed_groups": 6,
+    "mean_win_minus_loss": -0.25,
+    "bootstrap_seed_group_95": [
+      -0.75,
+      0.3333333333333333
+    ],
+    "positive_pairs": 1,
+    "negative_pairs": 3,
+    "tied_pairs": 2,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "ground64_vs_geometric_60": {
+    "seed_groups": 6,
+    "mean_win_minus_loss": -0.6666666666666666,
+    "bootstrap_seed_group_95": [
+      -0.9166666666666666,
+      -0.3333333333333333
+    ],
+    "positive_pairs": 0,
+    "negative_pairs": 5,
+    "tied_pairs": 1,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "outcome128_vs_geometric_60": {
+    "seed_groups": 6,
+    "mean_win_minus_loss": 0.16666666666666666,
+    "bootstrap_seed_group_95": [
+      -0.3333333333333333,
+      0.6666666666666666
+    ],
+    "positive_pairs": 3,
+    "negative_pairs": 1,
+    "tied_pairs": 2,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "ground64_vs_original_60": {
+    "seed_groups": 4,
+    "mean_win_minus_loss": 0.5,
+    "bootstrap_seed_group_95": [
+      0.0,
+      1.0
+    ],
+    "positive_pairs": 2,
+    "negative_pairs": 0,
+    "tied_pairs": 2,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "outcome128_vs_original_60": {
+    "seed_groups": 4,
+    "mean_win_minus_loss": 0.625,
+    "bootstrap_seed_group_95": [
+      -0.125,
+      1.0
+    ],
+    "positive_pairs": 3,
+    "negative_pairs": 1,
+    "tied_pairs": 0,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "geometric_vs_original_60": {
+    "seed_groups": 4,
+    "mean_win_minus_loss": 0.375,
+    "bootstrap_seed_group_95": [
+      0.0,
+      0.75
+    ],
+    "positive_pairs": 2,
+    "negative_pairs": 0,
+    "tied_pairs": 2,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "ground64_vs_outcome128_120": {
+    "seed_groups": 2,
+    "mean_win_minus_loss": 0.5,
+    "bootstrap_seed_group_95": [
+      0.0,
+      1.0
+    ],
+    "positive_pairs": 1,
+    "negative_pairs": 0,
+    "tied_pairs": 1,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "ground64_vs_geometric_120": {
+    "seed_groups": 2,
+    "mean_win_minus_loss": 0.5,
+    "bootstrap_seed_group_95": [
+      0.0,
+      1.0
+    ],
+    "positive_pairs": 1,
+    "negative_pairs": 0,
+    "tied_pairs": 1,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  },
+  "outcome128_vs_geometric_120": {
+    "seed_groups": 2,
+    "mean_win_minus_loss": 0.0,
+    "bootstrap_seed_group_95": [
+      0.0,
+      0.0
+    ],
+    "positive_pairs": 0,
+    "negative_pairs": 0,
+    "tied_pairs": 2,
+    "note": "Exploratory small-sample cluster bootstrap; censored matches contribute neither W nor L. Not a promotion test."
+  }
+}

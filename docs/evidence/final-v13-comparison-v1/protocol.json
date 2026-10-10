@@ -1,0 +1,76 @@
+{
+  "checkpoints": {
+    "ground64": "d79cac01aefe8d161b2ec5f8154fac608f554546a96644f0545b4cb254c6276a",
+    "outcome128": "8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043",
+    "geometric": "55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc",
+    "original": "579fa26010140514d2e9b7f0e2871bee569c594b7da8648e31ee1489007cd5b7"
+  },
+  "configurations": [
+    [
+      "ground64",
+      "outcome128",
+      60,
+      6
+    ],
+    [
+      "ground64",
+      "geometric",
+      60,
+      6
+    ],
+    [
+      "outcome128",
+      "geometric",
+      60,
+      6
+    ],
+    [
+      "ground64",
+      "original",
+      60,
+      4
+    ],
+    [
+      "outcome128",
+      "original",
+      60,
+      4
+    ],
+    [
+      "geometric",
+      "original",
+      60,
+      4
+    ],
+    [
+      "ground64",
+      "outcome128",
+      120,
+      2
+    ],
+    [
+      "ground64",
+      "geometric",
+      120,
+      2
+    ],
+    [
+      "outcome128",
+      "geometric",
+      120,
+      2
+    ]
+  ],
+  "seeds": [
+    10501011,
+    10502020,
+    10503029,
+    10504038,
+    10505047,
+    10506056
+  ],
+  "workers": 4,
+  "training_updates": 0,
+  "selection": "Screening recommendation only; no promotion. Reject movement regression; full-match evidence precedes contact statistics. Native acceptance and user approval mandatory.",
+  "conditions": "Frozen greedy actors, both sides, real 120Hz RocketSim physics, actual 2s simulator forecast, 300 active seconds plus capped overtime. Recurrent memory persists across goal resets."
+}
