@@ -1,0 +1,27 @@
+{
+  "candidate": {
+    "A": {
+      "contacts": 4,
+      "trials": 4,
+      "median_first_contact_seconds_conditional": 1.0
+    },
+    "B": {
+      "contacts": 0,
+      "trials": 10,
+      "median_first_contact_seconds_conditional": null
+    }
+  },
+  "geometric": {
+    "A": {
+      "contacts": 4,
+      "trials": 4,
+      "median_first_contact_seconds_conditional": 1.0
+    },
+    "B": {
+      "contacts": 0,
+      "trials": 10,
+      "median_first_contact_seconds_conditional": null
+    }
+  },
+  "elapsed_seconds": 64.38150380499428
+}

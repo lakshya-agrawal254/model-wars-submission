@@ -1,0 +1,104 @@
+{
+  "accepted_memory": false,
+  "comparisons": {
+    "observation": {
+      "relative_MSE_reduction": -0.05865335464477539,
+      "fitting_seed_wins": 0,
+      "paired_seed_bootstrap_MSE_difference_95": [
+        -0.022130418755114078,
+        0.7967714101076123
+      ]
+    },
+    "capacity": {
+      "relative_MSE_reduction": -0.05572795867919922,
+      "fitting_seed_wins": 0,
+      "paired_seed_bootstrap_MSE_difference_95": [
+        -0.014603235013782977,
+        0.7413232922554016
+      ]
+    }
+  },
+  "fits": [
+    {
+      "seed": 0,
+      "name": "observation",
+      "parameters": 5121,
+      "heldout_MSE": 6.615843772888184,
+      "heldout_EV": -0.05870097716804934
+    },
+    {
+      "seed": 0,
+      "name": "memory",
+      "parameters": 9217,
+      "heldout_MSE": 6.856019020080566,
+      "heldout_EV": -0.11321542602214074
+    },
+    {
+      "seed": 0,
+      "name": "capacity",
+      "parameters": 9073,
+      "heldout_MSE": 6.62729549407959,
+      "heldout_EV": -0.061591821644271905
+    },
+    {
+      "seed": 1,
+      "name": "observation",
+      "parameters": 5121,
+      "heldout_MSE": 6.639230728149414,
+      "heldout_EV": -0.0574958576064033
+    },
+    {
+      "seed": 1,
+      "name": "memory",
+      "parameters": 9217,
+      "heldout_MSE": 7.228241920471191,
+      "heldout_EV": -0.14421668416893008
+    },
+    {
+      "seed": 1,
+      "name": "capacity",
+      "parameters": 9073,
+      "heldout_MSE": 6.704723358154297,
+      "heldout_EV": -0.06556640496459432
+    },
+    {
+      "seed": 2,
+      "name": "observation",
+      "parameters": 5121,
+      "heldout_MSE": 6.541622161865234,
+      "heldout_EV": -0.056581937024798856
+    },
+    {
+      "seed": 2,
+      "name": "memory",
+      "parameters": 9217,
+      "heldout_MSE": 6.8735761642456055,
+      "heldout_EV": -0.12583918456417553
+    },
+    {
+      "seed": 2,
+      "name": "capacity",
+      "parameters": 9073,
+      "heldout_MSE": 6.519532203674316,
+      "heldout_EV": -0.060955904704744546
+    }
+  ],
+  "current_snapshot": {
+    "name": "preserved_previous_critic_no_refit",
+    "heldout_MSE": 6.0452165603637695,
+    "heldout_EV": 0.00033865302153979204
+  },
+  "anchors": {
+    "approach_fraction": 0.099609375,
+    "outside_approach_old_CE_gradient_norm": 0.004439189098775387,
+    "outside_approach_new_anchor_mode_gradient_norm": 0.0,
+    "old_KL_all_states": "At reference exact equality KL is0; once mode distribution differs categorical KL penalizes all states, including post-contact/recovery. Removed from candidate loss only, still monitored."
+  },
+  "elapsed_seconds": 69.45359788800124,
+  "real_frozen_policy_decisions": 163840,
+  "actor_updates": 0,
+  "fitted_target_samples": 49152,
+  "heldout_target_samples": 32768,
+  "target_variance": 5.818023204803467,
+  "target_caveat": "Discounted truncated Monte Carlo plus identical preserved critic boundary bootstrap; target proxy, not exact infinite-horizon value. Only firsthalf assessed; side-pair clustered bootstrap, eight independent holdout seed pairs. No match evidence or architecture changes inferred from regression."
+}

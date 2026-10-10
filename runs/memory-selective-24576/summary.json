@@ -1,0 +1,23 @@
+{
+  "additional_PPO_decisions": 24576,
+  "lineage_PPO_decisions": 40960,
+  "elapsed_seconds": 30.95268377100001,
+  "critic_kind": "observation",
+  "scenarios": [
+    "E",
+    "E",
+    "O",
+    "F",
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "R",
+    "R",
+    "G"
+  ],
+  "candidate_sha256": "1177a04f30a3fc7ad10a5b51b491700a249d49a6dd08ebf38e61638a57a8faf4",
+  "main_unchanged": "c151310b5c36996aeb1fe192be5eea7cc328e846",
+  "submission_authorized": false
+}

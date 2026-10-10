@@ -1,0 +1,338 @@
+{
+  "name": "A_diagnostics",
+  "candidate": "runs/memory-selective-24576/candidate.pt",
+  "records": [
+    {
+      "kind": "ground",
+      "seed": 8210011,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        6,
+        1794,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8210011,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        6,
+        1794,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8211020,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8211020,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8212029,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8213038,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8212029,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8214047,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8213038,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8215056,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": 9.55,
+      "contacted": true,
+      "counts": [
+        6,
+        1794,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8214047,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        1799,
+        1,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8215056,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": 9.55,
+      "contacted": true,
+      "counts": [
+        6,
+        1794,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8211011,
+      "team": 1,
+      "index": 0,
+      "first_touch_seconds": 50.583333333333336,
+      "contacted": true,
+      "counts": [
+        0,
+        3270,
+        0,
+        0
+      ],
+      "seconds_observed": 54.5
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8211011,
+      "team": 0,
+      "index": 0,
+      "first_touch_seconds": 50.56666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        3263,
+        0,
+        0
+      ],
+      "seconds_observed": 54.38333333333333
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8213029,
+      "team": 0,
+      "index": 2,
+      "first_touch_seconds": 71.35,
+      "contacted": true,
+      "counts": [
+        29,
+        5371,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8212020,
+      "team": 0,
+      "index": 1,
+      "first_touch_seconds": 34.55,
+      "contacted": true,
+      "counts": [
+        0,
+        4381,
+        0,
+        0
+      ],
+      "seconds_observed": 73.01666666666667
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8212020,
+      "team": 1,
+      "index": 1,
+      "first_touch_seconds": 34.55,
+      "contacted": true,
+      "counts": [
+        0,
+        4122,
+        0,
+        0
+      ],
+      "seconds_observed": 68.7
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8214038,
+      "team": 0,
+      "index": 3,
+      "first_touch_seconds": 76.45,
+      "contacted": true,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8213029,
+      "team": 1,
+      "index": 2,
+      "first_touch_seconds": 73.66666666666667,
+      "contacted": true,
+      "counts": [
+        29,
+        5371,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8214038,
+      "team": 1,
+      "index": 3,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        3891,
+        1509,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8215047,
+      "team": 1,
+      "index": 4,
+      "first_touch_seconds": 64.01666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8215047,
+      "team": 0,
+      "index": 4,
+      "first_touch_seconds": 40.28333333333333,
+      "contacted": true,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    }
+  ],
+  "complete": true,
+  "confirmation": false
+}

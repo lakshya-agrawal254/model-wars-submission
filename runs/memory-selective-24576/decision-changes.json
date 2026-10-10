@@ -1,0 +1,12 @@
+{
+  "frozen_real_state_prefixes": 40,
+  "states": 81920,
+  "mode_argmax_changes": 120,
+  "mode_argmax_change_fraction": 0.00146484375,
+  "mean_absolute_steer_change": 0.005458875559270382,
+  "steer_change_gt_0_05_fraction": 0.0,
+  "mean_categorical_KL": 7.259850099217147e-05,
+  "note": "Same real observations, each actor retains its own chronological GRU memory. Difference in inference does not establish improvement.",
+  "mean_absolute_actual_controller_steer_change": 0.006789310369640589,
+  "actual_controller_steer_change_gt_0_05_fraction": 0.00146484375
+}

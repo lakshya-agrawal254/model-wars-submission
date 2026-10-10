@@ -1,0 +1,426 @@
+{
+  "candidate": [
+    {
+      "stage": "A",
+      "seed": 8410011,
+      "side": 0,
+      "index": null,
+      "first_touch_seconds": 0.95,
+      "counts": [
+        0,
+        327,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "A",
+      "seed": 8410011,
+      "side": 1,
+      "index": null,
+      "first_touch_seconds": 0.95,
+      "counts": [
+        0,
+        327,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "A",
+      "seed": 8411020,
+      "side": 0,
+      "index": null,
+      "first_touch_seconds": 1.05,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "A",
+      "seed": 8411020,
+      "side": 1,
+      "index": null,
+      "first_touch_seconds": 1.05,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8411011,
+      "side": 0,
+      "index": 0,
+      "first_touch_seconds": 2.966666666666667,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8411011,
+      "side": 1,
+      "index": 0,
+      "first_touch_seconds": 2.966666666666667,
+      "counts": [
+        113,
+        5287,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8412020,
+      "side": 0,
+      "index": 1,
+      "first_touch_seconds": 2.966666666666667,
+      "counts": [
+        0,
+        417,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8412020,
+      "side": 1,
+      "index": 1,
+      "first_touch_seconds": 2.966666666666667,
+      "counts": [
+        0,
+        417,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8413029,
+      "side": 0,
+      "index": 2,
+      "first_touch_seconds": 3.3666666666666667,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8413029,
+      "side": 1,
+      "index": 2,
+      "first_touch_seconds": 3.3666666666666667,
+      "counts": [
+        0,
+        2862,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8414038,
+      "side": 0,
+      "index": 3,
+      "first_touch_seconds": 3.3666666666666667,
+      "counts": [
+        39,
+        5361,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8414038,
+      "side": 1,
+      "index": 3,
+      "first_touch_seconds": 3.3666666666666667,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8415047,
+      "side": 0,
+      "index": 4,
+      "first_touch_seconds": 3.9,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8415047,
+      "side": 1,
+      "index": 4,
+      "first_touch_seconds": 3.9,
+      "counts": [
+        0,
+        1970,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    }
+  ],
+  "geometric": [
+    {
+      "stage": "A",
+      "seed": 8410011,
+      "side": 0,
+      "index": null,
+      "first_touch_seconds": 0.95,
+      "counts": [
+        0,
+        307,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "A",
+      "seed": 8410011,
+      "side": 1,
+      "index": null,
+      "first_touch_seconds": 0.95,
+      "counts": [
+        0,
+        307,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "A",
+      "seed": 8411020,
+      "side": 0,
+      "index": null,
+      "first_touch_seconds": 1.05,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "A",
+      "seed": 8411020,
+      "side": 1,
+      "index": null,
+      "first_touch_seconds": 1.05,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8411011,
+      "side": 0,
+      "index": 0,
+      "first_touch_seconds": 2.95,
+      "counts": [
+        804,
+        4596,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8411011,
+      "side": 1,
+      "index": 0,
+      "first_touch_seconds": 2.95,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8412020,
+      "side": 0,
+      "index": 1,
+      "first_touch_seconds": 2.95,
+      "counts": [
+        0,
+        589,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8412020,
+      "side": 1,
+      "index": 1,
+      "first_touch_seconds": 2.95,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8413029,
+      "side": 0,
+      "index": 2,
+      "first_touch_seconds": 3.35,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8413029,
+      "side": 1,
+      "index": 2,
+      "first_touch_seconds": 3.35,
+      "counts": [
+        393,
+        2518,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8414038,
+      "side": 0,
+      "index": 3,
+      "first_touch_seconds": 3.35,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8414038,
+      "side": 1,
+      "index": 3,
+      "first_touch_seconds": 3.35,
+      "counts": [
+        2102,
+        3298,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8415047,
+      "side": 0,
+      "index": 4,
+      "first_touch_seconds": 3.9,
+      "counts": [
+        0,
+        911,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    },
+    {
+      "stage": "B",
+      "seed": 8415047,
+      "side": 1,
+      "index": 4,
+      "first_touch_seconds": 3.9,
+      "counts": [
+        689,
+        4711,
+        0,
+        0
+      ],
+      "callback_Hz": 60,
+      "domain": "Real RocketSim; predictions unavailable; NOT actual RLBot"
+    }
+  ]
+}

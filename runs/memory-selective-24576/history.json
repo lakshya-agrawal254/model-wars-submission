@@ -1,0 +1,54 @@
+[
+  {
+    "policy_loss": 1.5257683116942644e-08,
+    "scoped_CE": 0.007592566039723654,
+    "scoped_steer_MSE": 0.1487273066304624,
+    "scoped_steer_KL": 0.0,
+    "all_state_mode_KL_monitor_only": 0.0,
+    "PPO_approx_KL": 1.406685138742129e-10,
+    "value_normalized_loss": 0.4997262978819587,
+    "actor_memory_shift_RMS": 3.3620514076441545e-08,
+    "epoch": 1,
+    "actor_gradient_norm": 0.1816098690032959,
+    "critic_gradient_norm": 0.051543477922677994
+  },
+  {
+    "policy_loss": 5.546214015339501e-05,
+    "scoped_CE": 0.007708364709590872,
+    "scoped_steer_MSE": 0.1443609989558657,
+    "scoped_steer_KL": 0.003136642607084165,
+    "all_state_mode_KL_monitor_only": 4.2688871455235734e-05,
+    "PPO_approx_KL": 0.002457791919975231,
+    "value_normalized_loss": 0.49979076588836807,
+    "actor_memory_shift_RMS": 0.003950359765440226,
+    "epoch": 2,
+    "actor_gradient_norm": 0.8114702105522156,
+    "critic_gradient_norm": 0.05833641439676285
+  },
+  {
+    "policy_loss": 8.04350565886125e-06,
+    "scoped_CE": 0.00789662046978871,
+    "scoped_steer_MSE": 0.14760331126550832,
+    "scoped_steer_KL": 0.00026161367544356534,
+    "all_state_mode_KL_monitor_only": 0.00014370980534295086,
+    "PPO_approx_KL": 0.0018393979747391616,
+    "value_normalized_loss": 0.4996312385483179,
+    "actor_memory_shift_RMS": 0.007687895713994901,
+    "epoch": 3,
+    "actor_gradient_norm": 0.8612872362136841,
+    "critic_gradient_norm": 0.061289068311452866
+  },
+  {
+    "policy_loss": -0.0002004194490533943,
+    "scoped_CE": 0.007846342981792986,
+    "scoped_steer_MSE": 0.1468665311113,
+    "scoped_steer_KL": 0.00013391483207669808,
+    "all_state_mode_KL_monitor_only": 0.00010709345421370624,
+    "PPO_approx_KL": 0.001392444003916656,
+    "value_normalized_loss": 0.49922931983019225,
+    "actor_memory_shift_RMS": 0.007176836991372208,
+    "epoch": 4,
+    "actor_gradient_norm": 0.590101420879364,
+    "critic_gradient_norm": 0.060614220798015594
+  }
+]

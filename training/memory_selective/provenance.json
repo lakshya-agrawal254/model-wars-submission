@@ -1,0 +1,565 @@
+{
+  "kind": "Private Windows review candidate; rejected screen, not promoted or submitted",
+  "training": {
+    "additional_PPO_decisions": 24576,
+    "lineage_PPO_decisions": 40960,
+    "elapsed_seconds": 30.95268377100001,
+    "critic_kind": "observation",
+    "scenarios": [
+      "E",
+      "E",
+      "O",
+      "F",
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "R",
+      "R",
+      "G"
+    ],
+    "candidate_sha256": "1177a04f30a3fc7ad10a5b51b491700a249d49a6dd08ebf38e61638a57a8faf4",
+    "main_unchanged": "c151310b5c36996aeb1fe192be5eea7cc328e846",
+    "submission_authorized": false
+  },
+  "configuration": {
+    "name": "one-memory-critic-and-selective-anchor-investigation",
+    "main_preserved": "c151310b5c36996aeb1fe192be5eea7cc328e846",
+    "actor_start": "runs/geometric-retained/latest.pt; mechanically strongest preserved legal V13, not verified superior to original baseline",
+    "start_sha256": "55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc",
+    "critic_diagnostic": "40 independent frozen-policy trajectories, 4096 decisions each. 24 train, 16 held out by complete seed pairs; first2048 labels use discounted Monte Carlo continuation plus common old-critic boundary bootstrap at4096. Memory is detached post-current-observation actor GRU output. Compare obs64, memory64 and approximately parameter-matched obs128/56, three fitting seeds. No actor optimization.",
+    "critic_acceptance": "At least10% mean heldout MSE reduction against observation-only and parameter-capacity control, wins in at least2/3 fitting seeds, paired-trajectory bootstrap95% MSE difference strictly below0 versus both controls. Reject otherwise.",
+    "training_seed": 8110011,
+    "diagnostic_seed": 8010011,
+    "workers": 4,
+    "learner_threads": 2,
+    "initial_new_PPO_decisions": 24576,
+    "maximum_new_PPO_decisions": 24576,
+    "rollout_decisions": 2048,
+    "rollouts_per_update": 12,
+    "PPO_epochs": 4,
+    "gamma_at_60Hz": 0.999,
+    "gae_lambda_at_60Hz": 0.999,
+    "actor_lr": 0.0001,
+    "critic_lr": 0.002,
+    "steer_std": 0.15,
+    "clip": 0.15,
+    "gradient_clip": 1.0,
+    "first_batch_scenarios": [
+      "E",
+      "E",
+      "O",
+      "F",
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "R",
+      "R",
+      "G"
+    ],
+    "time_rates": "alternate60/120Hz by rollout; same original callback_dt observation; gamma/lambda exponent=ticks/2",
+    "memory_alignment": "h_t after consuming x_t, paired with x_t and r_t; v_next from actor(x_next,h_t); freeze/detach collection memory for critic fitting. No actor gradient from value loss, no h reset on goals, new rollout starts h=None.",
+    "anchor": "No all-state mode reference KL or old all-ball CE. Chase CE .01 only suitable grounded aligned approaches, steering MSE .1 on same mask; conditional reference steering KL .02 only if reference steer within.2 of independent target. Outside mask all anchor terms exactly zero. No runtime override.",
+    "approach_mask": "ball present, own car grounded, ball below160UU, local-forward positive, abs(atan2(right,forward))<.65, distance300..2500UU, >1sec since either-agent contact. Privileged ground/contact only training masks, never actor inputs.",
+    "reward": "unchanged current goal+10/-10, PBpotential .7signed goal-distance/.08car-ball distance, productive clipped signed delta-v term .08, nonproductive -.003, sustained stationary -.001*ticks/2. Each component individually logged; goal-reset PB accounted. No obsolete touch+2/goal20 reward.",
+    "opponents": "frozen original V13, validated A, geometric V13 uniform seeded; no external assets or new opponents downloaded",
+    "screen_seeds": {
+      "ground": 8210011,
+      "kickoff": 8211011,
+      "baseline": 8213011,
+      "A": 8214011,
+      "geometric": 8215011
+    },
+    "screen_pairs": 4,
+    "confirmation_seeds": {
+      "baseline": 8313011,
+      "A": 8314011,
+      "geometric": 8315011
+    },
+    "confirmation_pairs": 20,
+    "screen_pass": "ground>=9/12, kickoffs>=8/10, no >50% stationary-time or Neutral collapse, conservative >.5 match score vs starting geometric with at least5 completed wins; then120 unused-seed matches (40 per opponent). No extension or tuning if fails.",
+    "promotion": "Independent full-match evidence, Windows acceptance and explicit user approval. Main/organizer access/submission prohibited without approval.",
+    "native_evidence": "User reports validated A noticeably worse than original V13 in actual RLBot v5; qualitative only, formal scores/callback evidence incomplete.",
+    "stop_training_IST": "2026-10-11T05:15:00+05:30",
+    "deadline_IST": "2026-10-11T07:00:00+05:30",
+    "critic_fallback": "Memory rejected. Keep original observation-only critic architecture and previously preserved critic+Adam state: its heldout MSE6.045/EV.00034 exceeds all refits. Actor strictly starts geometric; failed anchored actor weights are not loaded. Four warm-fit epochs on fresh current-policy rollouts; no optimizer reset."
+  },
+  "critic_diagnostic": {
+    "accepted_memory": false,
+    "comparisons": {
+      "observation": {
+        "relative_MSE_reduction": -0.05865335464477539,
+        "fitting_seed_wins": 0,
+        "paired_seed_bootstrap_MSE_difference_95": [
+          -0.022130418755114078,
+          0.7967714101076123
+        ]
+      },
+      "capacity": {
+        "relative_MSE_reduction": -0.05572795867919922,
+        "fitting_seed_wins": 0,
+        "paired_seed_bootstrap_MSE_difference_95": [
+          -0.014603235013782977,
+          0.7413232922554016
+        ]
+      }
+    },
+    "fits": [
+      {
+        "seed": 0,
+        "name": "observation",
+        "parameters": 5121,
+        "heldout_MSE": 6.615843772888184,
+        "heldout_EV": -0.05870097716804934
+      },
+      {
+        "seed": 0,
+        "name": "memory",
+        "parameters": 9217,
+        "heldout_MSE": 6.856019020080566,
+        "heldout_EV": -0.11321542602214074
+      },
+      {
+        "seed": 0,
+        "name": "capacity",
+        "parameters": 9073,
+        "heldout_MSE": 6.62729549407959,
+        "heldout_EV": -0.061591821644271905
+      },
+      {
+        "seed": 1,
+        "name": "observation",
+        "parameters": 5121,
+        "heldout_MSE": 6.639230728149414,
+        "heldout_EV": -0.0574958576064033
+      },
+      {
+        "seed": 1,
+        "name": "memory",
+        "parameters": 9217,
+        "heldout_MSE": 7.228241920471191,
+        "heldout_EV": -0.14421668416893008
+      },
+      {
+        "seed": 1,
+        "name": "capacity",
+        "parameters": 9073,
+        "heldout_MSE": 6.704723358154297,
+        "heldout_EV": -0.06556640496459432
+      },
+      {
+        "seed": 2,
+        "name": "observation",
+        "parameters": 5121,
+        "heldout_MSE": 6.541622161865234,
+        "heldout_EV": -0.056581937024798856
+      },
+      {
+        "seed": 2,
+        "name": "memory",
+        "parameters": 9217,
+        "heldout_MSE": 6.8735761642456055,
+        "heldout_EV": -0.12583918456417553
+      },
+      {
+        "seed": 2,
+        "name": "capacity",
+        "parameters": 9073,
+        "heldout_MSE": 6.519532203674316,
+        "heldout_EV": -0.060955904704744546
+      }
+    ],
+    "current_snapshot": {
+      "name": "preserved_previous_critic_no_refit",
+      "heldout_MSE": 6.0452165603637695,
+      "heldout_EV": 0.00033865302153979204
+    },
+    "anchors": {
+      "approach_fraction": 0.099609375,
+      "outside_approach_old_CE_gradient_norm": 0.004439189098775387,
+      "outside_approach_new_anchor_mode_gradient_norm": 0.0,
+      "old_KL_all_states": "At reference exact equality KL is0; once mode distribution differs categorical KL penalizes all states, including post-contact/recovery. Removed from candidate loss only, still monitored."
+    },
+    "elapsed_seconds": 69.45359788800124,
+    "real_frozen_policy_decisions": 163840,
+    "actor_updates": 0,
+    "fitted_target_samples": 49152,
+    "heldout_target_samples": 32768,
+    "target_variance": 5.818023204803467,
+    "target_caveat": "Discounted truncated Monte Carlo plus identical preserved critic boundary bootstrap; target proxy, not exact infinite-horizon value. Only firsthalf assessed; side-pair clustered bootstrap, eight independent holdout seed pairs. No match evidence or architecture changes inferred from regression."
+  },
+  "screening": {
+    "A_diagnostics": {
+      "ground": {
+        "contact_count": 2,
+        "trials": 12,
+        "median_first_touch_seconds_conditional": 9.55,
+        "mode_counts": [
+          14416,
+          7184,
+          0,
+          0
+        ],
+        "Neutral_fraction": 0.6674074074074074,
+        "Jump_Dodge_fraction": 0.0
+      },
+      "kickoff": {
+        "contact_count": 9,
+        "trials": 10,
+        "median_first_touch_seconds_conditional": 50.583333333333336,
+        "mode_counts": [
+          3949,
+          43487,
+          0,
+          0
+        ],
+        "Neutral_fraction": 0.08324900919133148,
+        "Jump_Dodge_fraction": 0.0
+      }
+    },
+    "candidate_diagnostics": {
+      "ground": {
+        "contact_count": 12,
+        "trials": 12,
+        "median_first_touch_seconds_conditional": 1.0166666666666666,
+        "mode_counts": [
+          2290,
+          16202,
+          0,
+          0
+        ],
+        "Neutral_fraction": 0.12383733506381138,
+        "Jump_Dodge_fraction": 0.0
+      },
+      "kickoff": {
+        "contact_count": 10,
+        "trials": 10,
+        "median_first_touch_seconds_conditional": 3.3666666666666667,
+        "mode_counts": [
+          152,
+          37914,
+          0,
+          0
+        ],
+        "Neutral_fraction": 0.003993064677139705,
+        "Jump_Dodge_fraction": 0.0
+      }
+    },
+    "candidate_vs_A": {
+      "completed_WLD": [
+        5,
+        0,
+        0
+      ],
+      "unresolved": 3,
+      "observed_GF_GA": [
+        13,
+        7
+      ],
+      "conservative_score": 0.625,
+      "descriptive_Wilson95_win": [
+        0.30573785458380187,
+        0.863158240538479
+      ],
+      "mode_counts": [
+        43790,
+        133448,
+        0,
+        0
+      ],
+      "telemetry": {
+        "productive_contacts": 117,
+        "nonproductive_contacts": 0,
+        "backward_contacts": 72,
+        "danger_clear_velocity_events_proxy": 2,
+        "goals_conceded_with_own_last_touch": 7,
+        "stationary_seconds": 688.41666666671,
+        "circling_5second_windows_proxy": 7
+      },
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.3,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.3333333333333333,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 3.6333333333333333,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 3.6333333333333333,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.11666666666666667,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.11666666666666667,
+          "goal_for": true,
+          "own_last_touch": true
+        }
+      ]
+    },
+    "candidate_vs_baseline": {
+      "completed_WLD": [
+        2,
+        4,
+        0
+      ],
+      "unresolved": 2,
+      "observed_GF_GA": [
+        2,
+        4
+      ],
+      "conservative_score": 0.25,
+      "descriptive_Wilson95_win": [
+        0.07147768885802763,
+        0.5907301208974108
+      ],
+      "mode_counts": [
+        54734,
+        106988,
+        0,
+        0
+      ],
+      "telemetry": {
+        "productive_contacts": 74,
+        "nonproductive_contacts": 6,
+        "backward_contacts": 62,
+        "danger_clear_velocity_events_proxy": 0,
+        "goals_conceded_with_own_last_touch": 4,
+        "stationary_seconds": 895.0666666666465,
+        "circling_5second_windows_proxy": 8
+      },
+      "postcontact_goals_within5sec_proxy": []
+    },
+    "candidate_vs_geo": {
+      "completed_WLD": [
+        0,
+        7,
+        0
+      ],
+      "unresolved": 1,
+      "observed_GF_GA": [
+        3,
+        11
+      ],
+      "conservative_score": 0.0,
+      "descriptive_Wilson95_win": [
+        0.0,
+        0.3244156195108769
+      ],
+      "mode_counts": [
+        47785,
+        110169,
+        0,
+        0
+      ],
+      "telemetry": {
+        "productive_contacts": 50,
+        "nonproductive_contacts": 1,
+        "backward_contacts": 33,
+        "danger_clear_velocity_events_proxy": 6,
+        "goals_conceded_with_own_last_touch": 3,
+        "stationary_seconds": 756.6000000001196,
+        "circling_5second_windows_proxy": 13
+      },
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.8666666666666667,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 1.15,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 3.7333333333333334,
+          "goal_for": false,
+          "own_last_touch": false
+        }
+      ]
+    },
+    "geo_diagnostics": {
+      "ground": {
+        "contact_count": 12,
+        "trials": 12,
+        "median_first_touch_seconds_conditional": 1.0166666666666666,
+        "mode_counts": [
+          3794,
+          15334,
+          0,
+          0
+        ],
+        "Neutral_fraction": 0.19834797156001674,
+        "Jump_Dodge_fraction": 0.0
+      },
+      "kickoff": {
+        "contact_count": 10,
+        "trials": 10,
+        "median_first_touch_seconds_conditional": 3.35,
+        "mode_counts": [
+          3988,
+          38223,
+          0,
+          0
+        ],
+        "Neutral_fraction": 0.09447774276847268,
+        "Jump_Dodge_fraction": 0.0
+      }
+    },
+    "geo_vs_baseline": {
+      "completed_WLD": [
+        2,
+        6,
+        0
+      ],
+      "unresolved": 0,
+      "observed_GF_GA": [
+        4,
+        10
+      ],
+      "conservative_score": 0.25,
+      "descriptive_Wilson95_win": [
+        0.07147768885802763,
+        0.5907301208974108
+      ],
+      "mode_counts": [
+        18756,
+        133678,
+        0,
+        0
+      ],
+      "telemetry": {
+        "productive_contacts": 97,
+        "nonproductive_contacts": 2,
+        "backward_contacts": 101,
+        "danger_clear_velocity_events_proxy": 6,
+        "goals_conceded_with_own_last_touch": 10,
+        "stationary_seconds": 286.16666666666026,
+        "circling_5second_windows_proxy": 5
+      },
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "backward",
+          "seconds_to_goal": 0.3,
+          "goal_for": false,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 4.283333333333333,
+          "goal_for": false,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 2.4833333333333334,
+          "goal_for": true,
+          "own_last_touch": false
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.7666666666666667,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 3.183333333333333,
+          "goal_for": false,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 2.4833333333333334,
+          "goal_for": true,
+          "own_last_touch": false
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 2.3,
+          "goal_for": true,
+          "own_last_touch": false
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 0.3,
+          "goal_for": false,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 4.283333333333333,
+          "goal_for": false,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 3.183333333333333,
+          "goal_for": false,
+          "own_last_touch": true
+        }
+      ]
+    },
+    "original_diagnostics": {
+      "ground": {
+        "contact_count": 0,
+        "trials": 12,
+        "median_first_touch_seconds_conditional": null,
+        "mode_counts": [
+          21600,
+          0,
+          0,
+          0
+        ],
+        "Neutral_fraction": 1.0,
+        "Jump_Dodge_fraction": 0.0
+      },
+      "kickoff": {
+        "contact_count": 0,
+        "trials": 10,
+        "median_first_touch_seconds_conditional": null,
+        "mode_counts": [
+          53526,
+          474,
+          0,
+          0
+        ],
+        "Neutral_fraction": 0.9912222222222222,
+        "Jump_Dodge_fraction": 0.0
+      }
+    },
+    "promotion": false,
+    "screen_pass": false,
+    "confirmation_seeds_consumed": false,
+    "additional_PPO_decisions": 24576,
+    "reason": "0W/7L/1unresolved vs geometric starting actor: reject. Memory critic independently rejected. No tuning or extension."
+  },
+  "native_game": "NOT TESTED",
+  "submission_authorized": false,
+  "main_unchanged": "c151310b5c36996aeb1fe192be5eea7cc328e846"
+}

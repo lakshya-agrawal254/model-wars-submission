@@ -1,0 +1,1216 @@
+[
+  {
+    "index": 0,
+    "seed": 8010011,
+    "pair": 0,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -0.17565190885857418,
+      "productive_velocity": 0.06530381973930027,
+      "nonproductive_contact": -0.003,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.6235775852538527
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 1,
+      "meaningless": 1,
+      "touch": 6
+    },
+    "goals": [
+      {
+        "step": 2576,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.11895544826984406,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 1,
+    "seed": 8010011,
+    "pair": 0,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": 1.2770163238581063,
+      "productive_velocity": 0.11792969121518343,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.6400178608633672
+    },
+    "contacts": {
+      "goalward": 9,
+      "backward": 2,
+      "meaningless": 0,
+      "touch": 18
+    },
+    "goals": [
+      {
+        "step": 2802,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12063154578208923,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 2,
+    "seed": 8011020,
+    "pair": 1,
+    "side": 0,
+    "stage": "O",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -1.0912986912823897,
+      "productive_velocity": 0.1433997606360394,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.6505464382859811
+    },
+    "contacts": {
+      "goalward": 3,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 7
+    },
+    "goals": [
+      {
+        "step": 2005,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12320428341627121,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 3,
+    "seed": 8011020,
+    "pair": 1,
+    "side": 1,
+    "stage": "O",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": -0.6902140735613091,
+      "productive_velocity": -0.0005735553243885836,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 3,
+      "meaningless": 0,
+      "touch": 6
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.13315363228321075,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 4,
+    "seed": 8012029,
+    "pair": 2,
+    "side": 0,
+    "stage": "F",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": 1.0521188703294633,
+      "productive_velocity": 0.049429861582880444,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.7087035211161974
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 0,
+      "meaningless": 0,
+      "touch": 3
+    },
+    "goals": [
+      {
+        "step": 2633,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.09807460010051727,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 5,
+    "seed": 8012029,
+    "pair": 2,
+    "side": 1,
+    "stage": "F",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": 1.7528883096383694,
+      "productive_velocity": -0.026987992527173918,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.67950792438771
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 2
+    },
+    "goals": [
+      {
+        "step": 3894,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.10412900149822235,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 6,
+    "seed": 8013038,
+    "pair": 3,
+    "side": 0,
+    "stage": "B",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": -0.8968428986036717,
+      "productive_velocity": 0.09290611413043479,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 0,
+      "meaningless": 0,
+      "touch": 2
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12720094621181488,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 7,
+    "seed": 8013038,
+    "pair": 3,
+    "side": 1,
+    "stage": "B",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": -0.304658222098825,
+      "productive_velocity": 0.12784037449048913,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.7312784356833969
+    },
+    "contacts": {
+      "goalward": 4,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 8
+    },
+    "goals": [
+      {
+        "step": 819,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "goalward",
+        "seconds_to_goal": 1.5833333333333333,
+        "goal_for": true
+      },
+      {
+        "direction": "goalward",
+        "seconds_to_goal": 0.35,
+        "goal_for": true
+      }
+    ],
+    "boundary_common_oldcritic": -0.10059821605682373,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 8,
+    "seed": 8014047,
+    "pair": 4,
+    "side": 0,
+    "stage": "R",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 1.093142992011567,
+      "productive_velocity": -0.09673521356997283,
+      "nonproductive_contact": -0.003,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 4,
+      "meaningless": 1,
+      "touch": 9
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12862269580364227,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 9,
+    "seed": 8014047,
+    "pair": 4,
+    "side": 1,
+    "stage": "R",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.2819635236396913,
+      "productive_velocity": 0.0425237941576087,
+      "nonproductive_contact": -0.003,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 1,
+      "meaningless": 1,
+      "touch": 8
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.10042774677276611,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 10,
+    "seed": 8015056,
+    "pair": 5,
+    "side": 0,
+    "stage": "G",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 1.5785304513436538,
+      "productive_velocity": -0.07270603770380435,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 0,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 2
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.11501926183700562,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 11,
+    "seed": 8015056,
+    "pair": 5,
+    "side": 1,
+    "stage": "G",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.5989191583034789,
+      "productive_velocity": 0.08429518406080164,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 3,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 8
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.09869686514139175,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 12,
+    "seed": 8016065,
+    "pair": 6,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.03632607434427594,
+      "productive_velocity": 0.018499569038722814,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.11611852802183897
+    },
+    "contacts": {
+      "goalward": 4,
+      "backward": 3,
+      "meaningless": 0,
+      "touch": 9
+    },
+    "goals": [
+      {
+        "step": 402,
+        "for": true
+      },
+      {
+        "step": 4059,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "goalward",
+        "seconds_to_goal": 3.3333333333333335,
+        "goal_for": true
+      },
+      {
+        "direction": "backward",
+        "seconds_to_goal": 2.1333333333333333,
+        "goal_for": false
+      }
+    ],
+    "boundary_common_oldcritic": -0.1371496170759201,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 13,
+    "seed": 8016065,
+    "pair": 6,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.26318734290574664,
+      "productive_velocity": 0.013079863705842399,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 2,
+      "meaningless": 0,
+      "touch": 7
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.11145354062318802,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 14,
+    "seed": 8017074,
+    "pair": 7,
+    "side": 0,
+    "stage": "O",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": -1.0204181429318295,
+      "productive_velocity": -0.00044804899796195655,
+      "nonproductive_contact": -0.003,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 1,
+      "touch": 1
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.09853614121675491,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 15,
+    "seed": 8017074,
+    "pair": 7,
+    "side": 1,
+    "stage": "O",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.5340623809093614,
+      "productive_velocity": -0.13543548424762228,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 5,
+      "meaningless": 0,
+      "touch": 11
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.10820598900318146,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 16,
+    "seed": 8018083,
+    "pair": 8,
+    "side": 0,
+    "stage": "F",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -0.34231335279330566,
+      "productive_velocity": 0.15955319930366846,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.6982872079020354
+    },
+    "contacts": {
+      "goalward": 4,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 8
+    },
+    "goals": [
+      {
+        "step": 1186,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.11228829622268677,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 17,
+    "seed": 8018083,
+    "pair": 8,
+    "side": 1,
+    "stage": "F",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": 1.6444284365755113,
+      "productive_velocity": 0.13377933296535327,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.6959980010297833
+    },
+    "contacts": {
+      "goalward": 5,
+      "backward": 0,
+      "meaningless": 0,
+      "touch": 7
+    },
+    "goals": [
+      {
+        "step": 754,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12492711842060089,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 18,
+    "seed": 8019092,
+    "pair": 9,
+    "side": 0,
+    "stage": "B",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": 1.6072161640689866,
+      "productive_velocity": 0.06323651282269022,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.7024251422942527
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 5
+    },
+    "goals": [
+      {
+        "step": 646,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.1545553356409073,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 19,
+    "seed": 8019092,
+    "pair": 9,
+    "side": 1,
+    "stage": "B",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.7682473984188865,
+      "productive_velocity": 0.017825895889945667,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 3,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 11
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12141797691583633,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 20,
+    "seed": 8020101,
+    "pair": 10,
+    "side": 0,
+    "stage": "R",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.8701674130351591,
+      "productive_velocity": 0.012998158330502718,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 0,
+      "meaningless": 0,
+      "touch": 2
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.13196462392807007,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 21,
+    "seed": 8020101,
+    "pair": 10,
+    "side": 1,
+    "stage": "R",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": -0.24748354585682353,
+      "productive_velocity": -0.06635796216881792,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 4,
+      "meaningless": 0,
+      "touch": 8
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.1476232409477234,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 22,
+    "seed": 8021110,
+    "pair": 11,
+    "side": 0,
+    "stage": "G",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": 0.4664784151446143,
+      "productive_velocity": 0.045165052861752715,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.6948453742088105
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 3
+    },
+    "goals": [
+      {
+        "step": 449,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.10148898512125015,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 23,
+    "seed": 8021110,
+    "pair": 11,
+    "side": 1,
+    "stage": "G",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -0.7622142421370852,
+      "productive_velocity": -0.13582400167713995,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.6187936654324613
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 4,
+      "meaningless": 0,
+      "touch": 8
+    },
+    "goals": [
+      {
+        "step": 3792,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "backward",
+        "seconds_to_goal": 3.533333333333333,
+        "goal_for": false
+      },
+      {
+        "direction": "backward",
+        "seconds_to_goal": 0.1,
+        "goal_for": false
+      }
+    ],
+    "boundary_common_oldcritic": -0.1307743489742279,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 24,
+    "seed": 8022119,
+    "pair": 12,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -0.5903423363087361,
+      "productive_velocity": 0.07753086468240489,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.6887381293592044
+    },
+    "contacts": {
+      "goalward": 4,
+      "backward": 3,
+      "meaningless": 0,
+      "touch": 11
+    },
+    "goals": [
+      {
+        "step": 3954,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.10565795004367828,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 25,
+    "seed": 8022119,
+    "pair": 12,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": -1.2616769107846952,
+      "productive_velocity": 0.06534900486158288,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 5
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.10425806045532227,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 26,
+    "seed": 8023128,
+    "pair": 13,
+    "side": 0,
+    "stage": "O",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": 0.26160438094111943,
+      "productive_velocity": 0.05915822860054348,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.6952608910337211
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 4
+    },
+    "goals": [
+      {
+        "step": 3707,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "goalward",
+        "seconds_to_goal": 0.016666666666666666,
+        "goal_for": true
+      }
+    ],
+    "boundary_common_oldcritic": -0.11156746745109558,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 27,
+    "seed": 8023128,
+    "pair": 13,
+    "side": 1,
+    "stage": "O",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 10.0,
+      "potential": 0.1290420040541137,
+      "productive_velocity": -0.03245732528023098,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.7042609106932524
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 3,
+      "meaningless": 0,
+      "touch": 10
+    },
+    "goals": [
+      {
+        "step": 926,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.10765467584133148,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 28,
+    "seed": 8024137,
+    "pair": 14,
+    "side": 0,
+    "stage": "F",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -0.09855098726490197,
+      "productive_velocity": 0.03896971594769023,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.644772041108427
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 2,
+      "meaningless": 0,
+      "touch": 7
+    },
+    "goals": [
+      {
+        "step": 197,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12399020045995712,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 29,
+    "seed": 8024137,
+    "pair": 14,
+    "side": 1,
+    "stage": "F",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": -20.0,
+      "potential": 0.5880179662499407,
+      "productive_velocity": 0.16,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 1.3386583911634768
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 0,
+      "meaningless": 0,
+      "touch": 3
+    },
+    "goals": [
+      {
+        "step": 197,
+        "for": false
+      },
+      {
+        "step": 3305,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.1071610152721405,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 30,
+    "seed": 8025146,
+    "pair": 15,
+    "side": 0,
+    "stage": "B",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -1.1418248603233674,
+      "productive_velocity": -0.11573360118036688,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.6411921181717596
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 6,
+      "meaningless": 0,
+      "touch": 13
+    },
+    "goals": [
+      {
+        "step": 1596,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "backward",
+        "seconds_to_goal": 0.6,
+        "goal_for": false
+      }
+    ],
+    "boundary_common_oldcritic": -0.10319428145885468,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 31,
+    "seed": 8025146,
+    "pair": 15,
+    "side": 1,
+    "stage": "B",
+    "opponent": "runs/retained/selected/candidate.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": -0.8189819298574044,
+      "productive_velocity": 0.10029581192680029,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 4,
+      "backward": 2,
+      "meaningless": 0,
+      "touch": 8
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12203226238489151,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 32,
+    "seed": 8026155,
+    "pair": 16,
+    "side": 0,
+    "stage": "R",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": -10.0,
+      "potential": -0.9598713897638997,
+      "productive_velocity": -0.026048392917798917,
+      "nonproductive_contact": 0.0,
+      "stationary": -0.06100000000000005,
+      "goal_reset_potential": 0.6152983837345863
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 2,
+      "meaningless": 0,
+      "touch": 7
+    },
+    "goals": [
+      {
+        "step": 1092,
+        "for": false
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "backward",
+        "seconds_to_goal": 4.366666666666666,
+        "goal_for": false
+      },
+      {
+        "direction": "backward",
+        "seconds_to_goal": 0.3,
+        "goal_for": false
+      }
+    ],
+    "boundary_common_oldcritic": -0.10011345893144608,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 33,
+    "seed": 8026155,
+    "pair": 16,
+    "side": 1,
+    "stage": "R",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": -0.28064044130239235,
+      "productive_velocity": -0.037150443699048914,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 3,
+      "meaningless": 0,
+      "touch": 5
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.11116153746843338,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 34,
+    "seed": 8027164,
+    "pair": 17,
+    "side": 0,
+    "stage": "G",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.017639494679703827,
+      "productive_velocity": -0.05504639680281931,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 2,
+      "backward": 3,
+      "meaningless": 0,
+      "touch": 9
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.11707240343093872,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 35,
+    "seed": 8027164,
+    "pair": 17,
+    "side": 1,
+    "stage": "G",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 1.6235939172953953,
+      "productive_velocity": -0.06250451978600544,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 0,
+      "backward": 4,
+      "meaningless": 0,
+      "touch": 6
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.13296735286712646,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 36,
+    "seed": 8028173,
+    "pair": 18,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.32260813725945947,
+      "productive_velocity": 0.13271946251910666,
+      "nonproductive_contact": -0.003,
+      "stationary": 0.0,
+      "goal_reset_potential": -0.043259067326156475
+    },
+    "contacts": {
+      "goalward": 3,
+      "backward": 1,
+      "meaningless": 1,
+      "touch": 10
+    },
+    "goals": [
+      {
+        "step": 1339,
+        "for": false
+      },
+      {
+        "step": 3965,
+        "for": true
+      }
+    ],
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "backward",
+        "seconds_to_goal": 3.4,
+        "goal_for": false
+      }
+    ],
+    "boundary_common_oldcritic": -0.12050726264715195,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 37,
+    "seed": 8028173,
+    "pair": 18,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/geometric-retained/latest.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.9546834564677806,
+      "productive_velocity": 0.034447995923913045,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 1,
+      "meaningless": 0,
+      "touch": 3
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12191648036241531,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 38,
+    "seed": 8029182,
+    "pair": 19,
+    "side": 0,
+    "stage": "R",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.16687187463418424,
+      "productive_velocity": 0.05898265540081522,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 0,
+      "meaningless": 0,
+      "touch": 2
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.1020401269197464,
+    "memory_and_behavior_alignment": "PASS"
+  },
+  {
+    "index": 39,
+    "seed": 8029182,
+    "pair": 19,
+    "side": 1,
+    "stage": "R",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "components_sum": {
+      "goal": 0.0,
+      "potential": 0.08531785288521943,
+      "productive_velocity": -0.0820324515964674,
+      "nonproductive_contact": 0.0,
+      "stationary": 0.0,
+      "goal_reset_potential": 0.0
+    },
+    "contacts": {
+      "goalward": 1,
+      "backward": 2,
+      "meaningless": 0,
+      "touch": 5
+    },
+    "goals": [],
+    "postcontact_goals_within5sec_proxy": [],
+    "boundary_common_oldcritic": -0.12880077958106995,
+    "memory_and_behavior_alignment": "PASS"
+  }
+]

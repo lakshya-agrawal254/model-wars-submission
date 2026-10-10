@@ -1,0 +1,16 @@
+{
+  "domain": "Real RocketSim diagnostic stationary controllers; never runtime override or learned policy",
+  "frames": 600,
+  "seconds": 10,
+  "mean_reward_last8seconds": -0.0011158706543611943,
+  "positive_rewards_last8seconds": 0,
+  "parts_sum": {
+    "goal": 0.0,
+    "potential": -0.06952023157504968,
+    "productive_velocity": 0.0,
+    "nonproductive_contact": 0.0,
+    "stationary": -0.54,
+    "goal_reset_potential": 0.0
+  },
+  "coefficients_changed": false
+}

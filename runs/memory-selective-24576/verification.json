@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "parameters": 26181,
+  "features": 13,
+  "additional_PPO_decisions": 24576,
+  "lineage_PPO_decisions": 40960,
+  "critic_kind": "observation",
+  "actor_sha256": "1177a04f30a3fc7ad10a5b51b491700a249d49a6dd08ebf38e61638a57a8faf4",
+  "inference_sha256": "1beb0a1d4efa86cd9b6763659b532d23d625ac920ed900ce553a44db69a680a4",
+  "checks": "strict actor/critic, both finite Adam states, RNG/config, source/opponent hashes, exact serialized inference, forecast stress invariance and original controls",
+  "native_game": "NOT TESTED"
+}

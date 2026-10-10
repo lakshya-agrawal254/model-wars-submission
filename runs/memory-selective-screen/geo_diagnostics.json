@@ -1,0 +1,338 @@
+{
+  "name": "geo_diagnostics",
+  "candidate": "runs/memory-selective-24576/candidate.pt",
+  "records": [
+    {
+      "kind": "ground",
+      "seed": 8210011,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": 1.0666666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8211020,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": 0.7333333333333333,
+      "contacted": true,
+      "counts": [
+        0,
+        564,
+        0,
+        0
+      ],
+      "seconds_observed": 9.4
+    },
+    {
+      "kind": "ground",
+      "seed": 8211020,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": 0.7333333333333333,
+      "contacted": true,
+      "counts": [
+        0,
+        564,
+        0,
+        0
+      ],
+      "seconds_observed": 9.4
+    },
+    {
+      "kind": "ground",
+      "seed": 8210011,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": 1.0666666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8212029,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": 0.9666666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8213038,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": 6.266666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8212029,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": 0.9666666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8213038,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": 6.266666666666667,
+      "contacted": true,
+      "counts": [
+        0,
+        1800,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8215056,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": 1.0833333333333333,
+      "contacted": true,
+      "counts": [
+        1332,
+        468,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8214047,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": 0.7833333333333333,
+      "contacted": true,
+      "counts": [
+        565,
+        1235,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8214047,
+      "team": 0,
+      "index": null,
+      "first_touch_seconds": 0.7833333333333333,
+      "contacted": true,
+      "counts": [
+        565,
+        1235,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "ground",
+      "seed": 8215056,
+      "team": 1,
+      "index": null,
+      "first_touch_seconds": 1.0833333333333333,
+      "contacted": true,
+      "counts": [
+        1332,
+        468,
+        0,
+        0
+      ],
+      "seconds_observed": 30.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8212020,
+      "team": 0,
+      "index": 1,
+      "first_touch_seconds": 2.95,
+      "contacted": true,
+      "counts": [
+        0,
+        589,
+        0,
+        0
+      ],
+      "seconds_observed": 9.816666666666666
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8211011,
+      "team": 1,
+      "index": 0,
+      "first_touch_seconds": 2.95,
+      "contacted": true,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8213029,
+      "team": 1,
+      "index": 2,
+      "first_touch_seconds": 3.35,
+      "contacted": true,
+      "counts": [
+        393,
+        2518,
+        0,
+        0
+      ],
+      "seconds_observed": 48.516666666666666
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8211011,
+      "team": 0,
+      "index": 0,
+      "first_touch_seconds": 2.95,
+      "contacted": true,
+      "counts": [
+        804,
+        4596,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8212020,
+      "team": 1,
+      "index": 1,
+      "first_touch_seconds": 2.95,
+      "contacted": true,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8213029,
+      "team": 0,
+      "index": 2,
+      "first_touch_seconds": 3.35,
+      "contacted": true,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8215047,
+      "team": 0,
+      "index": 4,
+      "first_touch_seconds": 3.9,
+      "contacted": true,
+      "counts": [
+        0,
+        911,
+        0,
+        0
+      ],
+      "seconds_observed": 15.183333333333334
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8214038,
+      "team": 0,
+      "index": 3,
+      "first_touch_seconds": 3.35,
+      "contacted": true,
+      "counts": [
+        0,
+        5400,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8214038,
+      "team": 1,
+      "index": 3,
+      "first_touch_seconds": 3.35,
+      "contacted": true,
+      "counts": [
+        2102,
+        3298,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    },
+    {
+      "kind": "kickoff",
+      "seed": 8215047,
+      "team": 1,
+      "index": 4,
+      "first_touch_seconds": 3.9,
+      "contacted": true,
+      "counts": [
+        689,
+        4711,
+        0,
+        0
+      ],
+      "seconds_observed": 90.0
+    }
+  ],
+  "complete": true,
+  "confirmation": false
+}
