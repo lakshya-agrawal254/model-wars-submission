@@ -28,5 +28,7 @@
   "stop_UTC": "2026-10-10T23:45:00+00:00",
   "gates": "stop at first contact regression>1/18, stationary +2s or circling +1 vs ownstartingcontrol, falls+2s. Finalfreshfullmatches bothreferences required; no modelpromotion without Windowsacceptance/userapproval.",
   "hops": "Not in this campaign; frontflip separate",
-  "submission_authorized": false
+  "submission_authorized": false,
+  "screening": "Fresh seedgroups10301011+1009*i,4pairs(8matches)againstOutcome128/Geometric/original60Hz;2pairs120Hz separately. Frozen forecasts/actiontiming parity.",
+  "conditional_confirmation": "Only if >=6/8winsagainstbothreferences plus no contact/stationary/circling regression: at least100 unusedseed60Hzmatches vsOutcome128 and checksagainstGeometric/original. No automaticpromotion evenifpasses; actualWindowsanduserapprovalrequired."
 }
