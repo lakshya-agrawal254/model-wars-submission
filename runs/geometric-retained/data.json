@@ -1,0 +1,674 @@
+[
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4110011,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4111020,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4112029,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4113038,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4114047,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4115056,
+    "touches": 0,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4116065,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4117074,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4118083,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4119092,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4120101,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4121110,
+    "touches": 5,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4122119,
+    "touches": 7,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4123128,
+    "touches": 7,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4124137,
+    "touches": 12,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4125146,
+    "touches": 7,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4126155,
+    "touches": 5,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4127164,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4128173,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4129182,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4130191,
+    "touches": 7,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4131200,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4132209,
+    "touches": 15,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4133218,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4134227,
+    "touches": 6,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4135236,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4136245,
+    "touches": 5,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4137254,
+    "touches": 10,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4138263,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4139272,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4140281,
+    "touches": 5,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4141290,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4142299,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4143308,
+    "touches": 6,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4144317,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4145326,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4146335,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4147344,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4148353,
+    "touches": 7,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "G",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4149362,
+    "touches": 7,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 0,
+    "kickoff_index": 0,
+    "seed": 4150371,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 1,
+    "kickoff_index": 0,
+    "seed": 4151380,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 0,
+    "kickoff_index": 1,
+    "seed": 4152389,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 1,
+    "kickoff_index": 1,
+    "seed": 4153398,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 0,
+    "kickoff_index": 2,
+    "seed": 4154407,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 1,
+    "kickoff_index": 2,
+    "seed": 4155416,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 0,
+    "kickoff_index": 3,
+    "seed": 4156425,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 1,
+    "kickoff_index": 3,
+    "seed": 4157434,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 0,
+    "kickoff_index": 4,
+    "seed": 4158443,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "B",
+    "team": 1,
+    "kickoff_index": 4,
+    "seed": 4159452,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4160461,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4161470,
+    "touches": 6,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4162479,
+    "touches": 9,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4163488,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4164497,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4165506,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4166515,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4167524,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4168533,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4169542,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4170551,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4171560,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4172569,
+    "touches": 3,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4173578,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4174587,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4175596,
+    "touches": 4,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4176605,
+    "touches": 5,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4177614,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4178623,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "M",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4179632,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4180641,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4181650,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4182659,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4183668,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4184677,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4185686,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4186695,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4187704,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 0,
+    "kickoff_index": null,
+    "seed": 4188713,
+    "touches": 1,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "stage": "E",
+    "team": 1,
+    "kickoff_index": null,
+    "seed": 4189722,
+    "touches": 2,
+    "source": "real RocketSim; labels computed from official current-ball columns only"
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 0
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 1
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 2
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 3
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 4
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 5
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 6
+  },
+  {
+    "source": "counterfactual unavailable-ball augmentation of real sequence",
+    "source_sequence": 7
+  }
+]

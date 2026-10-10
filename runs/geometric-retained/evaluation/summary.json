@@ -1,0 +1,330 @@
+{
+  "retained_A": {
+    "complete": true,
+    "records": 76,
+    "ground": {
+      "contacts": 2,
+      "trials": 24,
+      "rate": 0.08333333333333333,
+      "wilson95": [
+        0.023158327842973503,
+        0.258492152014506
+      ],
+      "median_touch_seconds_conditional": 9.483333333333333,
+      "mean_touch_or_cap_seconds": 28.290277777777778,
+      "counts": [
+        39594,
+        3606,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 0.9165277777777778,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.1688567547501373,
+      "precontact_steering_label_error": 0.6338064346846636
+    },
+    "wide_ground": {
+      "contacts": 10,
+      "trials": 24,
+      "rate": 0.4166666666666667,
+      "wilson95": [
+        0.24467347246538232,
+        0.6116566235061137
+      ],
+      "median_touch_seconds_conditional": 21.45,
+      "mean_touch_or_cap_seconds": 25.15138888888889,
+      "counts": [
+        18028,
+        25172,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 0.4173148148148148,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.18800524149574574,
+      "precontact_steering_label_error": 0.78301021687053
+    },
+    "kickoff": {
+      "contacts": 18,
+      "trials": 20,
+      "rate": 0.9,
+      "wilson95": [
+        0.6989617935882066,
+        0.9721341060158468
+      ],
+      "median_touch_seconds_conditional": 50.583333333333336,
+      "mean_touch_or_cap_seconds": 58.60166666666667,
+      "counts": [
+        7898,
+        86974,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 0.08324900919133148,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.16309415969608637,
+      "precontact_steering_label_error": 0.7775912214104613,
+      "contacts_by_position": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 2,
+        "4": 4
+      }
+    },
+    "matches": {
+      "WLD": [
+        0,
+        4,
+        0
+      ],
+      "unresolved": 4,
+      "observed_GF_GA": [
+        0,
+        4
+      ],
+      "completed_GF_GA": [
+        0,
+        4
+      ],
+      "conservative_score": 0.0,
+      "win_fraction_wilson95": [
+        0,
+        0.3244156195108769
+      ]
+    }
+  },
+  "candidate": {
+    "complete": true,
+    "records": 76,
+    "ground": {
+      "contacts": 24,
+      "trials": 24,
+      "rate": 1.0,
+      "wilson95": [
+        0.8620194241710247,
+        1
+      ],
+      "median_touch_seconds_conditional": 0.9083333333333333,
+      "mean_touch_or_cap_seconds": 2.084722222222222,
+      "counts": [
+        724,
+        31626,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 0.022380216383307575,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.15630349357049841,
+      "precontact_steering_label_error": 0.40107385708096016
+    },
+    "wide_ground": {
+      "contacts": 24,
+      "trials": 24,
+      "rate": 1.0,
+      "wilson95": [
+        0.8620194241710247,
+        1
+      ],
+      "median_touch_seconds_conditional": 7.116666666666666,
+      "mean_touch_or_cap_seconds": 8.1,
+      "counts": [
+        1830,
+        41260,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 0.04246925040612671,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.14166615181831074,
+      "precontact_steering_label_error": 0.4077088995550307
+    },
+    "kickoff": {
+      "contacts": 20,
+      "trials": 20,
+      "rate": 1.0,
+      "wilson95": [
+        0.8388698745050667,
+        1
+      ],
+      "median_touch_seconds_conditional": 3.35,
+      "mean_touch_or_cap_seconds": 3.3000000000000007,
+      "counts": [
+        7976,
+        76446,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 0.09447774276847268,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.15757117278850455,
+      "precontact_steering_label_error": 0.11696182224017523,
+      "contacts_by_position": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4
+      }
+    },
+    "matches": {
+      "WLD": [
+        3,
+        5,
+        0
+      ],
+      "unresolved": 0,
+      "observed_GF_GA": [
+        8,
+        7
+      ],
+      "completed_GF_GA": [
+        8,
+        7
+      ],
+      "conservative_score": 0.375,
+      "win_fraction_wilson95": [
+        0.13684175946152105,
+        0.6942621454161981
+      ]
+    }
+  },
+  "candidate_vs_retained_A": {
+    "complete": true,
+    "records": 8,
+    "matches": {
+      "WLD": [
+        3,
+        3,
+        0
+      ],
+      "unresolved": 2,
+      "observed_GF_GA": [
+        12,
+        11
+      ],
+      "completed_GF_GA": [
+        10,
+        9
+      ],
+      "conservative_score": 0.375,
+      "win_fraction_wilson95": [
+        0.13684175946152105,
+        0.6942621454161981
+      ]
+    }
+  },
+  "untouched_baseline": {
+    "complete": true,
+    "records": 76,
+    "ground": {
+      "contacts": 0,
+      "trials": 24,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.13798057582897535
+      ],
+      "median_touch_seconds_conditional": null,
+      "mean_touch_or_cap_seconds": 30.0,
+      "counts": [
+        43200,
+        0,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 1.0,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.17161344920572852,
+      "precontact_steering_label_error": 0.9208112581743411
+    },
+    "wide_ground": {
+      "contacts": 0,
+      "trials": 24,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.13798057582897535
+      ],
+      "median_touch_seconds_conditional": null,
+      "mean_touch_or_cap_seconds": 30.0,
+      "counts": [
+        43200,
+        0,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 1.0,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.16994045305519076,
+      "precontact_steering_label_error": 0.48248386406926097
+    },
+    "kickoff": {
+      "contacts": 0,
+      "trials": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16113012549493322
+      ],
+      "median_touch_seconds_conditional": null,
+      "mean_touch_or_cap_seconds": 90.0,
+      "counts": [
+        107052,
+        948,
+        0,
+        0
+      ],
+      "neutral_decision_fraction": 0.9912222222222222,
+      "jump_dodge_decisions": 0,
+      "actual_flip_starts": 0,
+      "far_ball_flip_proxy": 0,
+      "latency_ms_mean": 0.16608581989445764,
+      "precontact_steering_label_error": 0.8570551470764514,
+      "contacts_by_position": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "matches": {
+      "WLD": [
+        0,
+        0,
+        0
+      ],
+      "unresolved": 8,
+      "observed_GF_GA": [
+        0,
+        0
+      ],
+      "completed_GF_GA": [
+        0,
+        0
+      ],
+      "conservative_score": 0.0,
+      "win_fraction_wilson95": [
+        0,
+        0.3244156195108769
+      ]
+    }
+  }
+}
