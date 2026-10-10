@@ -12,6 +12,9 @@ def load(path=GEO):
 
 def setup(scene):
  side=scene['side'];kind=scene['kind'];sign=1 if side==0 else -1;w=ForecastWorld(scene['seed'],'B' if kind=='kickoff' else 'A',side,scene.get('index'))
+ if kind=='kickoff' and 'enemy_index' in scene:
+  from rlgym.rocket_league.state_mutators import KickoffMutator
+  e=w.state.cars[w.enemy];i=scene['enemy_index'];blue=e.team_num==0;e.physics.position=(KickoffMutator.SPAWN_BLUE_POS if blue else KickoffMutator.SPAWN_ORANGE_POS)[i].copy();e.physics.euler_angles=np.array([0,(KickoffMutator.SPAWN_BLUE_YAW if blue else KickoffMutator.SPAWN_ORANGE_YAW)[i],0],np.float32);w.state=w.engine.set_state(w.state,{})
  if kind!='kickoff':
   ball=np.array([scene.get('ball_x',0),sign*scene.get('ball_y',0),scene.get('height',93.15)],np.float32);gap=scene['gap'];speed=scene['speed'];yaw=sign*math.pi/2+scene.get('yaw_error',0)
   c=w.state.cars[w.our];c.physics.position=ball-np.array([0,sign*gap,ball[2]-17],np.float32);c.physics.euler_angles=np.array([0,yaw,0],np.float32);c.physics.linear_velocity=np.array([math.cos(yaw)*speed,math.sin(yaw)*speed,0],np.float32);c.physics.angular_velocity=np.zeros(3,np.float32);c.wheels_with_contact=(True,True,True,True)
@@ -20,20 +23,27 @@ def setup(scene):
  return w
 
 @torch.inference_mode()
-def trajectory(scene,schedule=None,path=GEO,rate=60,record=False):
- torch.set_num_threads(1);p=load(path);op=load(BASE);w=setup(scene);h=oh=None;xs=[];modes=[];steers=[];windows=[];counts=np.zeros(4,int);first=None;enemyfirst=None;events=[];contacts=[];recoveries=[];pending=None;stable=0;stationary=fallen=0.;positions=[];circles=0;trace=[];direction=1 if scene['side']==0 else -1;last_touch=-1000;last_ground=True;last_flip=False;last_mode=0;mode_transitions=[]
+def trajectory(scene,schedule=None,path=GEO,rate=60,record=False,disable_second_press=False,driver_rate=None):
+ torch.set_num_threads(1);p=load(path);op=load(BASE);w=setup(scene);h=oh=None;xs=[];modes=[];steers=[];windows=[];counts=np.zeros(4,int);first=None;enemyfirst=None;events=[];contacts=[];recoveries=[];pending=None;stable=0;stationary=fallen=0.;positions=[];circles=0;trace=[];direction=1 if scene['side']==0 else -1;last_touch=-1000;last_ground=True;last_flip=False;last_mode=0;mode_transitions=[];driver_rate=rate if driver_rate is None else driver_rate;last_driver_t=None;last_l=last_s=last_ol=last_os=None
+ assert rate%driver_rate==0
  try:
   for n in range(rate*7):
-   t=n/rate;x=w.observe(w.our);ox=w.observe(w.enemy);l,s,h=p(torch.tensor(x[None]),h);ol,os,oh=op(torch.tensor(ox[None]),oh);mode=int(l.argmax());steer=float(s);window=False
+   t=n/rate;x=w.observe(w.our);ox=w.observe(w.enemy)
+   if n%(rate//driver_rate)==0:
+    # Own-reference teacher may run60Hz while collecting actual120Hz student observations.
+    # Teacher delta is MEASURED at its callbacks; studentx[12] remains actualrate delta.
+    dx=x.copy();dox=ox.copy();dt=1/60 if last_driver_t is None else t-last_driver_t;dx[12]=dt*60;dox[12]=dt*60;last_driver_t=t
+    last_l,last_s,h=p(torch.tensor(dx[None]),h);last_ol,last_os,oh=op(torch.tensor(dox[None]),oh)
+   mode=int(last_l.argmax());steer=float(last_s);window=False
    if schedule:
     onset,jump,release,dodge=schedule;window=onset-.15<=t<=onset+jump+release+dodge+.35
     dt=t-onset
     if 0<=dt<jump:mode=2
     elif jump<=dt<jump+release:mode=1
-    elif jump+release<=dt<jump+release+dodge:mode=3
+    elif jump+release<=dt<jump+release+dodge:mode=1 if disable_second_press else 3
    if record:xs.append(x);modes.append(mode);steers.append(steer);windows.append(window)
    if mode!=last_mode:mode_transitions.append(dict(t=t,mode=mode));last_mode=mode
-   counts[mode]+=1;v_before=w.state.ball.linear_velocity.copy();before=w.state.cars[w.our];before_flipping=bool(w.engine._cars[w.our].get_state().is_flipping);old,touch,goal=w.step(decode(mode,steer),decode(int(ol.argmax()),float(os)),ticks=120//rate)
+   counts[mode]+=1;v_before=w.state.ball.linear_velocity.copy();before=w.state.cars[w.our];before_flipping=bool(w.engine._cars[w.our].get_state().is_flipping);old,touch,goal=w.step(decode(mode,steer),decode(int(last_ol.argmax()),float(last_os)),ticks=120//rate)
    raw=w.engine._cars[w.our].get_state();c=w.state.cars[w.our];speed=float(np.linalg.norm(c.physics.linear_velocity));upright=float(c.physics.up[2]);ground=bool(raw.is_on_ground);actualflip=bool(raw.is_flipping)
    stationary+=int(speed<100)/rate;fallen+=int(c.physics.position[2]<60 and upright<.5)/rate
    if actualflip and not before_flipping:events.append(dict(t=t,ballgap=float(np.linalg.norm(old.ball.position-before.physics.position)),mode=mode));pending=t;stable=0
