@@ -1,0 +1,235 @@
+{
+  "model": "runs/scratch-ground-A/candidate.pt",
+  "kind": "A",
+  "seed": 761011,
+  "paired_sides": true,
+  "records": [
+    {
+      "seed": 761011,
+      "team": 0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        899,
+        1,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.3995260138809681,
+      "latency_ms_mean": 0.16965434808904925
+    },
+    {
+      "seed": 761011,
+      "team": 1,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        899,
+        1,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.3995260138809681,
+      "latency_ms_mean": 0.13856273553554072
+    },
+    {
+      "seed": 762020,
+      "team": 0,
+      "first_touch_seconds": 9.45,
+      "contacted": true,
+      "counts": [
+        6,
+        894,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.3689707146750556,
+      "latency_ms_mean": 0.14754836651263759
+    },
+    {
+      "seed": 762020,
+      "team": 1,
+      "first_touch_seconds": 9.45,
+      "contacted": true,
+      "counts": [
+        6,
+        894,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.3689707146750556,
+      "latency_ms_mean": 0.15086924914309444
+    },
+    {
+      "seed": 763029,
+      "team": 0,
+      "first_touch_seconds": 9.383333333333333,
+      "contacted": true,
+      "counts": [
+        7,
+        893,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.3722688170770804,
+      "latency_ms_mean": 0.16099015653405027
+    },
+    {
+      "seed": 763029,
+      "team": 1,
+      "first_touch_seconds": 9.383333333333333,
+      "contacted": true,
+      "counts": [
+        7,
+        893,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.3722688170770804,
+      "latency_ms_mean": 0.17075344009855245
+    },
+    {
+      "seed": 764038,
+      "team": 0,
+      "first_touch_seconds": 9.5,
+      "contacted": true,
+      "counts": [
+        6,
+        894,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.37351428939236536,
+      "latency_ms_mean": 0.16616582872100277
+    },
+    {
+      "seed": 764038,
+      "team": 1,
+      "first_touch_seconds": 9.5,
+      "contacted": true,
+      "counts": [
+        6,
+        894,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.37351428939236536,
+      "latency_ms_mean": 0.16822277000756003
+    },
+    {
+      "seed": 765047,
+      "team": 0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        899,
+        1,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.40380184905396566,
+      "latency_ms_mean": 0.15716829324244624
+    },
+    {
+      "seed": 765047,
+      "team": 1,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        899,
+        1,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.40380184905396566,
+      "latency_ms_mean": 0.18063411087496206
+    },
+    {
+      "seed": 766056,
+      "team": 0,
+      "first_touch_seconds": 9.483333333333333,
+      "contacted": true,
+      "counts": [
+        6,
+        894,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.37208584618237284,
+      "latency_ms_mean": 0.18147741997381672
+    },
+    {
+      "seed": 766056,
+      "team": 1,
+      "first_touch_seconds": 9.483333333333333,
+      "contacted": true,
+      "counts": [
+        6,
+        894,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.37208584618237284,
+      "latency_ms_mean": 0.16396394552430138
+    },
+    {
+      "seed": 767065,
+      "team": 0,
+      "first_touch_seconds": 9.483333333333333,
+      "contacted": true,
+      "counts": [
+        5,
+        895,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.37246477640337416,
+      "latency_ms_mean": 0.17800135093340133
+    },
+    {
+      "seed": 767065,
+      "team": 1,
+      "first_touch_seconds": 9.483333333333333,
+      "contacted": true,
+      "counts": [
+        5,
+        895,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.37246477640337416,
+      "latency_ms_mean": 0.15008894214083235
+    },
+    {
+      "seed": 768074,
+      "team": 0,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        899,
+        1,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.40604334231879974,
+      "latency_ms_mean": 0.1369621610663469
+    },
+    {
+      "seed": 768074,
+      "team": 1,
+      "first_touch_seconds": null,
+      "contacted": false,
+      "counts": [
+        899,
+        1,
+        0,
+        0
+      ],
+      "steer_abs_mean": 0.40604334231879974,
+      "latency_ms_mean": 0.14970578104516286
+    }
+  ],
+  "elapsed_seconds": 2.3321696420025546,
+  "contact_rate": 0.625,
+  "median_first_touch_seconds": 9.483333333333333
+}

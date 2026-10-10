@@ -1,0 +1,40 @@
+{
+  "version": "v13-ppo-small-curriculum-v1",
+  "actor": "unchanged official Policy, 13 inputs, 26181 parameters, original decoder",
+  "training_sources": "self-generated real RocketSim only; no previous-project parameters, outputs, labels or datasets",
+  "observation_domain": "predictions explicitly unavailable; native RLBot prediction equivalence NOT established",
+  "screen": {
+    "seed": 831011,
+    "side_pairs": 4,
+    "regulation_seconds": 300,
+    "opponent": "untouched official V13"
+  },
+  "qualification": "Screen >0.5 permits independent measurement only; does not qualify for promotion",
+  "confirmation": {
+    "seed": 991011,
+    "side_pairs": 12,
+    "regulation_seconds": 300,
+    "not_used_for_tuning": true
+  },
+  "promotion": "one-sided exact sign test on independent side-pair score relative to 0.5, p<0.05; full-match evidence only; native readiness requires separate Windows test",
+  "native": "actual-game acceptance not available in this Linux environment",
+  "curriculum": "A ground, B kickoff; C/D/E only if prior evaluated behavior warrants continuation; bounded stages, no unrestricted training",
+  "amendment_before_unused_confirmation": {
+    "reason": "Screening includes censored overtime; allow evidence-gathering confirmation, without promotion from screens. No policy or training changes.",
+    "decision_rule": "For each independent side pair, count all censored matches as candidate losses. Score a completed W as 1, completed L as 0. Exact one-sided sign test for pair score > 0.5 versus < 0.5; ties omitted. Require p<0.05; report censoring and native-domain gap."
+  },
+  "bounded_followup": {
+    "hypothesis": "stochastic reward improvement but greedy failures; lower entropy incentive may yield committed Chase behavior, not assumed benefit",
+    "start": "scratch-ground-A complete checkpoint, 16384 lineage decisions",
+    "new_decisions": 32768,
+    "entropy_weight": 0.005,
+    "other_training_settings": "same A rewards, actor/critic learning rate, observations, opponent, rollout512 and decoder",
+    "screen_seed": 451011,
+    "screen_side_pairs": 8,
+    "qualification": "conservative side-pair mean >0.5, candidate versus untouched starter AND frozen A; caps count as losses",
+    "confirmation_seed": 651011,
+    "confirmation_side_pairs": 16,
+    "confirmation_unused": true,
+    "promotion": "exact pair sign p<0.05 with caps as losses; native test still required"
+  }
+}
