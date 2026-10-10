@@ -1,0 +1,478 @@
+{
+  "frozen_A": {
+    "records": 44,
+    "complete": true,
+    "ground": {
+      "contacts": 4,
+      "trials": 16,
+      "contact_rate": 0.25,
+      "wilson_95": [
+        0.10181901984237346,
+        0.49498768929398645
+      ],
+      "median_seconds_among_contacts": 9.566666666666666,
+      "restricted_mean_touch_or_cap_seconds": 24.891666666666666,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        21612,
+        7188,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.18730704897785067
+    },
+    "kickoff": {
+      "contacts": 18,
+      "trials": 20,
+      "contact_rate": 0.9,
+      "wilson_95": [
+        0.6989617935882066,
+        0.9721341060158468
+      ],
+      "median_seconds_among_contacts": 50.583333333333336,
+      "restricted_mean_touch_or_cap_seconds": 58.60166666666667,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        7898,
+        86974,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.1608028092582492,
+      "contacts_by_position": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 2,
+        "4": 4
+      }
+    },
+    "matches": {
+      "completed_WLD": [
+        2,
+        3,
+        0
+      ],
+      "unresolved": 3,
+      "observed_goals_for": 5,
+      "observed_goals_against": 13,
+      "completed_goals_for": 5,
+      "completed_goals_against": 11,
+      "conservative_score": 0.25,
+      "win_fraction_all_trials_wilson_95": [
+        0.07147768885802763,
+        0.5907301208974108
+      ]
+    }
+  },
+  "long_credit": {
+    "records": 44,
+    "complete": true,
+    "ground": {
+      "contacts": 0,
+      "trials": 16,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.19361341827271994
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 30.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        28800,
+        0,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.16639841559481283
+    },
+    "kickoff": {
+      "contacts": 0,
+      "trials": 20,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        -1.3877787807814457e-17,
+        0.16113012549493322
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 90.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        107096,
+        904,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.15647572350914105,
+      "contacts_by_position": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "matches": {
+      "completed_WLD": [
+        0,
+        0,
+        0
+      ],
+      "unresolved": 8,
+      "observed_goals_for": 0,
+      "observed_goals_against": 0,
+      "completed_goals_for": 0,
+      "completed_goals_against": 0,
+      "conservative_score": 0.0,
+      "win_fraction_all_trials_wilson_95": [
+        0.0,
+        0.3244156195108769
+      ]
+    }
+  },
+  "long_credit_regularized": {
+    "records": 44,
+    "complete": true,
+    "ground": {
+      "contacts": 0,
+      "trials": 16,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.19361341827271994
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 30.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        28800,
+        0,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.15088545176392168
+    },
+    "kickoff": {
+      "contacts": 0,
+      "trials": 20,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        -1.3877787807814457e-17,
+        0.16113012549493322
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 90.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        107096,
+        904,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.1626592018914784,
+      "contacts_by_position": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "matches": {
+      "completed_WLD": [
+        0,
+        0,
+        0
+      ],
+      "unresolved": 8,
+      "observed_goals_for": 0,
+      "observed_goals_against": 0,
+      "completed_goals_for": 0,
+      "completed_goals_against": 0,
+      "conservative_score": 0.0,
+      "win_fraction_all_trials_wilson_95": [
+        0.0,
+        0.3244156195108769
+      ]
+    }
+  },
+  "long_original": {
+    "records": 44,
+    "complete": true,
+    "ground": {
+      "contacts": 0,
+      "trials": 16,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.19361341827271994
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 30.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        28784,
+        16,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.15565476387412974
+    },
+    "kickoff": {
+      "contacts": 12,
+      "trials": 20,
+      "contact_rate": 0.6,
+      "wilson_95": [
+        0.3865779423152061,
+        0.7811960325858074
+      ],
+      "median_seconds_among_contacts": 42.95833333333333,
+      "restricted_mean_touch_or_cap_seconds": 59.02,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        48814,
+        59186,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.15712514273777572,
+      "contacts_by_position": {
+        "0": 2,
+        "1": 4,
+        "2": 0,
+        "3": 4,
+        "4": 2
+      }
+    },
+    "matches": {
+      "completed_WLD": [
+        2,
+        0,
+        0
+      ],
+      "unresolved": 6,
+      "observed_goals_for": 2,
+      "observed_goals_against": 0,
+      "completed_goals_for": 2,
+      "completed_goals_against": 0,
+      "conservative_score": 0.25,
+      "win_fraction_all_trials_wilson_95": [
+        0.07147768885802763,
+        0.5907301208974108
+      ]
+    }
+  },
+  "short_credit": {
+    "records": 44,
+    "complete": true,
+    "ground": {
+      "contacts": 0,
+      "trials": 16,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.19361341827271994
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 30.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        28800,
+        0,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.16109026850143793
+    },
+    "kickoff": {
+      "contacts": 0,
+      "trials": 20,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        -1.3877787807814457e-17,
+        0.16113012549493322
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 90.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        103276,
+        4724,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.17334050374106652,
+      "contacts_by_position": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "matches": {
+      "completed_WLD": [
+        0,
+        0,
+        0
+      ],
+      "unresolved": 8,
+      "observed_goals_for": 0,
+      "observed_goals_against": 0,
+      "completed_goals_for": 0,
+      "completed_goals_against": 0,
+      "conservative_score": 0.0,
+      "win_fraction_all_trials_wilson_95": [
+        0.0,
+        0.3244156195108769
+      ]
+    }
+  },
+  "short_original": {
+    "records": 44,
+    "complete": true,
+    "ground": {
+      "contacts": 0,
+      "trials": 16,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.19361341827271994
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 30.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        28784,
+        16,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.14903680949525247
+    },
+    "kickoff": {
+      "contacts": 12,
+      "trials": 20,
+      "contact_rate": 0.6,
+      "wilson_95": [
+        0.3865779423152061,
+        0.7811960325858074
+      ],
+      "median_seconds_among_contacts": 42.725,
+      "restricted_mean_touch_or_cap_seconds": 60.19333333333334,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        55512,
+        52488,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.1389087319391062,
+      "contacts_by_position": {
+        "0": 4,
+        "1": 4,
+        "2": 0,
+        "3": 4,
+        "4": 0
+      }
+    },
+    "matches": {
+      "completed_WLD": [
+        1,
+        0,
+        0
+      ],
+      "unresolved": 7,
+      "observed_goals_for": 1,
+      "observed_goals_against": 0,
+      "completed_goals_for": 1,
+      "completed_goals_against": 0,
+      "conservative_score": 0.125,
+      "win_fraction_all_trials_wilson_95": [
+        0.02241690886329617,
+        0.4708948057698615
+      ]
+    }
+  },
+  "untouched_baseline": {
+    "records": 44,
+    "complete": true,
+    "ground": {
+      "contacts": 0,
+      "trials": 16,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        0.0,
+        0.19361341827271994
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 30.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        28800,
+        0,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.16893191065062435
+    },
+    "kickoff": {
+      "contacts": 0,
+      "trials": 20,
+      "contact_rate": 0.0,
+      "wilson_95": [
+        -1.3877787807814457e-17,
+        0.16113012549493322
+      ],
+      "median_seconds_among_contacts": null,
+      "restricted_mean_touch_or_cap_seconds": 90.0,
+      "observed_flip_starts": 0,
+      "far_ball_flip_starts_proxy": 0,
+      "decision_counts": [
+        107052,
+        948,
+        0,
+        0
+      ],
+      "mean_latency_ms": 0.16762265764447404,
+      "contacts_by_position": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "matches": {
+      "completed_WLD": [
+        0,
+        0,
+        0
+      ],
+      "unresolved": 8,
+      "observed_goals_for": 0,
+      "observed_goals_against": 0,
+      "completed_goals_for": 0,
+      "completed_goals_against": 0,
+      "conservative_score": 0.0,
+      "win_fraction_all_trials_wilson_95": [
+        0.0,
+        0.3244156195108769
+      ]
+    }
+  }
+}
