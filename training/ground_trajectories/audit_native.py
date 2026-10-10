@@ -1,0 +1,8 @@
+"""Read-only audit. Sparse native packets are not complete GRU trajectories."""
+import json,collections,hashlib
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'runs/ground-native-audit-v1';OUT.mkdir(exist_ok=False)
+logs=Path('/workspace/work/modelwars/native-v13-logs-20261011');report={}
+for p in logs.glob('*.jsonl'):
+ rows=[json.loads(v) for v in p.read_text().splitlines()];pack=[v for v in rows if v['event']=='processed_packet'];errs=[v for v in rows if v['event']=='callback_error'];neutral=[v for v in pack if v['mode']=='Neutral'];active=[v for v in neutral if v['phase']=='MatchPhase.Active'];before=[v for v in pack if errs and v['monotonic']<errs[0]['monotonic']];report[p.name]=dict(SHA256=hashlib.sha256(p.read_bytes()).hexdigest(),events=dict(collections.Counter(v['event'] for v in rows)),sampled_modes=dict(collections.Counter(v['mode'] for v in pack)),active_neutral_packets=active,clock_errors=errs,preceding_processed_packet=before[-1] if before else None,phase_at_errors='NOT_LOGGED; last sampledpacketCountdown does not prove phaseaterror',retired=[v for v in rows if v['event']=='retired'],limits='Processedpackets logged every120callbacks: 94sampled controller submissions are not total11197submissions. AllBlue. No logits or full chronological GRU observations; cannotreplay authenticfull hiddenstate.',findings='Seven sampled ActiveNeutral packets T60.35–72.36 visibleballandzerohorizontalvelocity. Errorslater194.458328/frame23335: frozen packetclock, guardrejects before actor; exactpausedvsactive stateunproven.')
+(OUT/'audit.json').write_text(json.dumps(report,indent=2));print('Native read-only audit complete; no runtimechange')

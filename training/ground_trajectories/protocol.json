@@ -1,0 +1,32 @@
+{
+  "name": "single-outcome-selected-ground-trajectory-campaign",
+  "start": "runs/outcome-flip-learning-v1/latest.pt",
+  "start_plain_SHA256": "8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043",
+  "references": [
+    "Geometric",
+    "Outcome128",
+    "originalV13"
+  ],
+  "search": "training-only closedloop bounded-curvature/forecastlead/turn-hysteresis controller grid; prefixes driven by actual Outcome128. Only counterfactual closedloop outcome improvements retained. No runtime controllers.",
+  "actor": "exact original13DGRU64/26181/eighttensors/4modes",
+  "labels": "Independent legal controller outputs on successfully outcome-selected complete realphysics sequences; not unconditional geometric steering labels",
+  "prediction": "ActualRocketSim2secforecast. Existing3:5predictionpositionand9valid encoder columns may learn; 10horizon/11firstoffset stay originalzeros. Training-only invalid-prediction dropout; native observations untouched.",
+  "optimizer": "Fresh supervised Adam for newobjective; original compatible actor, no PPOrollouts/critic used; allactorencoderGRUhead trained except fixedcolumns10,11",
+  "max_updates": 96,
+  "checks": [
+    16,
+    32,
+    64,
+    96
+  ],
+  "learning_rate": 0.0004,
+  "sequence_batch": 8,
+  "gradient_clip": 1.0,
+  "steer_weight": 2.0,
+  "own_policy_mode_KL": 0.2,
+  "own_steer_anchor": 0.5,
+  "stop_UTC": "2026-10-10T23:45:00+00:00",
+  "gates": "stop at first contact regression>1/18, stationary +2s or circling +1 vs ownstartingcontrol, falls+2s. Finalfreshfullmatches bothreferences required; no modelpromotion without Windowsacceptance/userapproval.",
+  "hops": "Not in this campaign; frontflip separate",
+  "submission_authorized": false
+}
