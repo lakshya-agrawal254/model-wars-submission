@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checkpoint": "runs/ground-trajectory-learning-v1/update-64.pt",
+  "updates": 64,
+  "parameters": 26181,
+  "observations": 13,
+  "Adam_states": 8,
+  "source_snapshot_checksums": true,
+  "data_checksum": true,
+  "finite": true,
+  "whole_single_step_chunkcarry_parity": true,
+  "deterministic": true,
+  "original_decoder": true,
+  "prediction_input_mean_abs_steer_change": 0.02792954072356224,
+  "prediction_input_max_abs_steer_change": 0.13450559973716736,
+  "prediction_input_mode_change_fraction": 0.0,
+  "prediction_columns_norm": 0.12563565373420715,
+  "native": "UNTESTED",
+  "new_PPO_decisions": 0
+}

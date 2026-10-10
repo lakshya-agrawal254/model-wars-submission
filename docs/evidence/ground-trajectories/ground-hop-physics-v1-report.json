@@ -1,0 +1,182 @@
+{
+  "baseline": {
+    "kind": "match",
+    "seed": 10303029,
+    "team": 1,
+    "goals_for": 1,
+    "goals_against": 0,
+    "result": "W",
+    "end": "regulation_floor_proxy",
+    "active_regulation_seconds": 300.0,
+    "active_overtime_seconds": 0.0,
+    "first_touch_seconds": 2.95,
+    "kickoff_wait_seconds": 6.3,
+    "counts": [
+      0,
+      18378,
+      0,
+      0
+    ],
+    "elapsed_seconds": 11.863498341001105,
+    "productive_contacts": 8,
+    "nonproductive_contacts": 2,
+    "backward_contacts": 7,
+    "danger_clear_velocity_events_proxy": 1,
+    "goals_conceded_with_own_last_touch": 0,
+    "stationary_seconds": 162.03333333335442,
+    "circling_5second_windows_proxy": 1,
+    "inference_latency_ms_mean": 0.1488245866326706,
+    "domain": "Real RocketSim3D fullmatches, physicalballforecast enabled for BOTHagents; NOT actualRocketLeague",
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "goalward",
+        "seconds_to_goal": 1.9666666666666666,
+        "goal_for": true,
+        "own_last_touch": false
+      }
+    ],
+    "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+    "callback_Hz": 60,
+    "observation_domain": "Exact13Dlayout with realRocketSim2secballforecast; NOT actualnativeRLBot prediction"
+  },
+  "counterfactuals": [
+    {
+      "duration": 0.1,
+      "trigger": {
+        "tick": 17452,
+        "position": [
+          4017.226318359375,
+          3921.16650390625,
+          966.5848999023438
+        ],
+        "car_distance": 147.8023681640625
+      },
+      "applied_Jump_callbacks": 6,
+      "physical_is_jumping_observed": true,
+      "actual_dodges": 0,
+      "match": {
+        "kind": "match",
+        "seed": 10303029,
+        "team": 1,
+        "goals_for": 1,
+        "goals_against": 0,
+        "result": "W",
+        "end": "regulation_floor_proxy",
+        "active_regulation_seconds": 300.0,
+        "active_overtime_seconds": 0.0,
+        "first_touch_seconds": 2.95,
+        "kickoff_wait_seconds": 6.3,
+        "counts": [
+          0,
+          18378,
+          0,
+          0
+        ],
+        "elapsed_seconds": 13.19582559200353,
+        "productive_contacts": 21,
+        "nonproductive_contacts": 3,
+        "backward_contacts": 20,
+        "danger_clear_velocity_events_proxy": 1,
+        "goals_conceded_with_own_last_touch": 0,
+        "stationary_seconds": 3.433333333333326,
+        "circling_5second_windows_proxy": 1,
+        "inference_latency_ms_mean": 0.1642533797331036,
+        "domain": "Real RocketSim3D fullmatches, physicalballforecast enabled for BOTHagents; NOT actualRocketLeague",
+        "postcontact_goals_within5sec_proxy": [
+          {
+            "direction": "goalward",
+            "seconds_to_goal": 1.9666666666666666,
+            "goal_for": true,
+            "own_last_touch": false
+          }
+        ],
+        "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+        "callback_Hz": 60,
+        "observation_domain": "Exact13Dlayout with realRocketSim2secballforecast; NOT actualnativeRLBot prediction"
+      },
+      "actor_mode_counts": [
+        0,
+        18378,
+        0,
+        0
+      ],
+      "applied_input_override": "TRAINING-ONLY shortJump then originaldeterministicactor; not a learnedcandidate or runtimefix"
+    },
+    {
+      "duration": 0.15,
+      "trigger": {
+        "tick": 17452,
+        "position": [
+          4017.226318359375,
+          3921.16650390625,
+          966.5848999023438
+        ],
+        "car_distance": 147.8023681640625
+      },
+      "applied_Jump_callbacks": 9,
+      "physical_is_jumping_observed": true,
+      "actual_dodges": 0,
+      "match": {
+        "kind": "match",
+        "seed": 10303029,
+        "team": 1,
+        "goals_for": 2,
+        "goals_against": 2,
+        "result": "D",
+        "end": "censored_overtime_cap",
+        "active_regulation_seconds": 300.0,
+        "active_overtime_seconds": 120.0,
+        "first_touch_seconds": 2.95,
+        "kickoff_wait_seconds": 19.05,
+        "counts": [
+          0,
+          26343,
+          0,
+          0
+        ],
+        "elapsed_seconds": 18.66220022899506,
+        "productive_contacts": 25,
+        "nonproductive_contacts": 3,
+        "backward_contacts": 22,
+        "danger_clear_velocity_events_proxy": 3,
+        "goals_conceded_with_own_last_touch": 0,
+        "stationary_seconds": 3.7833333333333248,
+        "circling_5second_windows_proxy": 2,
+        "inference_latency_ms_mean": 0.16331721664821341,
+        "domain": "Real RocketSim3D fullmatches, physicalballforecast enabled for BOTHagents; NOT actualRocketLeague",
+        "postcontact_goals_within5sec_proxy": [
+          {
+            "direction": "goalward",
+            "seconds_to_goal": 1.9666666666666666,
+            "goal_for": true,
+            "own_last_touch": false
+          },
+          {
+            "direction": "goalward",
+            "seconds_to_goal": 0.9333333333333333,
+            "goal_for": true,
+            "own_last_touch": true
+          },
+          {
+            "direction": "goalward",
+            "seconds_to_goal": 4.85,
+            "goal_for": false,
+            "own_last_touch": false
+          }
+        ],
+        "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+        "callback_Hz": 60,
+        "observation_domain": "Exact13Dlayout with realRocketSim2secballforecast; NOT actualnativeRLBot prediction"
+      },
+      "actor_mode_counts": [
+        0,
+        26343,
+        0,
+        0
+      ],
+      "applied_input_override": "TRAINING-ONLY shortJump then originaldeterministicactor; not a learnedcandidate or runtimefix"
+    }
+  ],
+  "candidate_sha_unchanged": "d79cac01aefe8d161b2ec5f8154fac608f554546a96644f0545b4cb254c6276a",
+  "scope": "One consumedseed; legitimatephysics feasibility, not independent evaluation/promotion or neural learning. Zero optimizerupdates, no FrontDodge sequence, no newcontrols."
+}

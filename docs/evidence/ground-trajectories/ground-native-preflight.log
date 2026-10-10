@@ -1,0 +1,18 @@
+{
+  "status": "non_live_preflight_pass_not_GUI_acceptance",
+  "root": "/workspace/work/modelwars/ground-trajectory-review-kit",
+  "cwd": "/workspace/work/modelwars/private-submission",
+  "config_parsing_blue_orange": true,
+  "checkpoint_sha256": "d79cac01aefe8d161b2ec5f8154fac608f554546a96644f0545b4cb254c6276a",
+  "features": 13,
+  "parameters": 26181,
+  "selector_empty_IndexError": true,
+  "native_actions": true,
+  "torch": "2.11.0+cpu",
+  "forbidden_root_checked": false,
+  "GUI_discovery": "NOT TESTED",
+  "GUI_launch": "NOT TESTED",
+  "gameplay": "NOT TESTED",
+  "no_training": true,
+  "no_live": true
+}

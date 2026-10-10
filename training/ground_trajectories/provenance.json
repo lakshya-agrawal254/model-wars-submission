@@ -1,0 +1,40 @@
+{
+  "name": "single-outcome-selected-ground-trajectory-campaign",
+  "start": "runs/outcome-flip-learning-v1/latest.pt",
+  "start_plain_SHA256": "8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043",
+  "references": [
+    "Geometric",
+    "Outcome128",
+    "originalV13"
+  ],
+  "search": "training-only closedloop bounded-curvature/forecastlead/turn-hysteresis controller grid; prefixes driven by actual Outcome128. Only counterfactual closedloop outcome improvements retained. No runtime controllers.",
+  "actor": "exact original13DGRU64/26181/eighttensors/4modes",
+  "labels": "Independent outcome-selected ground manoeuvres and own legal V13 anchoring; no pretrainedteacher",
+  "prediction": "ActualRocketSim2secforecast. Existing3:5predictionpositionand9valid encoder columns may learn; 10horizon/11firstoffset stay originalzeros. Training-only invalid-prediction dropout; native observations untouched.",
+  "optimizer": "Fresh supervised Adam for newobjective; original compatible actor, no PPOrollouts/critic used; allactorencoderGRUhead trained except fixedcolumns10,11",
+  "max_updates": 96,
+  "checks": [
+    16,
+    32,
+    64,
+    96
+  ],
+  "learning_rate": 0.0004,
+  "sequence_batch": 8,
+  "gradient_clip": 1.0,
+  "steer_weight": 2.0,
+  "own_policy_mode_KL": 0.2,
+  "own_steer_anchor": 0.5,
+  "stop_UTC": "2026-10-10T23:45:00+00:00",
+  "gates": "stop at first contact regression>1/18, stationary +2s or circling +1 vs ownstartingcontrol, falls+2s. Finalfreshfullmatches bothreferences required; no modelpromotion without Windowsacceptance/userapproval.",
+  "hops": "Not in this campaign; frontflip separate",
+  "submission_authorized": false,
+  "screening": "Fresh seedgroups10301011+1009*i,4pairs(8matches)againstOutcome128/Geometric/original60Hz;2pairs120Hz separately. Frozen forecasts/actiontiming parity.",
+  "conditional_confirmation": "Only if >=6/8winsagainstbothreferences plus no contact/stationary/circling regression: at least100 unusedseed60Hzmatches vsOutcome128 and checksagainstGeometric/original. No automaticpromotion evenifpasses; actualWindowsanduserapprovalrequired.",
+  "selected_update": 64,
+  "selected_actor_SHA256": "d79cac01aefe8d161b2ec5f8154fac608f554546a96644f0545b4cb254c6276a",
+  "training_fit_updates": 96,
+  "real_optimizer_updates": 96,
+  "native": "UNTESTED",
+  "promotion": false
+}

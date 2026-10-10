@@ -1,0 +1,18 @@
+{
+  "qualification": "REJECTED for playing-policy promotion",
+  "reason": "No convincing match superiority overOutcome128, and162.03stationaryseconds inone fullmatch despite good shorttrials. Singlefitfinished; no additionaltraining.",
+  "preferred": "Geometric unchanged; Outcome128 preserved as reference",
+  "candidate": "Ground64 optionalWindowsdiagnostic only",
+  "candidate_sha": "d79cac01aefe8d161b2ec5f8154fac608f554546a96644f0545b4cb254c6276a",
+  "actor_file": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+  "complete_resumable": "runs/ground-trajectory-learning-v1/update-64.pt",
+  "latest_rejected_fullstate": "runs/ground-trajectory-learning-v1/latest.pt",
+  "optimizer_updates": 96,
+  "presentations": 611668,
+  "new_PPO_decisions": 0,
+  "confirmation_seeds_consumed": false,
+  "actualWindows": "UNTESTED",
+  "main_unchanged": "c151310b5c36996aeb1fe192be5eea7cc328e846",
+  "submitted": false,
+  "promoted": false
+}

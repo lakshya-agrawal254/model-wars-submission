@@ -13,7 +13,10 @@ def main():
   for name,path in models.items():
    for hz in [60,120]:
     key=f'{name}_{hz}';records[key]=[]
-    for s in fresh(10201011,change=-1):tasks[pool.submit(physical_job,(s,path,hz))]=key
+    cases=fresh(10201011,change=-1)
+    for side in [0,1]:
+     for j,angle in enumerate([1.7,-1.7]):cases.append(dict(kind='native_far_side',side=side,seed=10271011+side*10000+j*1009,gap=6100,speed=0,ball_y=1700,yaw_error=angle,prefix=0))
+    for s in cases:tasks[pool.submit(physical_job,(s,path,hz))]=key
   for f in as_completed(tasks):records[tasks[f]].append(f.result())
  (OUT/'physical-records.json').write_text(json.dumps(records,indent=2));physical={k:aggregate(v) for k,v in records.items()};(OUT/'physical-summary.json').write_text(json.dumps(physical,indent=2));print('INDEPENDENTPHYSICAL',physical,flush=True)
  matches={}

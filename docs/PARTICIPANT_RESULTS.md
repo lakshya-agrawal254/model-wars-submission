@@ -76,3 +76,6 @@ Main remains unchanged; the user now requires explicit approval before submissio
 
 ## Final bounded outcome-flip experiment (private review)
 See OUTCOME_FLIP_REVIEW.md and evidence/outcome-flips. Geometric remains preferred. 128 updates learned no actual dodges; optional diagnostic won 4/4 tiny 60Hz Geometric screen but went2/2 vsOriginal and increasedcircling. Conditional16update refinementfailedcontinuousJumpandstopped. Total144updates,881716supervisedpresentations,0PPO. Nativeacceptance untested, no mainreplacement orsubmission.
+
+
+Boundedgroundtrajectorycampaign:96updatesfromOutcome128,selected64beforeindependenteval,38/38contactsimprovedbutfullmatchOutcome4W3L1unresolvedand162sChasecarpinrejectpromotion. Mainunchanged;Windowsuntested. SeeGROUND_TRAJECTORY_REVIEW.md.

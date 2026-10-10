@@ -1,0 +1,59 @@
+{
+  "match": {
+    "kind": "match",
+    "seed": 10303029,
+    "team": 1,
+    "goals_for": 1,
+    "goals_against": 0,
+    "result": "W",
+    "end": "regulation_floor_proxy",
+    "active_regulation_seconds": 300.0,
+    "active_overtime_seconds": 0.0,
+    "first_touch_seconds": 2.95,
+    "kickoff_wait_seconds": 6.3,
+    "counts": [
+      0,
+      18378,
+      0,
+      0
+    ],
+    "elapsed_seconds": 11.863498341001105,
+    "productive_contacts": 8,
+    "nonproductive_contacts": 2,
+    "backward_contacts": 7,
+    "danger_clear_velocity_events_proxy": 1,
+    "goals_conceded_with_own_last_touch": 0,
+    "stationary_seconds": 162.03333333335442,
+    "circling_5second_windows_proxy": 1,
+    "inference_latency_ms_mean": 0.1488245866326706,
+    "domain": "Real RocketSim3D fullmatches, physicalballforecast enabled for BOTHagents; NOT actualRocketLeague",
+    "postcontact_goals_within5sec_proxy": [
+      {
+        "direction": "goalward",
+        "seconds_to_goal": 1.9666666666666666,
+        "goal_for": true,
+        "own_last_touch": false
+      }
+    ],
+    "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+    "callback_Hz": 60,
+    "observation_domain": "Exact13Dlayout with realRocketSim2secballforecast; NOT actualnativeRLBot prediction"
+  },
+  "sampled_rows": 1531,
+  "stationary_rows": 808,
+  "stationary_median_position": [
+    1283.748291015625,
+    3515.240478515625,
+    17.039600372314453
+  ],
+  "stationary_median_speed": 45.1967716217041,
+  "stationary_median_steer": 0.9722713530063629,
+  "stationary_median_bearing": 1.9396540522575378,
+  "stationary_median_upright": 0.9999970197677612,
+  "stationary_on_ground_fraction": 0.9987623762376238,
+  "stationary_wall_near_fraction": 0.12995049504950495,
+  "stationary_car_contact_fraction": 0.9975247524752475,
+  "stationary_median_car_distance": 148.12750244140625,
+  "stationary_engine_throttle": 1.0,
+  "scope": "Replay of one consumedseed with read-onlyphysics telemetry; not new match evidence or extraoptimizerupdates. No control/callback/weights changes."
+}

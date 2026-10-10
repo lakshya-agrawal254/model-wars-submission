@@ -1,0 +1,62 @@
+{
+  "scenes": 34,
+  "physics_candidates": 408,
+  "selected": 21,
+  "by_kind": {
+    "beside": 3,
+    "curve": 5,
+    "kickoff": 8,
+    "postmiss": 2,
+    "shot": 1,
+    "uturn": 2
+  },
+  "baseline": {
+    "trials": 34,
+    "contacts": 24,
+    "kickoff_contacts": 8,
+    "kickoff_trials": 10,
+    "median_contact": 3.1500000000000004,
+    "stationary": 1.15,
+    "circling": 7,
+    "fallen": 2.883333333333334,
+    "postcontact_stationary": 0.0,
+    "GF": 5,
+    "GA": 3,
+    "goalward_contacts": 21,
+    "backward_contacts": 17,
+    "median_turn_recovery": 3.1499999999999995
+  },
+  "selected_matched_control": {
+    "trials": 21,
+    "contacts": 12,
+    "kickoff_contacts": 6,
+    "kickoff_trials": 8,
+    "median_contact": 3.908333333333333,
+    "stationary": 0.7166666666666667,
+    "circling": 4,
+    "fallen": 1.5000000000000002,
+    "postcontact_stationary": 0.0,
+    "GF": 0,
+    "GA": 3,
+    "goalward_contacts": 9,
+    "backward_contacts": 10,
+    "median_turn_recovery": 3.0999999999999988
+  },
+  "selected_teacher": {
+    "trials": 21,
+    "contacts": 21,
+    "kickoff_contacts": 8,
+    "kickoff_trials": 8,
+    "median_contact": 4.266666666666667,
+    "stationary": 0.9166666666666666,
+    "circling": 0,
+    "fallen": 0.2833333333333333,
+    "postcontact_stationary": 0.19999999999999998,
+    "GF": 8,
+    "GA": 0,
+    "goalward_contacts": 33,
+    "backward_contacts": 11,
+    "median_turn_recovery": 2.1666666666666665
+  },
+  "elapsed_seconds": 75.53714240700356
+}

@@ -1,0 +1,108 @@
+{
+  "selected_update": 64,
+  "eligible": true,
+  "actor": "runs/ground-trajectory-learning-v1/actor-64.pt",
+  "selected_actor": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+  "SHA256": "d79cac01aefe8d161b2ec5f8154fac608f554546a96644f0545b4cb254c6276a",
+  "all_checks": [
+    {
+      "update": 16,
+      "summary": {
+        "trials": 34,
+        "contacts": 30,
+        "kickoff_contacts": 10,
+        "kickoff_trials": 10,
+        "median_contact": 3.3666666666666667,
+        "stationary": 0.8333333333333333,
+        "circling": 5,
+        "fallen": 1.716666666666667,
+        "postcontact_stationary": 0.0,
+        "GF": 7,
+        "GA": 0,
+        "goalward_contacts": 36,
+        "backward_contacts": 16,
+        "median_turn_recovery": 2.9250000000000007
+      },
+      "eligible": true
+    },
+    {
+      "update": 32,
+      "summary": {
+        "trials": 34,
+        "contacts": 30,
+        "kickoff_contacts": 10,
+        "kickoff_trials": 10,
+        "median_contact": 3.0083333333333337,
+        "stationary": 0.9333333333333333,
+        "circling": 6,
+        "fallen": 3.9333333333333345,
+        "postcontact_stationary": 0.0,
+        "GF": 10,
+        "GA": 1,
+        "goalward_contacts": 41,
+        "backward_contacts": 20,
+        "median_turn_recovery": 2.666666666666668
+      },
+      "eligible": false
+    },
+    {
+      "update": 64,
+      "summary": {
+        "trials": 34,
+        "contacts": 29,
+        "kickoff_contacts": 10,
+        "kickoff_trials": 10,
+        "median_contact": 2.95,
+        "stationary": 1.0833333333333333,
+        "circling": 2,
+        "fallen": 3.2166666666666677,
+        "postcontact_stationary": 0.0,
+        "GF": 9,
+        "GA": 1,
+        "goalward_contacts": 42,
+        "backward_contacts": 14,
+        "median_turn_recovery": 2.5833333333333335
+      },
+      "eligible": true
+    },
+    {
+      "update": 96,
+      "summary": {
+        "trials": 34,
+        "contacts": 33,
+        "kickoff_contacts": 10,
+        "kickoff_trials": 10,
+        "median_contact": 2.95,
+        "stationary": 1.0166666666666666,
+        "circling": 4,
+        "fallen": 4.650000000000001,
+        "postcontact_stationary": 0.0,
+        "GF": 11,
+        "GA": 1,
+        "goalward_contacts": 36,
+        "backward_contacts": 20,
+        "median_turn_recovery": 2.333333333333334
+      },
+      "eligible": false
+    }
+  ],
+  "baseline": {
+    "trials": 34,
+    "contacts": 25,
+    "kickoff_contacts": 10,
+    "kickoff_trials": 10,
+    "median_contact": 3.35,
+    "stationary": 0.7333333333333333,
+    "circling": 5,
+    "fallen": 2.266666666666667,
+    "postcontact_stationary": 0.0,
+    "GF": 6,
+    "GA": 0,
+    "goalward_contacts": 23,
+    "backward_contacts": 11,
+    "median_turn_recovery": 3.05
+  },
+  "selection": "training/ground_trajectories/selection.json",
+  "freeze_before_fresh_seed_evaluation": true,
+  "promoted": false
+}

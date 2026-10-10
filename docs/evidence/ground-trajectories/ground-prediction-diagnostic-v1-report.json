@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "actual_forecast": {
+      "trials": 22,
+      "contacts": 22,
+      "kickoff_contacts": 0,
+      "kickoff_trials": 0,
+      "median_contact": 2.4833333333333334,
+      "stationary": 0.2,
+      "circling": 0,
+      "fallen": 1.7833333333333337,
+      "postcontact_stationary": 0.0,
+      "GF": 10,
+      "GA": 0,
+      "goalward_contacts": 30,
+      "backward_contacts": 10,
+      "median_turn_recovery": 3.5666666666666664
+    },
+    "forecast_weight_ablation": {
+      "trials": 22,
+      "contacts": 21,
+      "kickoff_contacts": 0,
+      "kickoff_trials": 0,
+      "median_contact": 2.6166666666666667,
+      "stationary": 1.4500000000000004,
+      "circling": 0,
+      "fallen": 1.2000000000000004,
+      "postcontact_stationary": 0.0,
+      "GF": 7,
+      "GA": 0,
+      "goalward_contacts": 28,
+      "backward_contacts": 11,
+      "median_turn_recovery": 2.3500000000000005
+    }
+  },
+  "scope": "Actual13D realforecast states. Only private in-memory copiesof selectedactorzero4forecastencodercolumns; referenceopponentunchanged; no models saved/tuned. Two-sided controlled scenes, notfullmatches or nativeRLBot evidence.",
+  "candidate_unchanged": true
+}
