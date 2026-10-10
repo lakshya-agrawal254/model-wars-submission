@@ -12,7 +12,7 @@ def load(path):
  p=Policy().eval();p.load_state_dict(torch.load(path,map_location='cpu',weights_only=True)['state_dict'],strict=True);return p
 @torch.inference_mode()
 def trial(path,stage,seed,team,seconds=15):
- torch.set_num_threads(1);p=load(path);o=load(ROOT/'runs/baseline/V13.pt');w=World(seed,stage,team);h=None;oh=None;first=None;counts=np.zeros(4,int);steers=[];lat=[]
+ torch.set_num_threads(1);p=load(path);o=load(ROOT/'runs/retained/baseline/V13.pt');w=World(seed,stage,team);h=None;oh=None;first=None;counts=np.zeros(4,int);steers=[];lat=[]
  try:
   for t in range(int(seconds*60)):
    x=w.observe(w.our);ox=w.observe(w.enemy);start=time.perf_counter();l,s,h=p(torch.tensor(x[None,:]),h);lat.append((time.perf_counter()-start)*1000);mode=int(l.argmax());counts[mode]+=1;steers.append(float(s));ol,os,oh=o(torch.tensor(ox[None,:]),oh)
@@ -23,7 +23,7 @@ def trial(path,stage,seed,team,seconds=15):
  finally:w.close()
 @torch.inference_mode()
 def match(path,seed,team,seconds=300,opponent_path=None):
- torch.set_num_threads(1);p=load(path);o=load(opponent_path or ROOT/'runs/baseline/V13.pt');w=World(seed,'E',team);h=None;oh=None;active=0;ot=0;phase='regulation';first=None;counts=np.zeros(4,int);start=time.monotonic();end='safety_cap';kickoff_wait=0
+ torch.set_num_threads(1);p=load(path);o=load(opponent_path or ROOT/'runs/retained/baseline/V13.pt');w=World(seed,'E',team);h=None;oh=None;active=0;ot=0;phase='regulation';first=None;counts=np.zeros(4,int);start=time.monotonic();end='safety_cap';kickoff_wait=0
  try:
   for tick in range(0,120*900,2):
    x=w.observe(w.our);ox=w.observe(w.enemy);l,s,h=p(torch.tensor(x[None,:]),h);ol,os,oh=o(torch.tensor(ox[None,:]),oh);mode=int(l.argmax());counts[mode]+=1
@@ -52,7 +52,7 @@ def main(path,output,kind,seed,pairs,opponent=None):
   tasks=[pool.submit(fun,path,kind if kind!='matches' else seed+i*1009,seed+i*1009,side) if kind!='matches' else pool.submit(match,path,seed+i*1009,side,300,opponent) for i in range(pairs) for side in [0,1]]
   for f in as_completed(tasks):
    r=f.result();rows.append(r);print('EVAL',len(rows),r.get('result'),r.get('goals_for'),r.get('goals_against'),r.get('first_touch_seconds'),flush=True)
- rows.sort(key=lambda r:(r['seed'],r['team']));d=dict(model=str(path),kind=kind,seed=seed,paired_sides=True,opponent=str(opponent or ROOT/'runs/baseline/V13.pt'),records=rows,elapsed_seconds=time.monotonic()-began)
+ rows.sort(key=lambda r:(r['seed'],r['team']));d=dict(model=str(path),kind=kind,seed=seed,paired_sides=True,opponent=str(opponent or ROOT/'runs/retained/baseline/V13.pt'),records=rows,elapsed_seconds=time.monotonic()-began)
  if kind=='matches':
   d.update(wins=sum(r['result']=='W' for r in rows),losses=sum(r['result']=='L' for r in rows),draws=sum(r['result']=='D' for r in rows),goals_for=sum(r['goals_for'] for r in rows),goals_against=sum(r['goals_against'] for r in rows),censored=sum(r['end'].startswith('censored') or r['end']=='safety_cap' for r in rows))
  else:d.update(contact_rate=sum(r['contacted'] for r in rows)/len(rows),median_first_touch_seconds=float(np.median([r['first_touch_seconds'] for r in rows if r['contacted']])) if any(r['contacted'] for r in rows) else None)

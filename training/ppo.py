@@ -70,7 +70,7 @@ def update(actor,critic,ao,co,batches,epochs=4,entropy_weight=.025):
 
 def main(output,decisions,stage,starting=None,resume=None,steps=256,scratch=False,opponents=None,entropy_weight=.025):
  output.mkdir(parents=True,exist_ok=False);torch.set_num_threads(2);torch.use_deterministic_algorithms(True);torch.manual_seed(20261011);np.random.seed(20261011);random.seed(20261011)
- actor=Policy();critic=Critic();baseline=Policy().eval();base=ROOT/'runs/baseline/V13.pt';baseline.load_state_dict(torch.load(base,weights_only=True)['state_dict'])
+ actor=Policy();critic=Critic();baseline=Policy().eval();base=ROOT/'runs/retained/baseline/V13.pt';baseline.load_state_dict(torch.load(base,weights_only=True)['state_dict'])
  if not scratch:actor.load_state_dict(torch.load(starting or base,weights_only=True)['state_dict'],strict=True)
  ao=torch.optim.Adam(actor.parameters(),lr=3e-4);co=torch.optim.Adam(critic.parameters(),lr=1e-3)
  count=0;episode=0;history=[]
