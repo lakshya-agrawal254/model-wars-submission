@@ -1,0 +1,310 @@
+[
+  {
+    "sequence": "x0",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.09221828728914261,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.024692293256521225
+  },
+  {
+    "sequence": "x1",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.09221828728914261,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.024692293256521225
+  },
+  {
+    "sequence": "x10",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.10995951294898987,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.029980452731251717
+  },
+  {
+    "sequence": "x11",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.10995951294898987,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.029980452731251717
+  },
+  {
+    "sequence": "x12",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1514262855052948,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.0381864570081234
+  },
+  {
+    "sequence": "x13",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1514260172843933,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.038186486810445786
+  },
+  {
+    "sequence": "x14",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.12709654867649078,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.032897111028432846
+  },
+  {
+    "sequence": "x15",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.13054600358009338,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03189345821738243
+  },
+  {
+    "sequence": "x16",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.13896386325359344,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.028588712215423584
+  },
+  {
+    "sequence": "x17",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.13890036940574646,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.0286407507956028
+  },
+  {
+    "sequence": "x18",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.13182498514652252,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03273991495370865
+  },
+  {
+    "sequence": "x19",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.13183216750621796,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03274061530828476
+  },
+  {
+    "sequence": "x2",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1240944191813469,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04523499310016632
+  },
+  {
+    "sequence": "x20",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.12889604270458221,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.034410152584314346
+  },
+  {
+    "sequence": "x21",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.12912990152835846,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03433655574917793
+  },
+  {
+    "sequence": "x22",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1135479137301445,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03516758605837822
+  },
+  {
+    "sequence": "x23",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1135479137301445,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03516758605837822
+  },
+  {
+    "sequence": "x24",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11586892604827881,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.052590806037187576
+  },
+  {
+    "sequence": "x25",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11586892604827881,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.052590806037187576
+  },
+  {
+    "sequence": "x26",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11843200773000717,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04960014671087265
+  },
+  {
+    "sequence": "x27",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11843203008174896,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.049600258469581604
+  },
+  {
+    "sequence": "x28",
+    "dt_mode_change": 0.010833333246409893,
+    "dt_steer_abs_delta": 0.10657751560211182,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.05321821570396423
+  },
+  {
+    "sequence": "x29",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11049985140562057,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04160654917359352
+  },
+  {
+    "sequence": "x3",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1240944191813469,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04523499310016632
+  },
+  {
+    "sequence": "x30",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1058715209364891,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.051820073276758194
+  },
+  {
+    "sequence": "x31",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.0875830203294754,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03792952373623848
+  },
+  {
+    "sequence": "x32",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.12308467924594879,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.05881192535161972
+  },
+  {
+    "sequence": "x33",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.12308467924594879,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.05881192535161972
+  },
+  {
+    "sequence": "x34",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11853243410587311,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04624652862548828
+  },
+  {
+    "sequence": "x35",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11853243410587311,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04624652862548828
+  },
+  {
+    "sequence": "x36",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11878533661365509,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04506630077958107
+  },
+  {
+    "sequence": "x37",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11878509819507599,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04506619647145271
+  },
+  {
+    "sequence": "x38",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.1186412051320076,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.048909109085798264
+  },
+  {
+    "sequence": "x39",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11864122748374939,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.048909250646829605
+  },
+  {
+    "sequence": "x4",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.13182498514652252,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03273991495370865
+  },
+  {
+    "sequence": "x40",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11843200773000717,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04960014671087265
+  },
+  {
+    "sequence": "x41",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11843203008174896,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.049600258469581604
+  },
+  {
+    "sequence": "x42",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11147851496934891,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.052913762629032135
+  },
+  {
+    "sequence": "x43",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.11147851496934891,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.052913907915353775
+  },
+  {
+    "sequence": "x5",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.13183216750621796,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03274061530828476
+  },
+  {
+    "sequence": "x6",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.12950189411640167,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03723951801657677
+  },
+  {
+    "sequence": "x7",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.10974657535552979,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.030599480494856834
+  },
+  {
+    "sequence": "x8",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.12833404541015625,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.03543483093380928
+  },
+  {
+    "sequence": "x9",
+    "dt_mode_change": 0.0,
+    "dt_steer_abs_delta": 0.10388544946908951,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.033643949776887894
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "parameters": 26181,
+  "features": 13,
+  "optimizer_updates": 11,
+  "actor_sha256": "c480758d518da4852245b7175667c2296aa45d6a449c7a3967efe0b9bf6b9739",
+  "inference_sha256": "122e1965605e3bf6445c4611c7b21c0b00206f3689dd6121bccedb68183c19e8",
+  "native_game": "NOT TESTED",
+  "checks": "strict restoration, all8 Adam tensors, RNG, data hash, forecast invariance, full-prefix/callback parity, exact4decoder"
+}

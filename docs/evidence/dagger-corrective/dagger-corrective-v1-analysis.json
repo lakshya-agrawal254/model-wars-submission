@@ -1,0 +1,96 @@
+{
+  "timing": {
+    "60_dt_half": {
+      "trials": 10,
+      "contacts": 0,
+      "median_first_contact": null,
+      "stationary_seconds": 0.6666666666666666,
+      "circling_windows": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "neutral_ball_present": 0,
+      "postcontact_neutral": 0,
+      "productive_touch_ticks": 0
+    },
+    "unchanged60": {
+      "trials": 10,
+      "contacts": 10,
+      "median_first_contact": 3.35,
+      "stationary_seconds": 5.09999999999999,
+      "circling_windows": 0,
+      "goals_for": 2,
+      "goals_against": 0,
+      "neutral_ball_present": 351,
+      "postcontact_neutral": 0,
+      "productive_touch_ticks": 23
+    },
+    "unchanged120": {
+      "trials": 10,
+      "contacts": 0,
+      "median_first_contact": null,
+      "stationary_seconds": 0.75,
+      "circling_windows": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "neutral_ball_present": 0,
+      "postcontact_neutral": 0,
+      "productive_touch_ticks": 0
+    },
+    "60_double_gru": {
+      "trials": 10,
+      "contacts": 10,
+      "median_first_contact": 3.35,
+      "stationary_seconds": 3.949999999999993,
+      "circling_windows": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "neutral_ball_present": 437,
+      "postcontact_neutral": 0,
+      "productive_touch_ticks": 16
+    },
+    "120_dt_one": {
+      "trials": 10,
+      "contacts": 10,
+      "median_first_contact": 3.3583333333333334,
+      "stationary_seconds": 3.949999999999991,
+      "circling_windows": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "neutral_ball_present": 707,
+      "postcontact_neutral": 0,
+      "productive_touch_ticks": 19
+    }
+  },
+  "fixed_prefix_mean": {
+    "dt_mode_change": 0.0002462121192365885,
+    "dt_steer_abs_delta": 0.11981476199897853,
+    "trained_mode_change": 0.0,
+    "trained_steer_abs_delta": 0.04084594077853994
+  },
+  "controls": {
+    "original": {
+      "trials": 28,
+      "contacts": 0,
+      "median_first_contact": null,
+      "stationary_seconds": 484.33333333333195,
+      "circling_windows": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "neutral_ball_present": 46156,
+      "postcontact_neutral": 0,
+      "productive_touch_ticks": 0
+    },
+    "A": {
+      "trials": 28,
+      "contacts": 4,
+      "median_first_contact": 1.4416666666666667,
+      "stationary_seconds": 2.475,
+      "circling_windows": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "neutral_ball_present": 68,
+      "postcontact_neutral": 0,
+      "productive_touch_ticks": 4
+    }
+  }
+}

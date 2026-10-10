@@ -1,0 +1,769 @@
+{
+  "candidate_vs_original_60": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 1,
+      "goals_against": 2,
+      "result": "L",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.21666666666664,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 3.4,
+      "kickoff_wait_seconds": 14.266666666666667,
+      "counts": [
+        0,
+        18869,
+        0,
+        0
+      ],
+      "elapsed_seconds": 9.821037497997168,
+      "productive_contacts": 8,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 13,
+      "danger_clear_velocity_events_proxy": 2,
+      "goals_conceded_with_own_last_touch": 2,
+      "stationary_seconds": 0.26666666666666666,
+      "circling_5second_windows_proxy": 2,
+      "inference_latency_ms_mean": 0.144682785132007,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.5,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 2.683333333333333,
+          "goal_for": false,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 90.11666666666666,
+      "first_touch_seconds": 3.4,
+      "kickoff_wait_seconds": 7.333333333333333,
+      "counts": [
+        18806,
+        5041,
+        0,
+        0
+      ],
+      "elapsed_seconds": 12.260837009001989,
+      "productive_contacts": 2,
+      "nonproductive_contacts": 1,
+      "backward_contacts": 5,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 311.75000000004513,
+      "circling_5second_windows_proxy": 0,
+      "inference_latency_ms_mean": 0.1430427522372746,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    }
+  ],
+  "candidate_vs_A_60": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 2,
+      "goals_against": 1,
+      "result": "W",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 90.66666666666667,
+      "first_touch_seconds": 3.4,
+      "kickoff_wait_seconds": 14.266666666666667,
+      "counts": [
+        1285,
+        23011,
+        0,
+        0
+      ],
+      "elapsed_seconds": 12.798388676004834,
+      "productive_contacts": 11,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 15,
+      "danger_clear_velocity_events_proxy": 4,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 22.216666666666686,
+      "circling_5second_windows_proxy": 2,
+      "inference_latency_ms_mean": 0.14553915629410857,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.5,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 2.683333333333333,
+          "goal_for": false,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 90.11666666666666,
+      "first_touch_seconds": 3.4,
+      "kickoff_wait_seconds": 7.333333333333333,
+      "counts": [
+        18806,
+        5041,
+        0,
+        0
+      ],
+      "elapsed_seconds": 12.877263996997499,
+      "productive_contacts": 2,
+      "nonproductive_contacts": 1,
+      "backward_contacts": 5,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 311.75000000004513,
+      "circling_5second_windows_proxy": 0,
+      "inference_latency_ms_mean": 0.1485891951842726,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    }
+  ],
+  "candidate_vs_geometric_60": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 2,
+      "goals_against": 1,
+      "result": "W",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 22.366666666666667,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 14.1,
+      "counts": [
+        1936,
+        18252,
+        0,
+        0
+      ],
+      "elapsed_seconds": 12.519631538001704,
+      "productive_contacts": 14,
+      "nonproductive_contacts": 1,
+      "backward_contacts": 11,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 27.76666666666637,
+      "circling_5second_windows_proxy": 0,
+      "inference_latency_ms_mean": 0.17304655764833932,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 2.0,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 0.75,
+          "goal_for": false,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 1,
+      "goals_against": 1,
+      "result": "D",
+      "end": "censored_overtime_cap",
+      "active_regulation_seconds": 300.18333333333334,
+      "active_overtime_seconds": 120.0,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 14.1,
+      "counts": [
+        4332,
+        21725,
+        0,
+        0
+      ],
+      "elapsed_seconds": 16.485321547996136,
+      "productive_contacts": 11,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 4,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 62.799999999997716,
+      "circling_5second_windows_proxy": 3,
+      "inference_latency_ms_mean": 0.17179465230867566,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    }
+  ],
+  "geometric_vs_original_60": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 1,
+      "goals_against": 0,
+      "result": "W",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 67.01666666666667,
+      "first_touch_seconds": 3.35,
+      "kickoff_wait_seconds": 7.25,
+      "counts": [
+        14903,
+        7553,
+        0,
+        0
+      ],
+      "elapsed_seconds": 14.212450239996542,
+      "productive_contacts": 10,
+      "nonproductive_contacts": 3,
+      "backward_contacts": 7,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 245.96666666675455,
+      "circling_5second_windows_proxy": 1,
+      "inference_latency_ms_mean": 0.17195637599015112,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 1.2666666666666666,
+          "goal_for": true,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "censored_overtime_cap",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 120.0,
+      "first_touch_seconds": 3.35,
+      "kickoff_wait_seconds": 7.25,
+      "counts": [
+        11446,
+        14189,
+        0,
+        0
+      ],
+      "elapsed_seconds": 15.61548814100388,
+      "productive_contacts": 10,
+      "nonproductive_contacts": 1,
+      "backward_contacts": 11,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 190.60000000004382,
+      "circling_5second_windows_proxy": 3,
+      "inference_latency_ms_mean": 0.16985914525927429,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    }
+  ],
+  "geometric_vs_A_60": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 3.35,
+      "kickoff_wait_seconds": 7.25,
+      "counts": [
+        777,
+        17658,
+        0,
+        0
+      ],
+      "elapsed_seconds": 10.797263756001485,
+      "productive_contacts": 9,
+      "nonproductive_contacts": 1,
+      "backward_contacts": 8,
+      "danger_clear_velocity_events_proxy": 1,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 12.03333333333351,
+      "circling_5second_windows_proxy": 0,
+      "inference_latency_ms_mean": 0.1619254349146022,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 1,
+      "result": "L",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 98.73333333333333,
+      "first_touch_seconds": 3.35,
+      "kickoff_wait_seconds": 7.25,
+      "counts": [
+        14903,
+        9456,
+        0,
+        0
+      ],
+      "elapsed_seconds": 13.569248667990905,
+      "productive_contacts": 9,
+      "nonproductive_contacts": 3,
+      "backward_contacts": 8,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 245.96666666675455,
+      "circling_5second_windows_proxy": 1,
+      "inference_latency_ms_mean": 0.15620524647921677,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "backward",
+          "seconds_to_goal": 1.4666666666666666,
+          "goal_for": false,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 60
+    }
+  ],
+  "candidate_vs_original_120": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 1,
+      "goals_against": 0,
+      "result": "W",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 7.275,
+      "counts": [
+        14713,
+        22160,
+        0,
+        0
+      ],
+      "elapsed_seconds": 20.761002492989064,
+      "productive_contacts": 16,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 7,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 120.07500000004163,
+      "circling_5second_windows_proxy": 1,
+      "inference_latency_ms_mean": 0.16280876643919223,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.30833333333333335,
+          "goal_for": true,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 1,
+      "goals_against": 1,
+      "result": "D",
+      "end": "censored_overtime_cap",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 120.0,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 14.141666666666667,
+      "counts": [
+        0,
+        52097,
+        0,
+        0
+      ],
+      "elapsed_seconds": 44.85382192500401,
+      "productive_contacts": 16,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 16,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 0.5666666666666671,
+      "circling_5second_windows_proxy": 1,
+      "inference_latency_ms_mean": 0.24736327391307544,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 1.75,
+          "goal_for": true,
+          "own_last_touch": true
+        },
+        {
+          "direction": "backward",
+          "seconds_to_goal": 0.925,
+          "goal_for": false,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    }
+  ],
+  "candidate_vs_A_120": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 1,
+      "goals_against": 0,
+      "result": "W",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 7.275,
+      "counts": [
+        20995,
+        15878,
+        0,
+        0
+      ],
+      "elapsed_seconds": 35.5856061319937,
+      "productive_contacts": 10,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 4,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 169.65000000001004,
+      "circling_5second_windows_proxy": 0,
+      "inference_latency_ms_mean": 0.27419394704368427,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.30833333333333335,
+          "goal_for": true,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 2,
+      "goals_against": 1,
+      "result": "W",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 58.1,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 14.141666666666667,
+      "counts": [
+        0,
+        44669,
+        0,
+        0
+      ],
+      "elapsed_seconds": 48.48645863500133,
+      "productive_contacts": 18,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 10,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 1,
+      "stationary_seconds": 0.9416666666666658,
+      "circling_5second_windows_proxy": 0,
+      "inference_latency_ms_mean": 0.3037132110311186,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "backward",
+          "seconds_to_goal": 0.7833333333333333,
+          "goal_for": false,
+          "own_last_touch": true
+        },
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.4583333333333333,
+          "goal_for": true,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    }
+  ],
+  "candidate_vs_geometric_120": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 1,
+      "goals_against": 0,
+      "result": "W",
+      "end": "regulation_floor_proxy",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 7.275,
+      "counts": [
+        1781,
+        35092,
+        0,
+        0
+      ],
+      "elapsed_seconds": 27.190214861999266,
+      "productive_contacts": 10,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 10,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 10.241666666666726,
+      "circling_5second_windows_proxy": 1,
+      "inference_latency_ms_mean": 0.21188696081187686,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.30833333333333335,
+          "goal_for": true,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 1,
+      "goals_against": 0,
+      "result": "W",
+      "end": "decisive_goal",
+      "active_regulation_seconds": 300.225,
+      "active_overtime_seconds": 93.21666666666667,
+      "first_touch_seconds": 3.3666666666666667,
+      "kickoff_wait_seconds": 7.275,
+      "counts": [
+        6676,
+        41410,
+        0,
+        0
+      ],
+      "elapsed_seconds": 43.40672990199528,
+      "productive_contacts": 16,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 14,
+      "danger_clear_velocity_events_proxy": 1,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 52.941666666664304,
+      "circling_5second_windows_proxy": 3,
+      "inference_latency_ms_mean": 0.25453658691203673,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    }
+  ],
+  "geometric_vs_original_120": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        0,
+        108000,
+        0,
+        0
+      ],
+      "elapsed_seconds": 68.42339037300553,
+      "productive_contacts": 0,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 0,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 0.075,
+      "circling_5second_windows_proxy": 1,
+      "inference_latency_ms_mean": 0.17896652315499118,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "safety_cap",
+      "active_regulation_seconds": 0.0,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": null,
+      "kickoff_wait_seconds": 900.0,
+      "counts": [
+        0,
+        108000,
+        0,
+        0
+      ],
+      "elapsed_seconds": 80.05196972900012,
+      "productive_contacts": 0,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 0,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 0.075,
+      "circling_5second_windows_proxy": 1,
+      "inference_latency_ms_mean": 0.2153005023717048,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    }
+  ],
+  "geometric_vs_A_120": [
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 0,
+      "goals_for": 0,
+      "goals_against": 0,
+      "result": "D",
+      "end": "censored_overtime_cap",
+      "active_regulation_seconds": 300.0,
+      "active_overtime_seconds": 120.0,
+      "first_touch_seconds": 137.19166666666666,
+      "kickoff_wait_seconds": 284.25,
+      "counts": [
+        13426,
+        71084,
+        0,
+        0
+      ],
+      "elapsed_seconds": 57.32934951300558,
+      "productive_contacts": 4,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 3,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 111.80000000003504,
+      "circling_5second_windows_proxy": 2,
+      "inference_latency_ms_mean": 0.19787053498500515,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    },
+    {
+      "kind": "match",
+      "seed": 9543011,
+      "team": 1,
+      "goals_for": 5,
+      "goals_against": 1,
+      "result": "W",
+      "end": "safety_cap",
+      "active_regulation_seconds": 184.94166666666666,
+      "active_overtime_seconds": 0.0,
+      "first_touch_seconds": 224.71666666666667,
+      "kickoff_wait_seconds": 715.0583333333333,
+      "counts": [
+        2689,
+        105311,
+        0,
+        0
+      ],
+      "elapsed_seconds": 54.70447810800397,
+      "productive_contacts": 5,
+      "nonproductive_contacts": 0,
+      "backward_contacts": 3,
+      "danger_clear_velocity_events_proxy": 0,
+      "goals_conceded_with_own_last_touch": 0,
+      "stationary_seconds": 20.24166666666616,
+      "circling_5second_windows_proxy": 4,
+      "inference_latency_ms_mean": 0.1481866163271156,
+      "domain": "Real RocketSim variable-rate decision callbacks, unavailable native predictions; NOT an RLBot game",
+      "postcontact_goals_within5sec_proxy": [
+        {
+          "direction": "goalward",
+          "seconds_to_goal": 0.9083333333333333,
+          "goal_for": true,
+          "own_last_touch": true
+        }
+      ],
+      "diagnostic_limitations": "Contact direction uses observed y-velocity changes; clears/circling/own-last-touch are proxies, not causal saves or proven own goals",
+      "callback_Hz": 120
+    }
+  ]
+}

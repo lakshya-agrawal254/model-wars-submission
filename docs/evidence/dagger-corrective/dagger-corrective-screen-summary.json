@@ -1,0 +1,123 @@
+{
+  "candidate_vs_original_60": {
+    "W": 0,
+    "L": 2,
+    "D": 0,
+    "unresolved": 0,
+    "GF": 1,
+    "GA": 3,
+    "stationary_seconds": 312.0166666667118,
+    "circling_windows": 2,
+    "productive_contacts": 10,
+    "backward_contacts": 18
+  },
+  "candidate_vs_A_60": {
+    "W": 1,
+    "L": 1,
+    "D": 0,
+    "unresolved": 0,
+    "GF": 2,
+    "GA": 2,
+    "stationary_seconds": 333.96666666671183,
+    "circling_windows": 2,
+    "productive_contacts": 13,
+    "backward_contacts": 20
+  },
+  "candidate_vs_geometric_60": {
+    "W": 1,
+    "L": 0,
+    "D": 0,
+    "unresolved": 1,
+    "GF": 3,
+    "GA": 2,
+    "stationary_seconds": 90.56666666666409,
+    "circling_windows": 3,
+    "productive_contacts": 25,
+    "backward_contacts": 15
+  },
+  "geometric_vs_original_60": {
+    "W": 1,
+    "L": 0,
+    "D": 0,
+    "unresolved": 1,
+    "GF": 1,
+    "GA": 0,
+    "stationary_seconds": 436.56666666679837,
+    "circling_windows": 4,
+    "productive_contacts": 20,
+    "backward_contacts": 18
+  },
+  "geometric_vs_A_60": {
+    "W": 0,
+    "L": 2,
+    "D": 0,
+    "unresolved": 0,
+    "GF": 0,
+    "GA": 2,
+    "stationary_seconds": 258.00000000008805,
+    "circling_windows": 1,
+    "productive_contacts": 18,
+    "backward_contacts": 16
+  },
+  "candidate_vs_original_120": {
+    "W": 1,
+    "L": 0,
+    "D": 0,
+    "unresolved": 1,
+    "GF": 2,
+    "GA": 1,
+    "stationary_seconds": 120.64166666670829,
+    "circling_windows": 2,
+    "productive_contacts": 32,
+    "backward_contacts": 23
+  },
+  "candidate_vs_A_120": {
+    "W": 2,
+    "L": 0,
+    "D": 0,
+    "unresolved": 0,
+    "GF": 3,
+    "GA": 1,
+    "stationary_seconds": 170.5916666666767,
+    "circling_windows": 0,
+    "productive_contacts": 28,
+    "backward_contacts": 14
+  },
+  "candidate_vs_geometric_120": {
+    "W": 2,
+    "L": 0,
+    "D": 0,
+    "unresolved": 0,
+    "GF": 2,
+    "GA": 0,
+    "stationary_seconds": 63.18333333333103,
+    "circling_windows": 4,
+    "productive_contacts": 26,
+    "backward_contacts": 24
+  },
+  "geometric_vs_original_120": {
+    "W": 0,
+    "L": 0,
+    "D": 0,
+    "unresolved": 2,
+    "GF": 0,
+    "GA": 0,
+    "stationary_seconds": 0.15,
+    "circling_windows": 2,
+    "productive_contacts": 0,
+    "backward_contacts": 0
+  },
+  "geometric_vs_A_120": {
+    "W": 0,
+    "L": 0,
+    "D": 0,
+    "unresolved": 2,
+    "GF": 5,
+    "GA": 1,
+    "stationary_seconds": 132.0416666667012,
+    "circling_windows": 6,
+    "productive_contacts": 9,
+    "backward_contacts": 6
+  },
+  "elapsed_seconds": 183.1476323389943
+}

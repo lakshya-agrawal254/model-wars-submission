@@ -1,0 +1,18 @@
+{
+  "status": "non_live_preflight_pass_not_GUI_acceptance",
+  "root": "/workspace/work/modelwars/dagger-original-control-kit",
+  "cwd": "/workspace/work/modelwars",
+  "config_parsing_blue_orange": true,
+  "checkpoint_sha256": "579fa26010140514d2e9b7f0e2871bee569c594b7da8648e31ee1489007cd5b7",
+  "features": 13,
+  "parameters": 26181,
+  "selector_empty_IndexError": true,
+  "native_actions": true,
+  "torch": "2.11.0+cpu",
+  "forbidden_root_checked": true,
+  "GUI_discovery": "NOT TESTED",
+  "GUI_launch": "NOT TESTED",
+  "gameplay": "NOT TESTED",
+  "no_training": true,
+  "no_live": true
+}

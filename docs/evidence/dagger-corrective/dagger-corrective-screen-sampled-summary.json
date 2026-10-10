@@ -1,0 +1,50 @@
+{
+  "geometric_60": {
+    "trials": 10,
+    "contacts": 10,
+    "median_first_contact": 3.3666666666666667,
+    "stationary_seconds": 2.616666666666666,
+    "circling_windows": 0,
+    "goals_for": 2,
+    "goals_against": 0,
+    "neutral_ball_present": 640,
+    "postcontact_neutral": 24,
+    "productive_touch_ticks": 14
+  },
+  "geometric_120": {
+    "trials": 10,
+    "contacts": 5,
+    "median_first_contact": 13.658333333333333,
+    "stationary_seconds": 0.8999999999999999,
+    "circling_windows": 1,
+    "goals_for": 2,
+    "goals_against": 0,
+    "neutral_ball_present": 902,
+    "postcontact_neutral": 9,
+    "productive_touch_ticks": 2
+  },
+  "candidate_60": {
+    "trials": 10,
+    "contacts": 8,
+    "median_first_contact": 3.65,
+    "stationary_seconds": 0.8,
+    "circling_windows": 0,
+    "goals_for": 2,
+    "goals_against": 0,
+    "neutral_ball_present": 843,
+    "postcontact_neutral": 64,
+    "productive_touch_ticks": 14
+  },
+  "candidate_120": {
+    "trials": 10,
+    "contacts": 10,
+    "median_first_contact": 3.3666666666666667,
+    "stationary_seconds": 0.75,
+    "circling_windows": 0,
+    "goals_for": 0,
+    "goals_against": 0,
+    "neutral_ball_present": 521,
+    "postcontact_neutral": 26,
+    "productive_touch_ticks": 14
+  }
+}

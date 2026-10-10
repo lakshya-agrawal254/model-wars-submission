@@ -1,0 +1,51 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "updates": 11,
+      "loss_mean": 0.15024854996742562,
+      "diagnostics": {
+        "trials": 28,
+        "contacts": 28,
+        "median_first_contact": 3.3666666666666667,
+        "stationary_seconds": 18.408333333333296,
+        "circling_windows": 0,
+        "goals_for": 4,
+        "goals_against": 1,
+        "neutral_ball_present": 1140,
+        "postcontact_neutral": 0,
+        "productive_touch_ticks": 51
+      },
+      "early_stop": true
+    }
+  ],
+  "collected_real_decisions": 39600,
+  "new_ppo_decisions": 0,
+  "optimizer_updates": 11,
+  "elapsed_seconds": 32.772316802002024,
+  "baseline": {
+    "trials": 28,
+    "contacts": 16,
+    "median_first_contact": 3.1500000000000004,
+    "stationary_seconds": 6.133333333333323,
+    "circling_windows": 2,
+    "goals_for": 2,
+    "goals_against": 0,
+    "neutral_ball_present": 351,
+    "postcontact_neutral": 0,
+    "productive_touch_ticks": 29
+  },
+  "candidate": {
+    "trials": 28,
+    "contacts": 28,
+    "median_first_contact": 3.3666666666666667,
+    "stationary_seconds": 18.408333333333296,
+    "circling_windows": 0,
+    "goals_for": 4,
+    "goals_against": 1,
+    "neutral_ball_present": 1140,
+    "postcontact_neutral": 0,
+    "productive_touch_ticks": 51
+  },
+  "rejected_mechanical": true
+}

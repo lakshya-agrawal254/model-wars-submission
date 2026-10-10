@@ -1,0 +1,9 @@
+{
+  "states": 39600,
+  "neutral_ball_present": 0,
+  "neutral_low_speed": 0,
+  "ball_absent": 0,
+  "reset_hidden_mode_change": 0,
+  "coast_targets": 3560,
+  "postcontact_neutral_in_collection": 0
+}
