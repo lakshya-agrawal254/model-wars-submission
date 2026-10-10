@@ -1,0 +1,8 @@
+{
+  "independent_initial_states": 24,
+  "hidden": "None separately at each real trial start; never concatenate independent trials",
+  "label_mae": 0.8819531243255673,
+  "label_mse": 0.8193507573937273,
+  "Chase_selection_fraction": 1.0,
+  "forecast_counterfactual_invariance": "bit-exact outputs; six input perturbations are sensitivity test, not native forecasts"
+}

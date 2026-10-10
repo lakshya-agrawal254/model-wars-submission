@@ -48,7 +48,7 @@ class CheckpointTests(unittest.TestCase):
   torch.set_rng_state(saved['torch_rng']);a=torch.randn(12)
   torch.set_rng_state(saved['torch_rng']);b=torch.randn(12)
   self.assertTrue(torch.equal(a,b))
-  shipped=Policy();shipped.load_state_dict(torch.load(ROOT/'model/V13.pt',weights_only=True)['state_dict'],strict=True)
+  shipped=Policy();shipped.load_state_dict(torch.load(ROOT/'runs/retained/selected/candidate.pt',weights_only=True)['state_dict'],strict=True)
   x=torch.randn(20,13)
   with torch.no_grad():
    expected=p(x);actual=shipped(x)

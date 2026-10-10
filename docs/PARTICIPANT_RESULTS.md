@@ -1,3 +1,7 @@
+# Experimental branch status: geometric V13 — NOT promoted
+
+This branch's root model is an isolated native-test candidate, SHA256 `55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc`, named Lakshya V13 Geometry Candidate. Main remains c151310b5c36996aeb1fe192be5eea7cc328e846 with the retained A checkpoint. One eight-epoch geometric-supervised fit used 38,400 real RocketSim frames; exact original 13D/GRU/26,181 parameters and four controls. New candidate contact: 24/24 ground, 24/24 wide orientation, 20/20 all-five kickoffs. Match screening: 3W/5L vs untouched V13 (8GF/7GA); 3W/3L/2unresolved vs retained A (12GF/11GA observed, including capped play). Does not pass promotion. No further training or unused confirmation matches. Actual Windows RLBot gameplay is NOT TESTED. See GEOMETRIC_SUPERVISED_EXPERIMENT.md and GEOMETRIC_WINDOWS_TEST.md. Prior campaign results follow unchanged for historical comparison.
+
 # V13 PPO feasibility results — no promotion
 
 Private repository: `lakshya-agrawal254/model-wars-submission`. Base commit `83d92a69c80930652c4d26be8db9f7ebea062e38`, branch `training/v13-ppo-curriculum-20261011`. Official template pinned to `5d8801361766cae4584245e9188edc64fd1d79c3`.

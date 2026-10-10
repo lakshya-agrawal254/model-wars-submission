@@ -1,0 +1,25 @@
+{
+  "kind": "bounded experimental supervised candidate; NOT promoted",
+  "main_preserved": "c151310b5c36996aeb1fe192be5eea7cc328e846",
+  "candidate_model_sha256": "55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc",
+  "resumable": "latest.pt",
+  "data": "data.npz",
+  "full_optimizer": "supervised Adam, not PPO",
+  "files": {
+    "summary.json": "b6dd65a7b68cf20e08893505dd73abe610729372ec9227be78b06bc1f5b9b844",
+    "history.json": "4a41632c9be0a6a3533e6feebe6cca5c5ea0461fe6865262bd05a47e998091b7",
+    "latest.pt": "cd2edb105dcaabe372e24763b7285a889e72d42bde85c41d68b4eedb62d53f68",
+    "data.npz": "a8654b33c227e08f80ef36b3e4b4c8f02ebd791535c0ced7f06e512703c2cc1e",
+    "data.json": "d0c86a20cbb7e71128657190b124e6962559ce93c46423423c2bdb86d3bd1117",
+    "independent-label-check.json": "94de5e6a32009ba8a459f7a24e14e1af8a257fba195598dd0d0e1ba7af17e277",
+    "evaluation/summary.json": "31632c6f70de7c7c62f83de8d1f81f7109980eb7da06685d5e1584acb1c95543",
+    "evaluation/retained_A.json": "2463cffc60f51be5ce30f2d5f39fecacd912839266c2ea5572af1f91ccf831ec",
+    "evaluation/candidate.json": "bcce8ca750f9f0a160c04680ee79d3c2de32fca23f74325ed54e0e029d162359",
+    "evaluation/timing.json": "927d0471c3f0db03caada93b202f4a86381442615d8fd1cbe5840b150c334713",
+    "evaluation/candidate_vs_retained_A.json": "97164f7c50733b813e53c023b759193563831daf94e5bea57ce051a12f347287",
+    "evaluation/untouched_baseline.json": "eecf45f31358c8038618776d413cb4799c76c7d31ff1f0c831662b1783b791b2"
+  },
+  "inference_sha256": "201c0f4e1a81b361ad30f84ad1d02c75eb540123e0341178958574b44064d6f3",
+  "existing_original_PPO_states": "unchanged runs/retained roles and existing verified private backup",
+  "promotion": false
+}

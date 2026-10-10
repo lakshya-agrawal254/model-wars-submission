@@ -12,7 +12,7 @@ from prediction import find_slice_at_time
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS = ('throttle','steer','pitch','yaw','roll','jump','boost','handbrake')
 MODES = ('Neutral','Chase','Jump','Front dodge')
-PIN = 'bda8a7a773d63526fea8a1449ff3971bba48317a05dd024eafc18827c1100011'
+PIN = '55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc'
 DATASET_PIN = '080943fd8f9a81ada800e0a2f9ff3593b67f66d32272211d67030c03cf433a83'
 
 
