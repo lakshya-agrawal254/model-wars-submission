@@ -2,7 +2,7 @@
 from world_ground import *
 from train_ground import fresh
 from concurrent.futures import ProcessPoolExecutor,as_completed
-CANDIDATE=ROOT/'runs/ground-trajectory-learning-v1/candidate.pt'
+CANDIDATE=ROOT/'runs/ground-trajectory-learning-v1/screened-actor.pt'
 def physical_job(args):s,path,hz=args;return run(s,path=path,hz=hz)[0]
 def match_job(args):
  sys.path.insert(0,str(ROOT/'training/flip_feasibility'));import screen;return screen.match(*args)

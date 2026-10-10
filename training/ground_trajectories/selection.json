@@ -1,0 +1,7 @@
+{
+  "purpose": "Select one frozen checkpoint from this single fit before any independent match seeds are consumed",
+  "eligible": "Development contacts >= starting reference, stationary <= reference+2s, circling <= reference, falls <= reference+2s; reject unsafe later checkpoints without retraining",
+  "rank": "Fewest circling windows, then most contacts, then highest goal differential, then lowest stationary time",
+  "if_none": "Reject campaign; evaluate last complete snapshot for honest comparison only, no promotion",
+  "confirmation": "Fresh independent screening only after checkpoint is frozen; no tuning on those seeds"
+}
