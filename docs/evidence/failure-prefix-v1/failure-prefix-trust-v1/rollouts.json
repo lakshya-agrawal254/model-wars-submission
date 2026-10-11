@@ -1,0 +1,869 @@
+[
+  {
+    "index": 0,
+    "batch": 0,
+    "seed": 12001011,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/outcome-flip-learning-v1/candidate.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.21666666666666665,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 15,
+      "goalward": 5,
+      "backward": 4,
+      "meaningless": 2
+    },
+    "goals": [
+      {
+        "step": 5312,
+        "goal_for": false
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -10.0,
+      -0.044089943170547485,
+      -0.02627810463309288,
+      -0.006000000052154064,
+      0.0,
+      0.6365443468093872
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 1,
+    "batch": 0,
+    "seed": 12002020,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/outcome-flip-learning-v1/candidate.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.4333333333333333,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 18,
+      "goalward": 1,
+      "backward": 4,
+      "meaningless": 5
+    },
+    "goals": [
+      {
+        "step": 1106,
+        "goal_for": false
+      },
+      {
+        "step": 2333,
+        "goal_for": false
+      },
+      {
+        "step": 3571,
+        "goal_for": false
+      },
+      {
+        "step": 7562,
+        "goal_for": false
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -40.0,
+      -1.1234841346740723,
+      -0.136404350399971,
+      -0.015000000596046448,
+      0.0,
+      2.615856409072876
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 2,
+    "batch": 0,
+    "seed": 12003029,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+    "greedy_prefix": 10800,
+    "ppo_decisions": 8192,
+    "trigger": "prefix_cap",
+    "recovery_speed400_seconds": 3.1333333333333333,
+    "stationary_seconds": 0.4666666666666666,
+    "stationary_near_other_car_seconds": 0.26666666666666666,
+    "contacts": {
+      "touch": 26,
+      "goalward": 8,
+      "backward": 6,
+      "meaningless": 4
+    },
+    "goals": [
+      {
+        "step": 3478,
+        "goal_for": false
+      },
+      {
+        "step": 14703,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      10.0,
+      2.5897467136383057,
+      0.06848011910915375,
+      -0.006000000052154064,
+      0.0,
+      -0.7055202722549438
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 3,
+    "batch": 0,
+    "seed": 12004038,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+    "greedy_prefix": 2917,
+    "ppo_decisions": 8192,
+    "trigger": "near_car_stall",
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 139.9666666666702,
+    "stationary_near_other_car_seconds": 139.76666666667003,
+    "contacts": {
+      "touch": 7,
+      "goalward": 2,
+      "backward": 1,
+      "meaningless": 1
+    },
+    "goals": [
+      {
+        "step": 1682,
+        "goal_for": true
+      },
+      {
+        "step": 2480,
+        "goal_for": false
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      0.6716172695159912,
+      0.0,
+      0.0,
+      -8.191679954528809,
+      0.0
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 4,
+    "batch": 0,
+    "seed": 12005047,
+    "side": 0,
+    "stage": "O",
+    "opponent": "model/V13.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.13333333333333333,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 21,
+      "goalward": 9,
+      "backward": 5,
+      "meaningless": 0
+    },
+    "goals": [
+      {
+        "step": 850,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8191,
+      0,
+      1
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      10.0,
+      0.8819617033004761,
+      0.17727109789848328,
+      0.0,
+      0.0,
+      -0.7236672043800354
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 5,
+    "batch": 0,
+    "seed": 12006056,
+    "side": 1,
+    "stage": "O",
+    "opponent": "model/V13.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.13333333333333333,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 10,
+      "goalward": 3,
+      "backward": 2,
+      "meaningless": 0
+    },
+    "goals": [
+      {
+        "step": 4395,
+        "goal_for": false
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -10.0,
+      -1.0240622758865356,
+      0.013317856937646866,
+      0.0,
+      0.0,
+      0.6619477868080139
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 6,
+    "batch": 0,
+    "seed": 12007065,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "greedy_prefix": 1034,
+    "ppo_decisions": 8192,
+    "trigger": "circling_proxy",
+    "recovery_speed400_seconds": 0.016666666666666666,
+    "stationary_seconds": 0.19999999999999998,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 39,
+      "goalward": 13,
+      "backward": 12,
+      "meaningless": 1
+    },
+    "goals": [
+      {
+        "step": 1716,
+        "goal_for": false
+      },
+      {
+        "step": 2771,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      -1.7815628051757812,
+      0.10333064198493958,
+      -0.003000000026077032,
+      0.0,
+      -0.10741615295410156
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 7,
+    "batch": 0,
+    "seed": 12008074,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "greedy_prefix": 1370,
+    "ppo_decisions": 8192,
+    "trigger": "circling_proxy",
+    "recovery_speed400_seconds": 0.016666666666666666,
+    "stationary_seconds": 0.19999999999999998,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 16,
+      "goalward": 6,
+      "backward": 6,
+      "meaningless": 0
+    },
+    "goals": [
+      {
+        "step": 2939,
+        "goal_for": false
+      },
+      {
+        "step": 9151,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      1.4540631771087646,
+      0.17911763489246368,
+      0.0,
+      0.0,
+      -0.035591185092926025
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 0,
+    "batch": 1,
+    "seed": 12101014,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.24999999999999997,
+    "stationary_near_other_car_seconds": 0.11666666666666665,
+    "contacts": {
+      "touch": 14,
+      "goalward": 5,
+      "backward": 3,
+      "meaningless": 1
+    },
+    "goals": [
+      {
+        "step": 3690,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      10.0,
+      0.6145228743553162,
+      0.12668254971504211,
+      -0.003000000026077032,
+      0.0,
+      -0.6992538571357727
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 1,
+    "batch": 1,
+    "seed": 12102023,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.13333333333333333,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 11,
+      "goalward": 4,
+      "backward": 2,
+      "meaningless": 0
+    },
+    "goals": [],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      -1.0883417129516602,
+      0.1279800534248352,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 2,
+    "batch": 1,
+    "seed": 12103032,
+    "side": 0,
+    "stage": "E",
+    "opponent": "model/V13.pt",
+    "greedy_prefix": 10800,
+    "ppo_decisions": 8192,
+    "trigger": "prefix_cap",
+    "recovery_speed400_seconds": 0.016666666666666666,
+    "stationary_seconds": 0.35,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 31,
+      "goalward": 4,
+      "backward": 11,
+      "meaningless": 2
+    },
+    "goals": [
+      {
+        "step": 937,
+        "goal_for": true
+      },
+      {
+        "step": 3850,
+        "goal_for": false
+      },
+      {
+        "step": 16449,
+        "goal_for": false
+      }
+    ],
+    "modes": [
+      0,
+      8191,
+      1,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -10.0,
+      0.18308749794960022,
+      -0.100600965321064,
+      -0.003000000026077032,
+      0.0,
+      0.6322169303894043
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 3,
+    "batch": 1,
+    "seed": 12104041,
+    "side": 1,
+    "stage": "E",
+    "opponent": "model/V13.pt",
+    "greedy_prefix": 10800,
+    "ppo_decisions": 8192,
+    "trigger": "prefix_cap",
+    "recovery_speed400_seconds": 0.016666666666666666,
+    "stationary_seconds": 0.7833333333333341,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 53,
+      "goalward": 14,
+      "backward": 18,
+      "meaningless": 1
+    },
+    "goals": [
+      {
+        "step": 4748,
+        "goal_for": false
+      },
+      {
+        "step": 7326,
+        "goal_for": false
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      0.40230482816696167,
+      -0.14993645250797272,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 4,
+    "batch": 1,
+    "seed": 12105050,
+    "side": 0,
+    "stage": "F",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.3333333333333333,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 22,
+      "goalward": 8,
+      "backward": 6,
+      "meaningless": 0
+    },
+    "goals": [
+      {
+        "step": 320,
+        "goal_for": false
+      },
+      {
+        "step": 1750,
+        "goal_for": false
+      },
+      {
+        "step": 3675,
+        "goal_for": false
+      },
+      {
+        "step": 5008,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -20.0,
+      -0.8614465594291687,
+      0.23411042988300323,
+      0.0,
+      0.0,
+      1.182962417602539
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 5,
+    "batch": 1,
+    "seed": 12106059,
+    "side": 1,
+    "stage": "F",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "greedy_prefix": 0,
+    "ppo_decisions": 8192,
+    "trigger": null,
+    "recovery_speed400_seconds": null,
+    "stationary_seconds": 0.3,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 7,
+      "goalward": 4,
+      "backward": 1,
+      "meaningless": 1
+    },
+    "goals": [
+      {
+        "step": 493,
+        "goal_for": false
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -10.0,
+      -0.7904325127601624,
+      0.08562416583299637,
+      -0.003000000026077032,
+      0.0,
+      0.6353630423545837
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 6,
+    "batch": 1,
+    "seed": 12107068,
+    "side": 0,
+    "stage": "E",
+    "opponent": "runs/outcome-flip-learning-v1/candidate.pt",
+    "greedy_prefix": 477,
+    "ppo_decisions": 8192,
+    "trigger": "circling_proxy",
+    "recovery_speed400_seconds": 0.016666666666666666,
+    "stationary_seconds": 0.13333333333333333,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 10,
+      "goalward": 2,
+      "backward": 5,
+      "meaningless": 1
+    },
+    "goals": [
+      {
+        "step": 4109,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8191,
+      0,
+      1
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      10.0,
+      1.179608941078186,
+      -0.05423048138618469,
+      0.0,
+      0.0,
+      -0.6910547018051147
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  },
+  {
+    "index": 7,
+    "batch": 1,
+    "seed": 12108077,
+    "side": 1,
+    "stage": "E",
+    "opponent": "runs/outcome-flip-learning-v1/candidate.pt",
+    "greedy_prefix": 477,
+    "ppo_decisions": 8192,
+    "trigger": "circling_proxy",
+    "recovery_speed400_seconds": 0.016666666666666666,
+    "stationary_seconds": 0.19999999999999998,
+    "stationary_near_other_car_seconds": 0.0,
+    "contacts": {
+      "touch": 17,
+      "goalward": 1,
+      "backward": 6,
+      "meaningless": 4
+    },
+    "goals": [
+      {
+        "step": 3171,
+        "goal_for": false
+      },
+      {
+        "step": 5969,
+        "goal_for": true
+      }
+    ],
+    "modes": [
+      0,
+      8192,
+      0,
+      0
+    ],
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      2.063021183013916,
+      -0.22824415564537048,
+      -0.008999999612569809,
+      0.0,
+      -0.10402822494506836
+    ],
+    "forecast_valid_fraction": 1.0,
+    "recurrent_and_actual_behavior_replay": "PASS",
+    "prefix_excluded_from_PPO": true
+  }
+]

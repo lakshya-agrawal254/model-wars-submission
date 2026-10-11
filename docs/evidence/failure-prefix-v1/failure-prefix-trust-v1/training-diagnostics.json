@@ -1,0 +1,149 @@
+{
+  "total_decisions": 169747,
+  "greedy_modes": [
+    0,
+    169747,
+    0,
+    0
+  ],
+  "sampled_modes": [
+    0,
+    131069,
+    1,
+    2
+  ],
+  "forecast_ablation_mode_changes": 0,
+  "forecast_ablation_steer_mean": 0.00037557352107907147,
+  "mode_changes_vs_initializer": 0,
+  "steer_change_vs_initializer_mean": 0.0008026378167903513,
+  "proposal_calls": 19,
+  "rejected_proposals": 3,
+  "accepted_updates": 16,
+  "max_accepted_mean_KL": 0.009601806639693677,
+  "max_accepted_trajectory_KL": 0.010140269063413143,
+  "training_goals_for_including_prefix": 10,
+  "training_goals_against_including_prefix": 19,
+  "ppo_suffix_reward_sums": {
+    "goal": -60.0,
+    "potential": 3.32651424407959,
+    "productive_velocity": 0.4202200397849083,
+    "nonproductive_contact": -0.04800000041723251,
+    "stationary": -8.191679954528809,
+    "goal_reset_potential": 3.2983593344688416
+  },
+  "failure_rows": [
+    {
+      "batch": 0,
+      "index": 2,
+      "greedy_prefix": 10800,
+      "trigger": "prefix_cap",
+      "recovery_speed400_seconds": 3.1333333333333333,
+      "stationary_seconds": 0.4666666666666666,
+      "modes": [
+        0,
+        8192,
+        0,
+        0
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 3,
+      "greedy_prefix": 2917,
+      "trigger": "near_car_stall",
+      "recovery_speed400_seconds": null,
+      "stationary_seconds": 139.9666666666702,
+      "modes": [
+        0,
+        8192,
+        0,
+        0
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 6,
+      "greedy_prefix": 1034,
+      "trigger": "circling_proxy",
+      "recovery_speed400_seconds": 0.016666666666666666,
+      "stationary_seconds": 0.19999999999999998,
+      "modes": [
+        0,
+        8192,
+        0,
+        0
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 7,
+      "greedy_prefix": 1370,
+      "trigger": "circling_proxy",
+      "recovery_speed400_seconds": 0.016666666666666666,
+      "stationary_seconds": 0.19999999999999998,
+      "modes": [
+        0,
+        8192,
+        0,
+        0
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 2,
+      "greedy_prefix": 10800,
+      "trigger": "prefix_cap",
+      "recovery_speed400_seconds": 0.016666666666666666,
+      "stationary_seconds": 0.35,
+      "modes": [
+        0,
+        8191,
+        1,
+        0
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 3,
+      "greedy_prefix": 10800,
+      "trigger": "prefix_cap",
+      "recovery_speed400_seconds": 0.016666666666666666,
+      "stationary_seconds": 0.7833333333333341,
+      "modes": [
+        0,
+        8192,
+        0,
+        0
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 6,
+      "greedy_prefix": 477,
+      "trigger": "circling_proxy",
+      "recovery_speed400_seconds": 0.016666666666666666,
+      "stationary_seconds": 0.13333333333333333,
+      "modes": [
+        0,
+        8191,
+        0,
+        1
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 7,
+      "greedy_prefix": 477,
+      "trigger": "circling_proxy",
+      "recovery_speed400_seconds": 0.016666666666666666,
+      "stationary_seconds": 0.19999999999999998,
+      "modes": [
+        0,
+        8192,
+        0,
+        0
+      ]
+    }
+  ],
+  "limits": "Ablations use training histories. Speed recovery is a proxy, not tactical recovery; prefixes and stochastic suffixes differ. Metrics do not demonstrate competitive gains."
+}

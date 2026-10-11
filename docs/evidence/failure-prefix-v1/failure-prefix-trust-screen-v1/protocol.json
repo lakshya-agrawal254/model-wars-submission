@@ -1,0 +1,62 @@
+{
+  "checkpoint_SHA256": {
+    "candidate": "2e1e4b220ab3fd32770bef977f09fc2633d30f4236a023dfcaa9832211321fd4",
+    "outcome": "8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043",
+    "ground": "d79cac01aefe8d161b2ec5f8154fac608f554546a96644f0545b4cb254c6276a",
+    "geometric": "55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc"
+  },
+  "configurations": [
+    [
+      "candidate",
+      "outcome",
+      60,
+      4
+    ],
+    [
+      "candidate",
+      "ground",
+      60,
+      4
+    ],
+    [
+      "candidate",
+      "geometric",
+      60,
+      4
+    ],
+    [
+      "outcome",
+      "ground",
+      60,
+      4
+    ],
+    [
+      "outcome",
+      "geometric",
+      60,
+      4
+    ]
+  ],
+  "seeds": [
+    12201011,
+    12202020,
+    12203029,
+    12204038
+  ],
+  "training_seed_disjoint": true,
+  "Hz": "60only;120not claimed",
+  "greedy": true,
+  "fullmatches": "300active sec, floor proxy,120sec overtimecap censored,900wall-simulation cap",
+  "selection": "Candidate must beat initializer convincingly, improve common-opponent results without movement regressions. This is screening, no native acceptance or promotion.",
+  "runtime_changed": false,
+  "confirmation_screen_gate": {
+    "direct_wins_at_least": 6,
+    "direct_matches": 8,
+    "common_opponent_wins_not_below_outcome": true,
+    "common_goal_difference_not_below_outcome": true,
+    "maximum_stationary_fraction_increase": 0.01,
+    "maximum_circling_rate_ratio": 1.25,
+    "minimum_confirmation_matches_vs_initializer": 100,
+    "note": "Prespecified before evaluating this candidate. Gates only warrant independent confirmation; they do not authorize promotion. If reference circling is zero, no candidate circling is allowed."
+  }
+}

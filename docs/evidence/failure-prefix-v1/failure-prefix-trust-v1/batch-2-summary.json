@@ -1,0 +1,10 @@
+{
+  "additional_PPO_decisions": 131072,
+  "all_new_learner_decisions": 169747,
+  "actor_updates": 16,
+  "critic_updates": 24,
+  "elapsed_this_stage": 367.2395192539989,
+  "finished_UTC": "2026-10-11T01:43:12.563928+00:00",
+  "candidate_SHA256": "2e1e4b220ab3fd32770bef977f09fc2633d30f4236a023dfcaa9832211321fd4",
+  "promoted": false
+}
