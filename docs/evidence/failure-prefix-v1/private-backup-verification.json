@@ -1,0 +1,36 @@
+{
+  "archive_SHA256": "ad5e9b5608ba0953316e657da338b8578b9971ecddacff57b011105b6ac96146",
+  "archive_bytes": 13913475,
+  "core_Drive_file_id": "1K9YoOse50pnlyP6jGh-HM_gLGAUBKYYc",
+  "core_url": "https://drive.google.com/file/d/1K9YoOse50pnlyP6jGh-HM_gLGAUBKYYc/view",
+  "member_checksums": 289,
+  "runs": [
+    {
+      "run": "failure-prefix-ppo-v1",
+      "complete_snapshots": 8,
+      "actor_parameters": 26181,
+      "actor_critic_and_both_optimizers_restored": true,
+      "RNG_restored": true,
+      "actor_full_inference_exact": true,
+      "PPO_decisions": 131072,
+      "all_learner_decisions": 143225
+    },
+    {
+      "run": "failure-prefix-trust-v1",
+      "complete_snapshots": 16,
+      "actor_parameters": 26181,
+      "actor_critic_and_both_optimizers_restored": true,
+      "RNG_restored": true,
+      "actor_full_inference_exact": true,
+      "PPO_decisions": 131072,
+      "all_learner_decisions": 169747
+    }
+  ],
+  "data_parts_verified": 4,
+  "total_set_bytes": 103690357,
+  "official_files_unchanged": true,
+  "commit": "8f1e979b16113dd2ccd5114de377f704499c50db",
+  "private_permissions": "owner only on core and all four parts, independently checked",
+  "selected": "Unchanged Outcome-128; both new actors failed",
+  "post_deadline": true
+}
