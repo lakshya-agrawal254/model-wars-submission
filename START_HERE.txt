@@ -1,3 +1,5 @@
-OUTCOME-128 — PROVISIONAL PRIVATE REVIEW, NOT SUBMITTED
-
-Extract the entire V13 folder. Run SETUP.cmd, then CHECK.cmd. Add root bot.toml in official RLBot v5. Bot name: V13 Outcome-128 Provisional. Agent ID: lakshya-agrawal254/v13-outcome-128. Test full matches as Blue and Orange against separately installed Original V13/Geometric. Outcome-128 native acceptance is NOT TESTED. See README.md and docs/FINISH_SUBMISSION.md. No training is included. No main change, judge access or submission without explicit approval.
+V13 GEOMETRIC CONTROL — RESTORED
+Extract into a new folder. Run SETUP.cmd and CHECK.cmd.
+Add this folder's bot.toml to RLBot v5 and choose V13 Geometric Control.
+Keep Outcome-128 separately as rollback. No training performed.
+No organizer submission has been made.
