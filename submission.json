@@ -1,37 +1,102 @@
 {
   "kind": "participant_editable_fork",
-  "name": "Lakshya V13 PPO",
-  "agent_id": "lakshya-agrawal254/v13-ppo",
+  "name": "V13 Outcome-128 Provisional",
+  "agent_id": "lakshya-agrawal254/v13-outcome-128",
   "baseline_checkpoint_sha256": "579fa26010140514d2e9b7f0e2871bee569c594b7da8648e31ee1489007cd5b7",
   "checkpoint_source": "Participant checkpoint",
   "training_provenance": {
-    "project": "lakshya-agrawal254/model-wars-submission",
-    "base_commit": "83d92a69c80930652c4d26be8db9f7ebea062e38",
-    "official_template_commit": "5d8801361766cae4584245e9188edc64fd1d79c3",
-    "branch": "training/v13-ppo-curriculum-20261011",
-    "selected_candidate": "scratch-ground-A",
-    "initialization": "Fresh random initialization of unmodified official Policy; exact 13D / GRU / 26181 parameters. No old-project weights or labels.",
-    "algorithm": "PPO, conditional categorical and squashed-Normal Chase steering; separate training-only critic",
-    "training_source": "Self-generated real RocketSim 2.2.1 physics through RLGym 2.0.1; no demonstrations or external pretrained models",
-    "selected_actor_learner_decisions": 16384,
-    "all_branches_new_learner_decisions": 98304,
-    "latest_experimental_lineage_decisions": 49152,
-    "prediction_domain": "13 original columns; prediction positions/validity/time explicitly unavailable (zero). Native RLBot prediction-valid transfer not established.",
-    "timing_domain": "60 Hz training callback decisions; actual RLBot callbacks not forced or resampled",
-    "curriculum": "A ground; bounded B kickoff failed; C jump, D defence and E legal starter/own-policy self-play continuation failed screening. Best screened A retained as feasibility candidate, not promoted from rewards.",
-    "forbidden_sources_used": false,
-    "Nexto_Necto_weights_outputs_labels_used": false,
-    "old_RocketSim_project_artifacts_used": false,
-    "real_game_acceptance": "NOT TESTED: Linux cloud cannot launch Windows Rocket League",
-    "scripts": [
-      "training/ppo.py",
-      "training/sim_contract.py",
-      "training/evaluate.py"
-    ],
-    "used_source_snapshots": "training/used_sources (before optional-opponent RNG resume fix)",
-    "remaining_requirements": "Actual GUI acceptance, native matched-side evaluation, organizer submission/runtime/access confirmation; user-confirmed deadline 11 October 2026 07:00 IST",
-    "bounded_followup": "32768 continuation decisions from complete A checkpoint, lower entropy weight .005 with same A rewards/steps512/learning rates/observations/control; rejected for all-censored no-contact screening"
+    "method": "Outcome-selected whole-sequence supervisedcurriculum,128 Adam updates frompreserved Geometric; learnedflips0 so diagnosticnotpromoted",
+    "initial_actor_SHA256": "55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc",
+    "labels": "Independent realRocketSim legal sequence search, matchedreference andno-secondpress attribution; own Geometric/currentstudent driving labels; no externalteacher",
+    "data": "Actual13D realphysics observations at60/120Hz; own60Hzteacher usedonlyintrainingdata collection, no runtime callbackoverride",
+    "new_PPO_decisions": 0,
+    "supervised_updates": 128,
+    "supervised_presentations": 789289,
+    "constraints": "Original13D26181parameterGRU64 fourmode architecture/decoder/nativehidden contract preserved; existingforecastweightzeros constrainedintraining",
+    "secondary_refinement": "Separate16update student-prefix phase-memory learnerfailedmovementgates, preservedinbackuponly, not playing candidate",
+    "native_acceptance": "NOT TESTED: user reports about Geometric and validatedA do not validate Outcome128.",
+    "submission": "Notauthorized; mainunchanged",
+    "dataset_sha256": "5c8c575712decb7490d2e654744bd78f6130f890313e02d58a456ba065557353",
+    "training_source_sha256": {
+      "training/outcome_flips/train.py": "e5e0d4c1bdac60bb6fc287147fa529abfff660e418389c8f98ab925a84bdbc3b",
+      "training/outcome_flips/attribute.py": "937890f46d27da70524b6191f1514530525c3632db46589f952b580dbad714ad",
+      "training/outcome_flips/audit.py": "5361d5b97df1414820dd1ac2aabcf528711e06e7b5b0d8d78e61e0e877c5c080",
+      "training/outcome_flips/world.py": "7616d7e5a132a7f0f3a226ad0ff7c09c33ab1d8ea14451ed7da9f0dd6e519a15",
+      "training/outcome_flips/search.py": "b53028c354f8dd70897e0bcb92a8ba515a35843a1c7fbe07b5fdc2b26940761c",
+      "training/outcome_flips/negatives.py": "56a002a853bef8fce265099c6f13d176624d75548347bed9c93adc0e3de05e44",
+      "training/outcome_flips/protocol.json": "740b5f54801aae9134d3ef2163d26c877172a0e81f2e989dbad13badf570a49e"
+    },
+    "recorded_updates": 128,
+    "recorded_presentations": 789289,
+    "configuration": {
+      "initial_actor_sha256": "55fae5177140dc3142514ebaf08c89c9c39263b5e8c105c0c9d3d811df1121dc",
+      "main_unchanged": true,
+      "new_PPO_decisions": 0,
+      "search": {
+        "rate": 60,
+        "scene_types": [
+          "all5kickoffs",
+          "moving",
+          "shooting",
+          "low_air",
+          "misaligned",
+          "ground_preferred"
+        ],
+        "duration_seconds": 7,
+        "workers": 4,
+        "max_sequences_per_scene": 9,
+        "controls": "Original legal decoder only; sequence controls TRAINING ONLY; reference/prefix/postphase use own Geometric and originalV13 opponent"
+      },
+      "selection": {
+        "real_flip": true,
+        "contact": true,
+        "goalwardspeed_or_earliercontact_with_direction_preserved": true,
+        "missed_opponent_challenges_rejected": true,
+        "stationary_and_fallen_seconds_nonregression": true,
+        "stable_recovery_seconds_max": 2.5
+      },
+      "supervised": {
+        "max_updates": 128,
+        "checks": [
+          16,
+          32,
+          64,
+          96,
+          128
+        ],
+        "learning_rate": {
+          "encoder_GRU": 0.0005,
+          "head": 0.003
+        },
+        "gradient_clip": 1.0,
+        "mode_loss": "Equal Jump/Chase-release/Dodge class losses within whole manoeuvre window; ownreference KL outsidewindow0.1; noKL againstsuccessfullabels",
+        "steering_anchor": 2.0,
+        "negative_reference_CE": 0.5,
+        "optimizer": "Fresh Adam for new balanced supervised objective; Geometric original state preserved",
+        "encoder_and_GRU": "Train existing parameters; hold pre-existingzero forecastcolumns3,4,5,9,10,11 atzero as training-only input-weight constraint; no runtime masking",
+        "sequence": "Entire chronological trajectory from hNone, no shuffled timestep rows, goals preservehidden in fullmatchinference",
+        "callback_augmentation": "Own Geometric reference runs60Hz training-only; actual120Hz student observations/chronological sequences recorded from realphysics with measured delta, labels held2ticks. Never used for candidate evaluation or runtime."
+      },
+      "gate": {
+        "no_flip_proof": "Do not extend beyond128 updates",
+        "movement": "Stop if independent60Hz ground contact rate drops>20%, stationary rises>3sec acrosssuite, orcircling rises>2windows; repeatedflips>2 per7secondtrial rejected",
+        "qualification": "Real physicsconfirmed deterministic dodges with productive contacts; must notlose tostartingGeometric; no promotion without match evidence and Windowsacceptance"
+      },
+      "deadline_stop_IST": "2026-10-11 05:15",
+      "deadline_stop_UTC": "2026-10-10 23:45",
+      "windows": "UNTESTED untilactualWindowsrun",
+      "submission_authorized": false,
+      "qualification_search": "Selectedbest must also improveover sameJump/release withsecondpressdisabled",
+      "independent": "Freshgroundpositions/speeds/movingball; all5standardownkickoffs withdifferentopponentkickoffindex; actualgreedyactor at eachcallback60/120"
+    },
+    "validation": "Development contact tests and disjoint full-match RocketSim seed sets; not native acceptance. Latest paired60Hz screen:6W1L1U vsGround64,7W1L vsGeometric. Earlier fresh screen:6W1L1U vsOriginalV13.",
+    "splits": "Training/development and match-screen seeds recorded in the preserved training and evaluation branches. No claim of a large independent native confirmation set.",
+    "selection": "Provisional user-selected final candidate; no stronger learner qualified; no neural weight changes during preparation.",
+    "external_pretrained_models_or_labels": false,
+    "preparation_source_commit": "f7e872f0f3a2bb47fa73d5d239e0c85f01d66f60"
   },
   "live_acceptance": "NOT TESTED after edits; run preflight and GUI match",
-  "checkpoint_sha256": "bda8a7a773d63526fea8a1449ff3971bba48317a05dd024eafc18827c1100011"
+  "checkpoint_sha256": "8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043",
+  "entry_status": "PROVISIONAL PRIVATE PREPARATION; NOT SUBMITTED",
+  "approval_required": true
 }

@@ -1,4 +1,0 @@
-# CPU Torch/RLBot/NumPy come from official setup.ps1 and requirements.txt.
-RocketSim==2.2.1
-rlgym-api==2.0.0
-rlgym-rocket-league==2.0.1

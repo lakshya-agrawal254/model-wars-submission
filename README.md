@@ -1,152 +1,28 @@
-# Model Wars · RLBot Machine Learning Tournament
+# V13 Outcome-128 — provisional private entry
 
-[![Validate Bot Submission](https://github.com/Model-Wars/Model-Wars-Base-Repository/actions/workflows/validate.yml/badge.svg)](https://github.com/Model-Wars/Model-Wars-Base-Repository/actions/workflows/validate.yml)
+One bot, one inference checkpoint. This preparation branch is for review and Windows acceptance. It is NOT submitted. No main replacement, merge, judge invitation or organizer handoff is authorized.
 
-Welcome to the **Model Wars Machine Learning Tournament**, a competitive 1v1 Rocket League bot challenge powered by **[RLBot v5](https://rlbot.org/v5/)** and PyTorch.
+- Bot: `V13 Outcome-128 Provisional`
+- Agent ID: `lakshya-agrawal254/v13-outcome-128`
+- Checkpoint: `model/V13.pt`
+- SHA256: `8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043`
+- Original 13D inputs, encoder13→64/ReLU, one-layer GRU64, head64→5: exactly26,181 parameters. Four original modes and continuous steering. No added runtime features, controls, scripts or external pretrained models.
+- Neural weights copied byte-for-byte from the verified sealed Outcome-128 package. Training is stopped. This bundle contains no trainer, other bot, alternative checkpoint, optimizer, recording or environment.
 
-Participants train a neural network policy to control a Rocket League car in real-time, competing in head-to-head tournament brackets.
+## Windows acceptance — still required
 
----
+1. Install Python3.12 x64, RocketLeague and official RLBotv5. Extract the entire package to a fresh folder.
+2. Run `SETUP.cmd`, then `CHECK.cmd` from that folder. Setup installs dependencies; it never trains.
+3. In RLBotv5 add this folder's `bot.toml`. Select a separately installed OriginalV13 or Geometric opponent. Do not register the old Outcome review ID by mistake.
+4. Run standard1v1 full matches on both Blue and Orange. Record final scores, prediction/callback errors and `logs/` evidence. No fixed callback timing override is permitted.
+5. Update `docs/PARTICIPANT_RESULTS.md` with actual evidence. Reseal after documentation changes and revalidate. A cloud preflight or RocketSim result does not establish Windows gameplay acceptance.
 
-## 📖 Official Technical Guide
+See `docs/FINISH_SUBMISSION.md` for the explicit-approval gate and exact remaining commands. Deadline:11October2026,07:00IST. A deadline never authorizes submission.
 
-* 📄 **[Participant Instructions (PDF)](docs/PARTICIPANT_INSTRUCTIONS.pdf)** — Complete 5-page tournament specification, mathematics, and submission manual.
-* 📝 **[LaTeX Source](docs/PARTICIPANT_INSTRUCTIONS.tex)** — Compilable LaTeX source code.
+## Evidence and limits
 
----
+Outcome128 remains weak: circling, unproductive contacts, collision pins and120Hz failures remain. Complete simulator results and native acceptance status are in `docs/PARTICIPANT_RESULTS.md`. No claim of tournament superiority or native acceptance is made.
 
-## 🚀 Quick Start (Local Setup)
+Training provenance is in `docs/training_provenance.json` and `submission.json`. Model and package hashes are enforced by the runtime/candidate/participant manifests. Official validation tools and workflow are unchanged. Third-party attribution is in `docs/PROVENANCE.md` and retained license files.
 
-### 1. Prerequisites
-* **Python 3.12 (64-bit)** with `py` launcher added to PATH.
-* **Rocket League** installed via Epic Games or Steam.
-* **Official RLBot v5 Launcher** from [rlbot.org/v5](https://rlbot.org/v5/). Launch Rocket League normally once.
-
-### 2. Environment Setup
-Clone your repository and initialize the local Python virtual environment:
-
-```powershell
-# Windows (PowerShell)
-.\setup.ps1
-
-# Or simply double-click SETUP.cmd
-```
-
-### 3. Verify Local Inference
-Run the offline numerical and tensor preflight checks:
-
-```powershell
-.\.venv\Scripts\python.exe -I -u -B src\preflight.py
-
-# Or double-click CHECK.cmd
-```
-
-Launch the official RLBot GUI $\to$ **Add File** $\to$ select `bot.toml` $\to$ Start 1v1 match to see the bot drive on field.
-
----
-
-## 🧠 Neural Policy Architecture & Contract
-
-The tournament standard utilizes a causal Recurrent Neural Network (GRU):
-
-```
-Observation (13D) ──► Linear(13, 64) ──► ReLU ──► GRU(64, 64) ──► Head(64, 5) ──► Actions
-```
-
-* **Observation Space (13D)**: Normalized car-relative ball projections, projected 2-second RLBot trajectory slices, 3D Euclidean distance, car speed, presence masks, and tick delta. See [docs/CONTRACT.md](docs/CONTRACT.md).
-* **Action Space (5 outputs)**:
-  * 4 Discrete Mode Logits: `Neutral` (0), `Chase` (1), `Single Jump` (2), `Front Dodge / Flip` (3).
-  * 1 Continuous Steering Value: Bounded in `[-1.0, 1.0]` via $\tanh$.
-* **Parameter Budget**: Exactly **26,181 trainable parameters**.
-
----
-
-## 🏆 Submission Instructions (GitHub Flow)
-
-Submissions are managed and evaluated via private GitHub repositories with automated CI/CD validation.
-
-### Step 1: Create Your Private Submission Repository
-1. On this repository, click the green **"Use this template"** button $\to$ **"Create a new repository"**.
-2. Name your repo (e.g. `teamname-rlbot`) and set visibility to **Private** *(do not make it public!)*.
-3. In your new repository, go to **Settings** $\to$ **Collaborators** $\to$ **Add people** $\to$ invite `@Model-Wars` (or the tournament judge account) with **Read** access.
-
-### Step 2: Initialize Your Bot Identity
-Clone your private repository and register your team name and agent ID in-place:
-
-```bash
-git clone https://github.com/<your-username>/<team-name>-rlbot.git
-cd <team-name>-rlbot
-
-# Sets your team name and agent identifier across configuration files:
-python tools/kit.py init --name "TeamApex" --agent-id "teamapex/striker"
-```
-
-### Step 3: Train and Seal Weights
-Develop and train your model using your own data collection and training pipeline. When finished, seal your PyTorch checkpoint:
-
-```bash
-python tools/kit.py seal --checkpoint model/V13.pt --provenance docs/training_provenance.json
-```
-
-This verifies tensor bounds, updates the cryptographic SHA-256 runtime pin in `src/runtime.py`, and records experiment details in `submission.json`.
-
-### Step 4: Document and Push
-Document your experiment, validation scores, and GUI test results in `docs/PARTICIPANT_RESULTS.md`, then push to GitHub:
-
-```bash
-git add .
-git commit -m "Submit trained bot"
-git push origin main
-```
-
----
-
-## 🛡️ Automated CI/CD Validation & Rules
-
-Every push to your repository automatically triggers GitHub Actions to run `tools/validate_submission.py`.
-
-### Validation Criteria
-| Check | Requirement |
-|---|---|
-| **No Baseline Weights** | Checkpoint SHA-256 cannot match the unmodified starter weights (`579fa260...`). |
-| **Anti-Noise Check** | Weights cannot have $> 0.999$ cosine similarity with baseline weights. |
-| **Identity** | Must declare a unique bot name and `author/bot` agent ID. |
-| **Integrity Pin** | Runtime `PIN` in `src/runtime.py` must match the actual checkpoint hash. |
-| **Provenance** | `submission.json` must include non-empty training metadata (dataset, splits, loss, validation). |
-| **Report** | `docs/PARTICIPANT_RESULTS.md` must be completed ($\ge 50$ characters). |
-| **Security** | Zero unauthorized imports (`socket`, `subprocess`, `requests`, `urllib`, `eval`). |
-| **Git LFS** | Git LFS pointers are checked and verified for full binary weight resolution. |
-
-* **Passing Checkmark (✔)**: Your submission meets all tournament entry criteria.
-* **Failing Cross (❌)**: Check the **Actions** tab in GitHub to inspect the diagnostic error message.
-
----
-
-## 📁 Repository Structure
-
-```
-├── bot.toml                       # RLBot bot configuration & GUI registration
-├── loadout.toml                   # Car cosmetic loadout
-├── setup.ps1 / SETUP.cmd          # Local environment setup scripts
-├── CHECK.cmd                      # Double-click preflight verification
-├── model/
-│   └── V13.pt                     # PyTorch model weights checkpoint
-├── src/
-│   ├── bot.py                     # Native RLBot v5 packet listener & transport
-│   ├── policy.py                  # PyTorch 13D GRU policy architecture
-│   ├── runtime.py                 # Pinned inference engine & mode decoder
-│   ├── observation_contract.py    # Coordinate transforms & feature scaling
-│   ├── prediction.py              # Ball trajectory slice selector
-│   └── preflight.py               # Offline tensor and math validation
-├── tools/
-│   ├── kit.py                     # Repository initialization, sealing, and packaging
-│   └── validate_submission.py     # Automated tournament validator
-├── docs/
-│   ├── PARTICIPANT_INSTRUCTIONS.pdf  # Full tournament manual (PDF)
-│   ├── PARTICIPANT_INSTRUCTIONS.tex  # LaTeX source
-│   ├── CONTRACT.md                # Detailed observation & action contract
-│   ├── IMPROVING_THE_BOT.md       # Guide to training and tuning
-│   └── PARTICIPANT_RESULTS.md     # Participant technical report template
-└── .github/workflows/
-    └── validate.yml               # GitHub Actions continuous integration workflow
-```
+The official workflow runs on main pushes, PRs targeting main and manual dispatch. A push to this preparation branch alone does not trigger it. Do not create a PR or alter main merely to bypass missing dispatch permissions.

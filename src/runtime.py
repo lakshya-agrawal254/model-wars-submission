@@ -12,7 +12,7 @@ from prediction import find_slice_at_time
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS = ('throttle','steer','pitch','yaw','roll','jump','boost','handbrake')
 MODES = ('Neutral','Chase','Jump','Front dodge')
-PIN = 'bda8a7a773d63526fea8a1449ff3971bba48317a05dd024eafc18827c1100011'
+PIN = '8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043'
 DATASET_PIN = '080943fd8f9a81ada800e0a2f9ff3593b67f66d32272211d67030c03cf433a83'
 
 
@@ -46,7 +46,7 @@ class Runtime:
         integrity()
         torch.set_num_threads(1)
         saved=torch.load(ROOT/'model/V13.pt',map_location='cpu',weights_only=True)
-        # Participant repo: training provenance is recorded in submission.json.
+        # Participant fork: training provenance is recorded in submission.json.
         self.model=Policy().eval()
         self.model.load_state_dict(saved['state_dict'],strict=True)
         if sum(p.numel() for p in self.model.parameters())!=26181:raise RuntimeError('V13 architecture mismatch')
