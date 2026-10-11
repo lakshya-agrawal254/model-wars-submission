@@ -1,0 +1,25 @@
+# Post-deadline failure-prefix PPO investigation
+
+New research branch: training/v13-failure-prefix-ppo-20261011. Main was read from GitHub at738e875877bec6ce84965a607cc15af2341f9a87, with sealed Outcome128 SHA8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043. Neither main nor the tournament checkpoint is changed. All new experimental weights are post-deadline research, not claimed submitted.
+
+## Audit and hypothesis
+
+The anchored run mixed unconditional Chase supervision with reference KL and lost0/8 to its geometric initializer. The memory/selective variant failed competitive screening; the memory critic did not establish sufficient benefit. The forecast pilot made only4 actor updates. The latest near-greedy campaign then made36 updates on196608 decisions and received22 goal events, yet failed generalization:3/16 common-opponent wins versusOutcome8/16, with275.88seconds stationary versus11.35. Thus insufficient update count was not established as the sole cause. On all recorded training states its final deterministic policy remainedChase, while approximately5.5% of sampled actions wereJump/Dodge; the training stationary penalty was never triggered. This is a concrete coverage/behavior mismatch. Forecast ablation moved steering only0.000986 on average. Goal and opponent observability limitations of the official13D contract remain; no direct opponent tracking or universal goal identification is claimed.
+
+## Distinct bounded intervention
+
+Start only from preserved Outcome128 actor. Four workers,60Hz, original decoder, exactly26181 actor parameters. Two fresh65536-PPO-decision batches initially, maximum four batches only after a gameplay gate. Half the trajectories have ordinary starts; half first drive greedily for up to60seconds until a sustained stall, slow collision or5-second circling proxy. All prefix observations/actions/GRU states remain archived and replayed. Prefix actions are excluded from stochastic PPO losses, with a contiguous fresh stochastic suffix and correct time-limit bootstrap. No old rollout is reused. Hidden memory and callback clocks continue through goal resets. Conditional prefix selection is training-only; there is no runtime recovery controller.
+
+Suffix categorical temperature0.10 and latent steering std0.02 reduce the sampled/greedy gap further. PPO uses their exact tanh-Gaussian/categorical probabilities. All eight actor tensors remain trainable. Mode KL has coefficient0.02; the steering reference penalty uses squared latent steering difference with coefficient1 only on fast, forward approaches. This avoids accidentally magnifying the steering anchor25-fold when lowering sampling variance. Failed/slow approaches receive no steering target. No unconditional Chase labels, teacher models or new actor inputs. This is a combined intervention, not a factorial causal attribution study.
+
+Goal rewards remain+10/-10 with unchanged potential shaping, small signed productive-contact terms and sustained-stationary penalty. True goal coordinates remain reward/evaluation-only. Each batch includes Outcome, Ground64, Geometric andOriginal on both sides; role/opponent assignments rotate. First ordinary starts include normal, attack/defence situations, with moving-ball and recovery starts in subsequent stages. Actual2second RocketSim forecasts, not fabricated native prediction packets, reach the network. The compatible training-only critic/criticAdam state is carried from the last PPO run; none of that rejected actor's weights initialize this actor. Fresh PPO actorAdam is documented separately from the preserved supervised optimizer.
+
+The first batch must actually encounter a targeted failure, or training aborts before any optimization. Initial mechanical tests use real states to verify exact old behavior likelihoods, prefix exclusion, finite gradients through chronological prefix memory, original parameter count and manual reset/clock continuity. Those proof data are not training data.
+
+## Predeclared evaluation
+
+After two batches, evaluate final frozen weights only, not reward-selected intermediate snapshots. Fresh seeds11801011+i*1009 with four side pairs for each of candidate versusOutcome/Ground/Geometric and unchangedOutcome versusGround/Geometric:40 full matches. Same audited forecast/RocketSim harness, deterministic modes,60Hz,300 active seconds, floor proxy and capped overtime/safety with unresolved games kept separate from draws.
+
+Require at least6/8 direct wins, common-opponent wins and goal difference no worse, stationary fraction at most+1percentage point and circling rate at most+25%. Only passing this gate permits continuation to at most four batches, using fresh on-policy data; no restart from a rejected actor or selection by reward. A final candidate uses unused evaluation seeds and would need independent confirmation before recommending replacement. No native acceptance is claimed, and no main replacement/merge/submission/organizer access is authorized. Preserve all checkpoints, including failures, and private backup integrity receipts.
+
+Results pending; this document will be completed with actual measurements.

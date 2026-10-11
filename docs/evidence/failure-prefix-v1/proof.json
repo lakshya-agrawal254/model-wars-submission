@@ -1,0 +1,35 @@
+{
+  "actor_unchanged": true,
+  "parameters": 26181,
+  "manual_goal_reset_clock_and_hidden_continuity": true,
+  "real_state_tests": [
+    {
+      "index": 0,
+      "prefix": 0,
+      "trigger": null,
+      "actual_probability_replay": true,
+      "mask_excludes_prefix": true,
+      "last_prefix_input_gradient": null,
+      "all_actor_gradients_finite": true
+    },
+    {
+      "index": 2,
+      "prefix": 300,
+      "trigger": "prefix_cap",
+      "actual_probability_replay": true,
+      "mask_excludes_prefix": true,
+      "last_prefix_input_gradient": 0.025752684101462364,
+      "all_actor_gradients_finite": true
+    },
+    {
+      "index": 3,
+      "prefix": 300,
+      "trigger": "prefix_cap",
+      "actual_probability_replay": true,
+      "mask_excludes_prefix": true,
+      "last_prefix_input_gradient": 0.2642338275909424,
+      "all_actor_gradients_finite": true
+    }
+  ],
+  "scope": "No optimizer steps or native game execution; synthetic scalar advantages only for gradient-path test. Proof data never used for training."
+}
