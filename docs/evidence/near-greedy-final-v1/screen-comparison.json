@@ -1,0 +1,112 @@
+{
+  "screen_gates": {
+    "direct_wins_at_least_6_of_8": true,
+    "common_wins_not_worse": false,
+    "common_goal_difference_not_worse": false,
+    "stationary_fraction_increase_at_most_1_percentage_point": false,
+    "circling_rate_increase_at_most_25_percent": true
+  },
+  "qualifies_for_independent_confirmation": false,
+  "paired": {
+    "candidate_vs_outcome_60": {
+      "pair_mean_win_minus_loss": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "pair_bootstrap_95_percentile": [
+        0.25,
+        1.0
+      ],
+      "limits": "Only four independent seed pairs. Exploratory bootstrap, not a reliable small-sample significance guarantee; unresolved assigned zero, not declared a draw."
+    },
+    "candidate_vs_ground_60": {
+      "pair_mean_win_minus_loss": [
+        -1.0,
+        -0.5,
+        0.0,
+        -0.5
+      ],
+      "pair_bootstrap_95_percentile": [
+        -0.875,
+        -0.125
+      ],
+      "limits": "Only four independent seed pairs. Exploratory bootstrap, not a reliable small-sample significance guarantee; unresolved assigned zero, not declared a draw."
+    },
+    "candidate_vs_geometric_60": {
+      "pair_mean_win_minus_loss": [
+        0.0,
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "pair_bootstrap_95_percentile": [
+        -1.0,
+        0.0
+      ],
+      "limits": "Only four independent seed pairs. Exploratory bootstrap, not a reliable small-sample significance guarantee; unresolved assigned zero, not declared a draw."
+    },
+    "outcome_vs_ground_60": {
+      "pair_mean_win_minus_loss": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "pair_bootstrap_95_percentile": [
+        0.0,
+        1.0
+      ],
+      "limits": "Only four independent seed pairs. Exploratory bootstrap, not a reliable small-sample significance guarantee; unresolved assigned zero, not declared a draw."
+    },
+    "outcome_vs_geometric_60": {
+      "pair_mean_win_minus_loss": [
+        1.0,
+        -1.0,
+        0.0,
+        -1.0
+      ],
+      "pair_bootstrap_95_percentile": [
+        -1.0,
+        0.5
+      ],
+      "limits": "Only four independent seed pairs. Exploratory bootstrap, not a reliable small-sample significance guarantee; unresolved assigned zero, not declared a draw."
+    }
+  },
+  "common_opponents": {
+    "candidate": {
+      "matches": 16,
+      "W": 3,
+      "L": 11,
+      "D": 0,
+      "U": 2,
+      "GF": 8,
+      "GA": 21,
+      "stationary_seconds": 275.883333333323,
+      "observed_seconds": 5513.466666666667,
+      "circling_windows": 30,
+      "goalward_contacts": 130,
+      "backward_contacts": 113,
+      "stationary_fraction": 0.050038088558920515
+    },
+    "outcome": {
+      "matches": 16,
+      "W": 8,
+      "L": 6,
+      "D": 0,
+      "U": 2,
+      "GF": 25,
+      "GA": 20,
+      "stationary_seconds": 11.350000000000007,
+      "observed_seconds": 5469.333333333334,
+      "circling_windows": 25,
+      "goalward_contacts": 149,
+      "backward_contacts": 131,
+      "stationary_fraction": 0.0020752072159921997
+    }
+  },
+  "selected_automatically": false,
+  "native_acceptance": "UNTESTED",
+  "no_further_training": true
+}

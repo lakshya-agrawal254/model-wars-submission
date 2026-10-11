@@ -1,0 +1,38 @@
+{
+  "decisions": 196608,
+  "actor_updates": 36,
+  "critic_updates": 48,
+  "seconds": 549.939426899,
+  "effective_decisions_per_second": 357.5084643569452,
+  "greedy_modes": [
+    0,
+    196608,
+    0,
+    0
+  ],
+  "sampled_modes": [
+    2,
+    185815,
+    5788,
+    5003
+  ],
+  "mode_changes_vs_initializer": 0,
+  "forecast_ablation_mode_changes": 0,
+  "forecast_ablation_steer_mean": 0.000985637908646216,
+  "steer_change_vs_initializer_mean": 0.0022528521415855116,
+  "goal_events_for": 11,
+  "goal_events_against": 11,
+  "contact_callbacks": 125,
+  "goalward_contact_events": 37,
+  "backward_contact_events": 36,
+  "reward_components": {
+    "goal": 0.0,
+    "potential": 7.144568738700279,
+    "productive_velocity": 0.32329660120425013,
+    "nonproductive_contact": -0.006,
+    "stationary": 0.0,
+    "goal_reset_potential": -0.43727086482819955
+  },
+  "all_forecast_valid": true,
+  "note": "Ablation evaluated recorded training states; no causal competitive improvement claim."
+}

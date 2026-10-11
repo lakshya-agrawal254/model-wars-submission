@@ -1,0 +1,978 @@
+{
+  "strict_load": true,
+  "all_actor_optimizer_states_restored": true,
+  "critic_and_optimizer_restored": true,
+  "actor_parameters": 26181,
+  "tensor_names_preserved": true,
+  "plain_full_inference_exact": true,
+  "recurrent_chunk_parity": true,
+  "each_batch_actual_behavior_and_memory_replay": true,
+  "all_prior_checkpoints_unchanged": 71,
+  "untouched_official_files": [
+    "src/policy.py",
+    "src/observation_contract.py",
+    "tools/validate_submission.py",
+    ".github/workflows/validate.yml"
+  ],
+  "rows": [
+    {
+      "batch": 0,
+      "index": 0,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7735,
+        265,
+        192
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0010304517345502973,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0022031066473573446,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        -0.17394061386585236,
+        0.0725373849272728,
+        -0.006000000052154064,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 1,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7735,
+        265,
+        192
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0008166455663740635,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0024990797974169254,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        2.2210745811462402,
+        -0.05585122108459473,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 2,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        1,
+        7694,
+        262,
+        235
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009623105870559812,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002282113302499056,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        -20.0,
+        -0.09049616754055023,
+        0.0003667529672384262,
+        0.0,
+        0.0,
+        1.3469040393829346
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 3,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7718,
+        255,
+        219
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009317443473264575,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0023162609431892633,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        0.8642928004264832,
+        0.03215345740318298,
+        0.0,
+        0.0,
+        -0.06438940763473511
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 4,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7730,
+        250,
+        212
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009209387935698032,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0024781441316008568,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        -20.0,
+        0.012675437144935131,
+        0.0,
+        0.0,
+        0.0,
+        1.280470848083496
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 5,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7723,
+        241,
+        228
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0011734580621123314,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.00230368017219007,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        10.0,
+        2.288559675216675,
+        -0.053199201822280884,
+        0.0,
+        0.0,
+        -0.7005181312561035
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 6,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7638,
+        312,
+        242
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.000771286548115313,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0022461500484496355,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        -10.0,
+        0.010995768010616302,
+        -0.01346546970307827,
+        0.0,
+        0.0,
+        0.7021400332450867
+      ]
+    },
+    {
+      "batch": 0,
+      "index": 7,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7682,
+        274,
+        236
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.000947061984334141,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0019806933123618364,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        -10.0,
+        0.7403479814529419,
+        0.16665121912956238,
+        0.0,
+        0.0,
+        0.6192055344581604
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 0,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7791,
+        198,
+        203
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009922392200678587,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0023791566491127014,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        0.7353540658950806,
+        -0.003479564329609275,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 1,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7740,
+        244,
+        208
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0010031600249931216,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0022049276158213615,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        0.0947762206196785,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 2,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        1,
+        7799,
+        204,
+        188
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.000997884781099856,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0021115492563694715,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        0.2659922242164612,
+        0.0020611160434782505,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 3,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7773,
+        214,
+        205
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0012098448351025581,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002199203707277775,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        20.0,
+        2.2474586963653564,
+        0.04648229107260704,
+        0.0,
+        0.0,
+        -1.3140406608581543
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 4,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7764,
+        249,
+        179
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0010226306039839983,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002433287911117077,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        10.0,
+        0.0924345925450325,
+        0.1662243753671646,
+        0.0,
+        0.0,
+        -0.773593544960022
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 5,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7727,
+        255,
+        210
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0010402851039543748,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0024239039048552513,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        -10.0,
+        0.2272159606218338,
+        -0.1599999964237213,
+        0.0,
+        0.0,
+        0.647842526435852
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 6,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7773,
+        230,
+        189
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0010241344571113586,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0021743150427937508,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        10.0,
+        1.021981120109558,
+        -0.080679751932621,
+        0.0,
+        0.0,
+        -0.707435667514801
+      ]
+    },
+    {
+      "batch": 1,
+      "index": 7,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7746,
+        227,
+        219
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0008961050189100206,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0018691812874749303,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        -0.29732027649879456,
+        -0.07218460738658905,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 0,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7785,
+        202,
+        205
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0008788817212916911,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002188866725191474,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        -2.4354007244110107,
+        0.12320306897163391,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 1,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7747,
+        245,
+        200
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0010448868852108717,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002244158647954464,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        -0.17380838096141815,
+        0.06424111127853394,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 2,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7770,
+        215,
+        207
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009121279581449926,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002327885013073683,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        10.0,
+        0.2614472508430481,
+        0.07861082255840302,
+        0.0,
+        0.0,
+        -0.7214634418487549
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 3,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7740,
+        244,
+        208
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009548045927658677,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0022125651594251394,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        10.0,
+        0.590483546257019,
+        0.07999999821186066,
+        0.0,
+        0.0,
+        -0.7044966220855713
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 4,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7733,
+        239,
+        220
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009107654914259911,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0020089384634047747,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        -3.1283328533172607,
+        -0.007957842200994492,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 5,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7779,
+        207,
+        206
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.001048180041834712,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002501807641237974,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        -10.0,
+        0.776401162147522,
+        0.03389773517847061,
+        0.0,
+        0.0,
+        0.680393636226654
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 6,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7774,
+        238,
+        180
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0011923254933208227,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002398025942966342,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        10.0,
+        0.3296758532524109,
+        -0.004245993681252003,
+        0.0,
+        0.0,
+        -0.7282901406288147
+      ]
+    },
+    {
+      "batch": 2,
+      "index": 7,
+      "decisions": 8192,
+      "greedy_modes": [
+        0,
+        8192,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        0,
+        7719,
+        253,
+        220
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0009731559548527002,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0020814500749111176,
+      "forecast_valid_fraction": 1.0,
+      "forecast_horizon_seconds": [
+        2.0,
+        2.0
+      ],
+      "dt_values": [
+        0.0,
+        1.0
+      ],
+      "reward_component_sums": [
+        0.0,
+        0.6626870632171631,
+        -0.09206908196210861,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "forecast_input_column_norms": [
+    0.0073448894545435905,
+    0.00707195233553648,
+    0.007107677403837442,
+    0.004810158163309097,
+    0.004810158163309097,
+    0.0
+  ],
+  "forecast_gradient_norms": [
+    0.05148746073246002,
+    0.32526305317878723,
+    0.054794084280729294,
+    0.12298668920993805,
+    0.03981899097561836,
+    0.02290777675807476,
+    0.09529086202383041,
+    0.042709048837423325,
+    0.052921537309885025,
+    0.04827043414115906,
+    0.04076382517814636,
+    0.037338629364967346,
+    0.05048258975148201,
+    0.050637826323509216,
+    0.052231792360544205,
+    0.024891920387744904,
+    0.11189990490674973,
+    0.03912786766886711,
+    0.030232086777687073,
+    0.04776698723435402,
+    0.03420816361904144,
+    0.022600458934903145,
+    0.019258828833699226,
+    0.05531962215900421,
+    0.03315844386816025,
+    0.03316909819841385,
+    0.032828234136104584,
+    0.05216106399893761,
+    0.03563538193702698,
+    0.029180562123656273,
+    0.029902979731559753,
+    0.02945404313504696,
+    0.02530526928603649,
+    0.0195576511323452,
+    0.019437922164797783,
+    0.04628140479326248
+  ],
+  "limits": "Ablation uses collected training trajectories, not competitive evidence. Physics forecasts cannot predict future car interventions. No native acceptance claimed."
+}

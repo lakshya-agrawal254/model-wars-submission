@@ -1,0 +1,29 @@
+[
+  {
+    "batch": 0,
+    "file_id": "1CI3mqDk6CzlMhsh7RxbZXxUgNALVsZHN",
+    "SHA256": "b8f6e3c5beb2c6fc95e6046bc848eae81ea7395b73e29024f4c87f73416fe662",
+    "bytes": 18634553,
+    "download_verified": true,
+    "npz_load": "PASS",
+    "permissions": "owner only"
+  },
+  {
+    "batch": 1,
+    "file_id": "1F34lyyF_MZkn57abPfBX_3tzwOie7-G8",
+    "SHA256": "5a8dfe1a462dcfddcaa6a463e1091773729ce08ef71bb6bdab95cf6a8a237ee1",
+    "bytes": 18631057,
+    "download_verified": true,
+    "npz_load": "PASS",
+    "permissions": "owner only"
+  },
+  {
+    "batch": 2,
+    "file_id": "15MJlyX08Qgxo1jr5W7K2iNe9UWsws5DO",
+    "SHA256": "755eb0ca23b4b30d5054b4755ddc6a01574d50f965b93967e1d6edf21feef2ff",
+    "bytes": 18644593,
+    "download_verified": true,
+    "npz_load": "PASS",
+    "permissions": "owner only"
+  }
+]

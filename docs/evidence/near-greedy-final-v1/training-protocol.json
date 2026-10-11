@@ -1,0 +1,23 @@
+{
+  "seed": 11301011,
+  "max_batches": 3,
+  "trajectories": 8,
+  "length": 8192,
+  "Hz": 60,
+  "workers": 4,
+  "epochs": 12,
+  "actor_lr": 0.0001,
+  "critic_lr": 0.002,
+  "gamma": 0.999,
+  "gae_lambda": 0.999,
+  "steer_std": 0.1,
+  "mode_temperature": 0.35,
+  "clip": 0.15,
+  "reference_joint_KL_coefficient": 0.02,
+  "training_cutoff_UTC": "2026-10-11T00:55:00+00:00",
+  "max_wall_seconds": 900,
+  "initializer": "runs/outcome-flip-learning-v1/candidate.pt",
+  "changes": "Training-only categorical temperature reduces sampled-vs-greedy mismatch; steering exploration .10;8192step complete histories;3fresh policy/data cycles rather than4epochs onone batch. Original actor/argmax decoder/runtime unchanged.",
+  "reward": "Unchanged goal+10/-10, potential-based shaping and small productive delta-velocity terms; no new coefficient tuning",
+  "selection": "Last complete checkpoint is candidate. Do not select on reward. Reject if matched competitive or movement screen fails. No more campaigns."
+}
