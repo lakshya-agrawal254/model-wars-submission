@@ -1,0 +1,38 @@
+{
+  "rejected_weight_restore_exact": true,
+  "rejected_empty_and_populated_Adam_restore_exact": true,
+  "accepted_step_count": 1,
+  "discarded_proposal_calls": 7,
+  "backtracking_trials": [
+    {
+      "attempt": 1,
+      "lr": 5e-05,
+      "accepted": false,
+      "mean_KL": 0.20797044038772583,
+      "max_trajectory_KL": 0.20797044038772583
+    },
+    {
+      "attempt": 2,
+      "lr": 2.5e-05,
+      "accepted": false,
+      "mean_KL": 0.05202389881014824,
+      "max_trajectory_KL": 0.05202389881014824
+    },
+    {
+      "attempt": 3,
+      "lr": 1.25e-05,
+      "accepted": false,
+      "mean_KL": 0.0130099356174469,
+      "max_trajectory_KL": 0.0130099356174469
+    },
+    {
+      "attempt": 4,
+      "lr": 6.25e-06,
+      "accepted": true,
+      "mean_KL": 0.0032526152208447456,
+      "max_trajectory_KL": 0.0032526152208447456
+    }
+  ],
+  "actual_post_update_KL_checked": true,
+  "scope": "Copied-actor optimizer unit test using previously recorded real states; test actor discarded, no new training candidate or runtime changes."
+}
