@@ -19,14 +19,13 @@ class V13(Bot):
     def __init__(self):
         self.callbacks=0;self.predictions=0;self.packets=0;self.submissions=0
         self.expected=None;self.last_position=None;self.runtime=None;self.diagnostic_errors=0
-        self.last_mode=None;self.last_stationary=None;self.raw_head=None
         stamp=datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S_%f')
         folder=ROOT/'logs';folder.mkdir(exist_ok=True)
         self.log=folder/(stamp+'_'+str(os.getpid())+'.jsonl')
         self.evidence('process_started',dict(cwd=str(Path.cwd()),executable=sys.executable,
             package_root=str(ROOT),agent_id=os.environ.get('RLBOT_AGENT_ID'),checkpoint=PIN,
             controller='V13 student only',shadow_teacher=False))
-        super().__init__('lakshya-agrawal254/v13-outcome-128')
+        super().__init__('lakshya-agrawal254/v13-geometry-control')
         self._game_interface.on_connect_handlers.append(lambda:self.evidence('rlbot_connected',{}))
         original_send=self._game_interface.send_msg
         def submit(message):
@@ -55,9 +54,6 @@ class V13(Bot):
 
     def initialize(self):
         self.runtime=Runtime()
-        def capture_head(module,inputs,output):
-            self.raw_head=output.detach().cpu().tolist()
-        self.runtime.model.head.register_forward_hook(capture_head)
         self.evidence('initialized',dict(index=self.index,team=self.team,name=self.name,
             parameters=26181,hidden_resets=1,torch_device='cpu'))
         print('V13 ready: native RLBot; 13D GRU; student controls only.',flush=True)
@@ -85,29 +81,20 @@ class V13(Bot):
             p=packet.players[self.index].physics
             position=[p.location.x,p.location.y,p.location.z]
             changed=self.last_position is not None and position!=self.last_position
-            stationary=p.velocity.x**2+p.velocity.y**2+p.velocity.z**2<100**2
-            log_now=self.callbacks==1 or self.callbacks%12==0 or mode!=self.last_mode or stationary!=self.last_stationary
-            if os.environ.get("V13_LOG_EVERY_CALLBACK")=="1":log_now=True
-            if log_now:
+            if self.callbacks==1 or self.callbacks%120==0:
                 self.evidence('processed_packet',dict(callback=self.callbacks,packets_received=self.packets,
                     predictions_received=self.predictions,frame=packet.match_info.frame_num,T=T,
                     phase=str(packet.match_info.match_phase),index=self.index,team=self.team,
                     observation13=obs,mode=MODES[mode],controls=controls,
-                    raw_head=self.raw_head,hidden_norm=float(self.runtime.hidden.norm()),
-                    stationary=stationary,callback_delta_seconds=obs[12]/60,
                     selected_prediction_index=index,
                     selected_prediction_time=None if selected is None else selected.game_seconds,
                     position=position,position_changed_since_previous_callback=changed,
                     velocity=[p.velocity.x,p.velocity.y,p.velocity.z]))
             self.last_position=position
-            self.last_mode=mode;self.last_stationary=stationary
             return output
         except Exception as error:
             self.evidence('callback_error',dict(callback=self.callbacks,T=T,
-                frame=packet.match_info.frame_num,phase=str(packet.match_info.match_phase),
-                phase_code=int(packet.match_info.match_phase),game_time_remaining=packet.match_info.game_time_remaining,
-                game_speed=packet.match_info.game_speed,last_accepted_T=getattr(self.runtime,'previous_elapsed',None),
-                type=type(error).__name__,error=str(error)))
+                frame=packet.match_info.frame_num,type=type(error).__name__,error=str(error)))
             raise # Native SDK error handling; no teacher/neutral/state-repair fallback.
 
     def retire(self):

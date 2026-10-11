@@ -1,52 +1,62 @@
-# Outcome-128 provisional entry — measured results
+# V13 focused investigation — rejected candidate; native timing risk
 
-Status:PRIVATE PREPARATION ONLY; NOT SUBMITTED. Actual Outcome-128 RocketLeague/RLBotv5 GUI discovery, launch and full-match acceptance:NOT TESTED. User feedback that Geometric was slightly better than OriginalV13, and validatedA worse, concerns different weights and is not Outcome acceptance.
+Private experimental branch `training/v13-memory-selective-20261011`. Main remains `c151310b5c36996aeb1fe192be5eea7cc328e846`, model SHA `bda8a7a773d63526fea8a1449ff3971bba48317a05dd024eafc18827c1100011`. Every previous checkpoint and backup is retained. Official architecture, observation contract, decoder and validator/workflow are unchanged. No learner was active before this work. Latest committed checkout6087b7c was clean; original anchored files and saved diagnostics were inspected first. No completed campaign was restarted.
 
-Checkpoint model/V13.pt SHA256:8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043. Exactly13 observations/26,181 parameters/originalGRU/fourmode decoder. Existing verified sealed weights copied unchanged; preparation performed zero optimizer updates. Identity:lakshya-agrawal254/v13-outcome-128.
+The user reports validated A was noticeably worse than original V13 in actual RLBot v5. This is genuine qualitative native evidence, not quantified scores/callback acceptance. Passing validation does not establish A as strongest. The geometric actor is the mechanically strongest retained self-trained reference and beats the failed anchored learner, but has not demonstrated superiority over original V13 or native acceptance.
 
-## Training
+## Critic experiment
 
-Outcome128 used128 recurrent supervised Adam updates (789289 sequence-row presentations), starting from preservedGeometric. Independently generated realRocketSim legal examples and own-policy trajectories; classbalanced mode and steering learning, original recurrent sequences, no external teachers or runtime controllers. Its training phase added0 PPO decisions. Data/configuration/source hashes and optimizer checkpoint remain preserved privately; inference requires none of those training files. Forecast-related input weights remain at their original trained zeros; Outcome128 cannot claim learned use of two-second predictions. No learned useful front-dodge behavior was demonstrated.
+40 frozen geometric-policy real RocketSim trajectories4096 decisions each, no actor updates. 24train/16heldout, split by entire side-paired seed groups. 163,840 diagnostic behavior decisions are NOT new PPO learner decisions. Each target uses discounted Monte Carlo reward to4096 plus the same preserved critic boundary bootstrap, and assesses only first2048 states. These are finite return proxies, not exact infinite-horizon targets. No native forecasts were fabricated. The old boundary bootstrap creates a limitation, particularly for comparison to that same critic; refit feature comparisons share identical targets.
 
-## Frozen full-match RocketSim evidence
+The memory feature is h_t **after** consuming x_t, detached and aligned with V(x_t,h_t), r_t and nextstate. Fullsequence GRU features and action densities were compared to actual callbacks (including23 physical goal events); hidden states persist across goals. Next-boundary memory comes from actor(x_next,h_t), no hidden reset. Critic gradients cannot reach actor parameters. Capacity control has9073 parameters vs memory9217; exported actor remains26181.
 
-These are simulation tests, not actualRocketLeague. Real3D RocketSim2.2.1/RLGym RocketLeague2.0.1, PyTorch2.11CPU/Python3.12.14, deterministic argmax mode and tanh steering, original controls. Both team sides use matching seeds and actual2second RocketSim forecasts (not invented native packets).300active-second regulation; floor proxy, capped overtime and total duration. Censored matches remain unresolved, not draws.
+| Critic | Mean heldout MSE (3 fits) | Mean explained variance |
+|---|---:|---:|
+| observation | 6.598899 | -0.057593 |
+| memory | 6.985946 | -0.127757 |
+| capacity | 6.617184 | -0.062705 |
 
-| Seed set / opponent | W/L/D/Unresolved | Goals for:against |
-|---|---|---|
-|10501011+i*1009 / OriginalV13,8matches|6/1/0/1|17:9|
-|10501011+i*1009 / Geometric,12matches|6/4/0/2|19:12|
-|11101011+i*1009 / Ground64,8matches|6/1/0/1|10:4|
-|11101011+i*1009 / Geometric,8matches|7/1/0/0|23:7|
+Preserved unrefit critic: MSE 6.045217, EV 0.000339. All critics explain little heldout return variance. Memory loses all3 fitting seeds and has5.87% worse MSE than original-width refit. Paired-seed95% bootstrap difference vs observation: [-0.022130418755114078, 0.7967714101076123]; uncertainty includes0. **Reject memory augmentation.** No benefit is established; no claim of statistically proven harm or universal failure. This sparse-return regression cannot alone diagnose gameplay.
 
-Small side-paired samples have substantial uncertainty. These opponents are independently preserved legal project models; none is included as a second bot here. The latest forecastPPO challenger won5/8 againstOutcome but failed common-opponent qualification,7/16 wins versusOutcome's13/16; its weights are excluded. Corrected read-only telemetry reproduced all44 original outcomes; these are44 unique conditions, not88 independent samples. Evidence source commit:f7e872f0f3a2bb47fa73d5d239e0c85f01d66f60, docs/evidence/forecast-final-v1 in the private development branch.
+## One distinct bounded policy trial
 
-Important remaining weaknesses:Outcome spent892.78seconds stationary over8 latestGround64 matches;887.70seconds were near the other car. Winning records do not prove reliable collision recovery. Circling and backward/unproductive contacts remain. Four separate120Hz forecast-candidate-versusOutcome matches reached safety caps scoreless; neither agent made useful contact. Native logs previously supplied by the user were approximately60Hz, so120Hz failures are not asserted to explain native poor gameplay.
+Actor starts from preserved geometric weights SHA55fae517..., not failed anchored actor. The rejected memory architecture is NOT used in PPO. Original observation-only critic and its compatible prior Adam state are carried over; a fresh actor PPO Adam is created once for this new supervised-to-selective-PPO branch. No existing optimizer is overwritten or reset. Critic gets four warm-fit epochs on fresh on-policy rollouts. Actor optimizer includes every original parameter, no new actor tensors.
 
-The 13D local-ball/speed/timing contract lacks opponent positions and global goal-relative heading. It cannot guarantee general own/enemy-goal identification; no privileged coordinates enter runtime inputs. No claim of direct opponent tracking or strong defending is made.
+Global mode reference KL and all-ball-present CE are removed from this candidate loss. Suitable approach mask requires grounded car, low ball, target within300..2500UU, local-forward positive, angle<.65rad and >1sec since either car touched. CE(.01) favors Chase only there. Independent geometric steering MSE(.1) only there; conditional steering reference KL(.02) only when reference agrees with independent target within.2. Outside mask anchor gradients are exactly0, including recovery/post-contact. Categorical divergence is still monitored, and PPO uses actual combined mode/conditional-tanh steering density and clipping. Mode changes elsewhere are permitted, not taught to be useful by these labels.
 
-## Validation and native acceptance
+The audit found legacy CE nonzero gradient outside approaches (.004439 norm on one prefix); new anchor gradient there0. At exact reference equality KL itself is0, so do not claim it immediately suppresses gradients; once mode probabilities change, the legacy all-state categorical KL opposes deviations everywhere. This is a training candidate, never a runtime scripted override. Reward coefficients remain unchanged.
 
-Sealed source participant-manifest verification:PASS before copying. Preparation checks cover exact checkpoint bytes, runtimePIN, consistentidentity, originalpolicy/observations/decoder, all8tensors/26181parameters, full/recurrent inference parity, integrity and officialvalidator. The final preparation verification receipt records actual pass/fail outputs. Cloud SDK preflight is NON-LIVE and must not be called native acceptance. GitHubActions status is distinct and must be checked for the exact preparation commit; dispatch access may be blocked in this cloud session.
+First batch12×2048=24,576 decisions: E,E,O,F,B0,B1,B2,B3,B4,R,R,G. All required situations and all five kickoff positions occur before the first update, fixing the prior pilot schedule. Real recovery states have tilted airborne cars, not a scripted recovery policy. 60/120Hz rollouts alternate with duration-correct gamma/lambda. Chronological actor GRU continuity, fresh behavior densities and explicit time-limit next-value bootstrap are checked. Four PPO epochs, gamma/lambda.999, actor lr1e-4, critic.002, standard steer std.15. Frozen own pool: original V13, A, geometry; no external teachers/opponents. These anchor/schedule changes are tested together, so match effects cannot be attributed to one independently.
 
-Native acceptance evidence to complete:Windows/Python/RLBot/RocketLeague versions; exact package/commit/hash; Blue/Orange full-match scores; actual prediction receipt and callback/error logs; GUI discovery/launch/control success. Do not mark acceptance passed without those observations. Preserve any failures in this document, reseal and rerun validation after edits.
+## Actual reward audit
 
-Preparation results: exact4096-callback real-state inference replay matched sealedOutcome controls, modes andGRU hidden states bit-for-bit. Local officialvalidator fetched from current organizer main passed; packagedvalidator was byte-identical. Native SDK preflight passed bothteam configuration and originalactions; nativegame remainsUNTESTED. Actionsdispatch returnedForbidden through the cloud API before a run could start. Do not transfer the passing main commit's CI result to this preparation commit.
+Components are logged per simulation decision: +10/-10 goals; gammaPhi(next)-Phi(old); small .08 signed clipped goalward velocity-change contact term with cooldown; -.003 negligible-contact penalty; -.001×duration sustained stationary cost; explicit goal-reset potential correction. The obsolete sim_contract.reward(+2touch/+20goal) method is not called. Potential telescopes across actual nonterminal resets, rather than awarding free kickoff progress.
 
-## Final bounded PPO challenger — rejected,11October2026
+Frozen diagnostic totals: {"goal": -30.0, "potential": 7.291088405264578, "productive_velocity": 0.9691784973144532, "nonproductive_contact": -0.015, "stationary": -0.06100000000000005, "goal_reset_potential": 1.4978790521709189}. Contact events: {"goalward": 87, "backward": 72, "meaningless": 5, "touch": 267}. 23goals total, and11contact-to-goal-within5sec associations. Contact classification is signed y-velocity change, not shot accuracy; backward contacts can be useful defensively. Own-last-touch and danger-clear counts are proxies, not causal own-goal/save labels. Repeated meaningless touch terms remain negative and are cooldown-qualified.
 
-Training stopped at06:20:09IST after549.94seconds,196608 new decisions and36 actor updates. The new actor was isolated; this package still contains the unchanged Outcome-128 weights. All71 prior checkpoints were preserved. The challenger passed exact13D/26181-parameter and recurrent/on-policy/optimizer-restoration checks, but failed competitive qualification.
+Stationary control probe: 10real RocketSim seconds, no runtime/model changes; final8sec mean reward -0.0011158706543611943, zero positive rewards. No demonstrated stationary-reward exploit here. Circling remains a match telemetry proxy, not a proven reward exploit. No coefficient changed from these observations.
 
-Fresh seeds11401011+i*1009, four side pairs per matchup, deterministic60Hz realRocketSim full matches:
+## Independent match screening
 
-| Playing model / opponent | W/L/D/Unresolved | Goals for:against | Stationary seconds |
-|---|---|---|---:|
-| Challenger / Outcome128 |6/0/0/2|12:5|4.72|
-| Challenger / Ground64 |1/5/0/2|3:11|274.12|
-| Challenger / Geometric |2/6/0/0|5:10|1.77|
-| Unchanged Outcome128 / Ground64 |6/2/0/0|14:9|7.10|
-| Unchanged Outcome128 / Geometric |2/4/0/2|11:11|4.25|
+Same regulation300active seconds, overtime/floor proxy and physical safety caps; RocketSim60Hz with absent forecasts. Four fresh matched seed pairs per opponent. Caps are unresolved; zero completed draws here. Observed goals include capped play. These are not actual Rocket League tests.
 
-Common-opponent totals:challenger3/16 wins,8:21goals,275.88seconds stationary; Outcome8/16 wins,25:20goals,11.35seconds stationary. Challenger near-car stalls againstGround lasted268.60seconds overall. The direct6/8 screen does not offset these regressions and does not warrant independent confirmation. Its optimistic independent-match95% Wilson win interval againstOutcome is40.9–92.9%; four correlated side pairs do not establish strong statistical evidence. No more training is scheduled.
+| Candidate against | Completed W/L/D | Unresolved | Observed GF/GA |
+|---|---|---:|---|
+| candidate_vs_baseline | 2/4/0 | 2 | 2/4 |
+| candidate_vs_A | 5/0/0 | 3 | 13/7 |
+| candidate_vs_geo | 0/7/0 | 1 | 3/11 |
+| geo_vs_baseline | 2/6/0 | 0 | 4/10 |
 
-Outcome remains the provisional recommendation. Its fresh2/8 wins againstGeometric also show substantial seed sensitivity; do not extrapolate earlier small winning samples to native strength. No actualRocketLeague acceptance is claimed. No learner, experimental weights or other bots are included here. Full immutable research evidence is preserved on private branch training/v13-near-greedy-final-20261011, docs/FINAL_NEAR_GREEDY_REVIEW.md.
+Candidate vs geometric conservative score0/8, descriptive win95% Wilson0–32.4%. Candidate-vs-A five completed wins are not enough to establish a stronger overall bot. Starting geometry itself has2W/6L against original V13 on the matched baseline seeds. **Reject the candidate; do not run final confirmation or extend training.** Reserved831... confirmation seeds remain unused.
+
+Ground12/12 and all-five kickoff10/10 contacts at60Hz are preserved. New policy changed120/81,920 replayed real-state prefix mode decisions (0.1465%); mean absolute steering difference.005459; no difference>.05. CatKL mean.0000726. Recurrent prefixes replay each actor with its own memory. Weight changes are not treated as meaningful gameplay improvement. Greedy evaluation produced no useful Jump/Dodge learning; stochastic training sampled them but successful use is unproven.
+
+## Verified callback-rate sensitivity
+
+Fresh independent841... starts, identical opponents, starts and both sides; inference only, no tuning. Both geometric and selective candidates: ground4/4 at60 and120Hz; kickoff10/10 at60Hz but0/10 at120Hz. All five kickoff positions covered on both sides. Conditional kickoff median60Hz: geometry3.35sec, selective3.3667sec. This controlled comparison changes callback rate and corresponding original dt feature, so it does not isolate dt encoding from recurrent update frequency. It demonstrates a serious rate sensitivity. **Do not force60Hz, alter the runtime observation contract or claim that native failure has been established.** Native logs must identify actual callback frequency and real kickoff outcomes. No native recordings were supplied for the new candidates.
+
+## Preservation, Windows review and approval
+
+Strongest surviving self-trained reference for controlled Windows comparisons remains geometric checkpoint; its global strength is not verified. Original V13 is a required comparison given the user’s native finding. Validated A/main stays unchanged solely as protected submission state; it is not declared strongest based on validation. New candidate SHA `1177a04f30a3fc7ad10a5b51b491700a249d49a6dd08ebf38e61638a57a8faf4`, complete critic/both optimizers/RNG/config/state preserved at runs/memory-selective-24576/latest.pt. Existing failed anchored32,768 state remains untouched. One new bounded trial only. Training 30.95sec (~794.0PPOdecisions/s excluding evaluation/diagnostics/export); actor PPOlineage40,960. Diagnostic163,840 frames and evaluation are separately counted.
+
+Read docs/MEMORY_SELECTIVE_WINDOWS_REVIEW.md for the review ZIP’s three separate kits: selective candidate, geometric control and untouched original V13. Record both-side full native scores, prediction/callback/control evidence, actual dt and all-five kickoff contacts. Code/tests/validator pass cannot replace native acceptance. Deadline11October2026 07:00IST; no further speculative training. User approval remains mandatory before main changes, organizer access or submission, even if deadline passes.
