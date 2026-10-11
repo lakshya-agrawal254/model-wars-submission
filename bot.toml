@@ -1,7 +1,7 @@
 #:schema https://rlbot.org/schemas/agent.json
 [settings]
-name = "V13 Geometric Control"
-agent_id = "lakshya-agrawal254/v13-geometry-control"
+name = "V13 Outcome-128 Provisional"
+agent_id = "lakshya-agrawal254/v13-outcome-128"
 root_dir = ""
 run_command = ".venv\\Scripts\\python.exe -I -u -B src\\bot.py"
 loadout_file = "loadout.toml"
@@ -9,7 +9,7 @@ logo_file = ""
 hivemind = false
 
 [details]
-description = "Restored preserved Geometric V13 policy; original 13D GRU and controls."
+description = "Outcome-128: independently trained V13 policy, provisional entry; native acceptance pending."
 developer = "lakshya-agrawal254; original V13 framework by shryssssss"
 language = "Python"
 tags = ["1v1"]

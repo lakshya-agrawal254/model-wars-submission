@@ -28,7 +28,7 @@ def main():
         player=config.load_player_config(ROOT/'bot.toml',team)
         assert player.team==team and Path(player.variety.root_dir).resolve()==ROOT
         assert player.variety.run_command==settings['run_command']
-        assert player.variety.agent_id=='lakshya-agrawal254/v13-geometry-control' and player.variety.loadout is not None
+        assert player.variety.agent_id=='lakshya-agrawal254/v13-outcome-128' and player.variety.loadout is not None
     runtime=Runtime()
     assert tuple(FEATURES[:13])==tuple(manifest['features13'])
     context=dict(elapsed=1.,previous_elapsed=None,previous_mode=0,previous_steer=0.,
