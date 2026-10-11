@@ -32,3 +32,21 @@ Sealed source participant-manifest verification:PASS before copying. Preparation
 Native acceptance evidence to complete:Windows/Python/RLBot/RocketLeague versions; exact package/commit/hash; Blue/Orange full-match scores; actual prediction receipt and callback/error logs; GUI discovery/launch/control success. Do not mark acceptance passed without those observations. Preserve any failures in this document, reseal and rerun validation after edits.
 
 Preparation results: exact4096-callback real-state inference replay matched sealedOutcome controls, modes andGRU hidden states bit-for-bit. Local officialvalidator fetched from current organizer main passed; packagedvalidator was byte-identical. Native SDK preflight passed bothteam configuration and originalactions; nativegame remainsUNTESTED. Actionsdispatch returnedForbidden through the cloud API before a run could start. Do not transfer the passing main commit's CI result to this preparation commit.
+
+## Final bounded PPO challenger — rejected,11October2026
+
+Training stopped at06:20:09IST after549.94seconds,196608 new decisions and36 actor updates. The new actor was isolated; this package still contains the unchanged Outcome-128 weights. All71 prior checkpoints were preserved. The challenger passed exact13D/26181-parameter and recurrent/on-policy/optimizer-restoration checks, but failed competitive qualification.
+
+Fresh seeds11401011+i*1009, four side pairs per matchup, deterministic60Hz realRocketSim full matches:
+
+| Playing model / opponent | W/L/D/Unresolved | Goals for:against | Stationary seconds |
+|---|---|---|---:|
+| Challenger / Outcome128 |6/0/0/2|12:5|4.72|
+| Challenger / Ground64 |1/5/0/2|3:11|274.12|
+| Challenger / Geometric |2/6/0/0|5:10|1.77|
+| Unchanged Outcome128 / Ground64 |6/2/0/0|14:9|7.10|
+| Unchanged Outcome128 / Geometric |2/4/0/2|11:11|4.25|
+
+Common-opponent totals:challenger3/16 wins,8:21goals,275.88seconds stationary; Outcome8/16 wins,25:20goals,11.35seconds stationary. Challenger near-car stalls againstGround lasted268.60seconds overall. The direct6/8 screen does not offset these regressions and does not warrant independent confirmation. Its optimistic independent-match95% Wilson win interval againstOutcome is40.9–92.9%; four correlated side pairs do not establish strong statistical evidence. No more training is scheduled.
+
+Outcome remains the provisional recommendation. Its fresh2/8 wins againstGeometric also show substantial seed sensitivity; do not extrapolate earlier small winning samples to native strength. No actualRocketLeague acceptance is claimed. No learner, experimental weights or other bots are included here. Full immutable research evidence is preserved on private branch training/v13-near-greedy-final-20261011, docs/FINAL_NEAR_GREEDY_REVIEW.md.

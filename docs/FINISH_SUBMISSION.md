@@ -3,7 +3,7 @@
 Provisional preparation branch: `preparation/outcome-128-provisional-20261011`.
 Private repository: `lakshya-agrawal254/model-wars-submission`.
 Deadline supplied by participant:11October2026,07:00IST (01:30UTC).
-Training is stopped. Do not run any learner.
+Training is stopped; the final challenger finished at06:20:09IST and failed qualification. Retain this exact Outcome-128 checkpoint. Do not run any learner.
 
 ## Permitted preparation and Windows acceptance
 

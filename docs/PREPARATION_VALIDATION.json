@@ -40,5 +40,8 @@
   "github_actions": "BLOCKED: cloud gh workflow dispatch failed before starting a run; Actions API returned Forbidden. No preparation CI pass is claimed. Owner can dispatch unchanged official workflow on this branch through GitHub UI.",
   "main_preserved": "c151310b5c36996aeb1fe192be5eea7cc328e846",
   "submission_approval": false,
-  "dispatch_error": "Get \"https://api.github.com/repos/lakshya-agrawal254/model-wars-submission/actions/workflows/validate.yml\": Forbidden"
+  "dispatch_error": "Get \"https://api.github.com/repos/lakshya-agrawal254/model-wars-submission/actions/workflows/validate.yml\": Forbidden",
+  "final_research_decision": "Retain unchanged Outcome128; final challenger failed common-opponent and stationary-time gates",
+  "last_training_finished_IST": "2026-10-11 06:20:09",
+  "no_more_training": true
 }
