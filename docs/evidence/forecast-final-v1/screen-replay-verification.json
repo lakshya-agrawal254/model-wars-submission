@@ -1,0 +1,18 @@
+{
+  "unique_matches": 44,
+  "replayed_matches": 44,
+  "identical_fields": [
+    "result",
+    "end",
+    "goals_for",
+    "goals_against",
+    "stationary_seconds",
+    "circling_5second_windows_proxy",
+    "counts",
+    "productive_contacts",
+    "backward_contacts"
+  ],
+  "all_same": true,
+  "diagnostic_time_bound_pass": true,
+  "original_extra_telemetry_retracted": true
+}

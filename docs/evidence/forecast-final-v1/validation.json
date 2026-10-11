@@ -1,0 +1,10 @@
+{
+  "unmodified_official_validator": "PASS",
+  "official_stdout": "[*] Validating repository at: /workspace/work/modelwars/forecast-final-validation-kit\n[\u2713] CI/CD pipeline integrity verified against official tournament upstream.\n    - Baseline Cosine Similarity: 0.05938\n[\u2713] SUCCESS: All submission requirements and tensor checks PASSED!\n    - Bot Agent ID:  lakshya-agrawal254/v13-forecast-research\n    - Model SHA-256: 408c1b262f9b23318fc77467f0b4fb8908f7b2d2fc44ca2c1d4e8621c3f13a0a\n    - Parameters:    26181\n",
+  "SDK_preflight": "PASS non-live; Blue/Orange config, model13D26181, native action decoder checks; no GUI",
+  "actual_Rocket_League": "UNTESTED",
+  "github_actions_new_branch": "NOT RUN",
+  "main": "c151310b5c36996aeb1fe192be5eea7cc328e846",
+  "main_changed": false,
+  "submitted": false
+}

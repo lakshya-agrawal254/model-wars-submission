@@ -1,0 +1,92 @@
+{
+  "configuration": {
+    "seed": 11001011,
+    "decisions": 24576,
+    "trajectories": 12,
+    "length": 2048,
+    "Hz": 60,
+    "workers": 4,
+    "epochs": 4,
+    "actor_lr": 5e-05,
+    "critic_lr": 0.002,
+    "gamma": 0.999,
+    "gae_lambda": 0.999,
+    "steer_std": 0.15,
+    "clip": 0.15,
+    "reference_joint_KL_coefficient": 0.02,
+    "training_cutoff_UTC": "2026-10-11T01:00:00+00:00",
+    "campaign_wall_limit_seconds": 900,
+    "actor_start": "runs/outcome-flip-learning-v1/candidate.pt",
+    "scenarios": [
+      "E",
+      "O",
+      "F",
+      "E",
+      "B0",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "R",
+      "O",
+      "F"
+    ],
+    "changes": "Actual 2second physical forecast enabled, forecast weights unfrozen, Outcome128 initializer, varied legal own opponents, no geometric supervised labels or Chase CE. Existing reward coefficients unchanged.",
+    "goal_information": "True team and goal coordinates restricted to rewards/evaluation; no reliable unique goal identification or direct opponent tracking from13D.",
+    "critic": "Compatible preserved observation-only critic and Adam; no actor weights imported from rejected PPO.",
+    "selection": "Reject if no competitive advantage over initializer or movement regressions; no promotion without Windows acceptance and user approval."
+  },
+  "additional_decisions": 24576,
+  "optimizer_updates": 4,
+  "elapsed_seconds": 30.120950912008993,
+  "finished_UTC": "2026-10-11T00:19:25.617757+00:00",
+  "behavior": {
+    "forecast_ablation_steer_mean": 0.0007747378549538553,
+    "forecast_ablation_steer_max": 0.0014340579509735107,
+    "forecast_ablation_mode_changes": 0,
+    "changes_vs_start": 0,
+    "steer_change_vs_start_mean": 0.0027318517677485943,
+    "forecast_column_norm": 0.0020874824840575457
+  },
+  "history": [
+    {
+      "loss": -1.2902698169151941e-08,
+      "reference_joint_KL": 0.0,
+      "ppo_KL": 6.305829932292302e-11,
+      "value_loss": 0.4973131155129522,
+      "update": 1,
+      "gradient_norm": 0.10687915235757828,
+      "forecast_gradient_norm": 0.016344642266631126
+    },
+    {
+      "loss": -0.00021009626410280666,
+      "reference_joint_KL": 0.0002498583744454663,
+      "ppo_KL": 0.00025313807782367803,
+      "value_loss": 0.4974688612855971,
+      "update": 2,
+      "gradient_norm": 0.10365983098745346,
+      "forecast_gradient_norm": 0.015867725014686584
+    },
+    {
+      "loss": -0.00031808142860730487,
+      "reference_joint_KL": 0.0009649354324210435,
+      "ppo_KL": 0.0009773990993077557,
+      "value_loss": 0.49696143514787156,
+      "update": 3,
+      "gradient_norm": 0.2956576347351074,
+      "forecast_gradient_norm": 0.027822688221931458
+    },
+    {
+      "loss": -0.00044651110268508393,
+      "reference_joint_KL": 0.0007475522143067792,
+      "ppo_KL": 0.0007459903693719147,
+      "value_loss": 0.4955853772892927,
+      "update": 4,
+      "gradient_norm": 0.0967140793800354,
+      "forecast_gradient_norm": 0.017998868599534035
+    }
+  ],
+  "candidate_SHA256": "408c1b262f9b23318fc77467f0b4fb8908f7b2d2fc44ca2c1d4e8621c3f13a0a",
+  "preservation_pass": true,
+  "promoted": false
+}

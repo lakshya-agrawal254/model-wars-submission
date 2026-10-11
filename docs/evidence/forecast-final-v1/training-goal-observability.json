@@ -1,0 +1,52 @@
+{
+  "max_13D_difference": 2.2351741790771484e-08,
+  "team_both": 0,
+  "enemy_goal_world": [
+    0.0,
+    5120.0,
+    93.15
+  ],
+  "enemy_goal_local_A": [
+    2801.6869556560578,
+    -531.7615910615968,
+    76.15
+  ],
+  "enemy_goal_local_B": [
+    -7427.385873563671,
+    -1004.6927225264899,
+    76.15
+  ],
+  "observation_A": [
+    0.1280050277709961,
+    0.06082834675908089,
+    0.012691667303442955,
+    0.22522971034049988,
+    0.10387788712978363,
+    0.012691667303442955,
+    0.14229002594947815,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ],
+  "observation_B": [
+    0.1280050277709961,
+    0.06082833930850029,
+    0.012691667303442955,
+    0.22522971034049988,
+    0.10387790948152542,
+    0.012691667303442955,
+    0.14229002594947815,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+  ],
+  "actual_forecasts": true,
+  "conclusion": "Same legal13D current-observation vector but opposite forward/backward enemy-goal direction. Rotating an entire corresponding history in the symmetric arena preserves local observations too; no general reliable goal identity guarantee from these features.",
+  "extra_actor_inputs": false
+}

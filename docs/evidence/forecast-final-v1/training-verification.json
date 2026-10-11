@@ -1,0 +1,279 @@
+{
+  "strict_load": true,
+  "all_actor_optimizer_states_restored": true,
+  "critic_and_optimizer_restored": true,
+  "actor_parameters": 26181,
+  "tensor_names_preserved": true,
+  "plain_full_inference_exact": true,
+  "recurrent_chunk_parity": true,
+  "old_behavior_and_memory_replay": true,
+  "all_prior_checkpoints_unchanged": 64,
+  "untouched_official_files": [
+    "src/policy.py",
+    "src/observation_contract.py",
+    "tools/validate_submission.py",
+    ".github/workflows/validate.yml"
+  ],
+  "actual_forecasts": {
+    "valid": 1.0,
+    "horizon": 2.0,
+    "first_slice_offset": 0.0,
+    "dt_values": [
+      0.0,
+      1.0
+    ]
+  },
+  "rows": [
+    {
+      "index": 0,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        8,
+        1276,
+        399,
+        365
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0005395797779783607,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002941833809018135
+    },
+    {
+      "index": 1,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        10,
+        1334,
+        361,
+        343
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0005403886316344142,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002209476428106427
+    },
+    {
+      "index": 2,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        11,
+        1347,
+        356,
+        334
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0005489916657097638,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002863039495423436
+    },
+    {
+      "index": 3,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        10,
+        1328,
+        379,
+        331
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.00045103655429556966,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002499987371265888
+    },
+    {
+      "index": 4,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        9,
+        1294,
+        398,
+        347
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0007623202400282025,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.00270534073933959
+    },
+    {
+      "index": 5,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        18,
+        1387,
+        330,
+        313
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0005113623337820172,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0023358326870948076
+    },
+    {
+      "index": 6,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        3,
+        1283,
+        430,
+        332
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0006915638223290443,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0024857521057128906
+    },
+    {
+      "index": 7,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        17,
+        1333,
+        403,
+        295
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0002797587658278644,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0018165473593398929
+    },
+    {
+      "index": 8,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        4,
+        1316,
+        398,
+        330
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.00044507047277875245,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002206420758739114
+    },
+    {
+      "index": 9,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        10,
+        1340,
+        368,
+        330
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0005637264112010598,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0022878560703247786
+    },
+    {
+      "index": 10,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        19,
+        1315,
+        381,
+        333
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0002935621596407145,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.002527242060750723
+    },
+    {
+      "index": 11,
+      "greedy_modes": [
+        0,
+        2048,
+        0,
+        0
+      ],
+      "sampled_modes": [
+        11,
+        1284,
+        381,
+        372
+      ],
+      "forecast_ablation_mode_changes": 0,
+      "forecast_ablation_steer_mean": 0.0007747378549538553,
+      "mode_changes_vs_initializer": 0,
+      "steer_change_vs_initializer_mean": 0.0027318517677485943
+    }
+  ],
+  "reward_component_sums": [
+    0.0,
+    2.342057228088379,
+    0.1667470633983612,
+    0.0,
+    0.0,
+    -0.017795145511627197
+  ],
+  "forecast_input_column_norms": [
+    0.0011662397300824523,
+    0.001266207080334425,
+    0.0011807569535449147,
+    0.001033717766404152,
+    0.001033717766404152,
+    0.0
+  ],
+  "forecast_gradient_norms": [
+    0.016344642266631126,
+    0.015867725014686584,
+    0.027822688221931458,
+    0.017998868599534035
+  ],
+  "limits": "Ablation uses collected training trajectories, not proof of competitive benefit. Physics prediction cannot anticipate future car decisions; no native prediction recording claimed."
+}

@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    [
+      "candidate",
+      "outcome",
+      60,
+      4
+    ],
+    [
+      "candidate",
+      "ground",
+      60,
+      4
+    ],
+    [
+      "candidate",
+      "geometric",
+      60,
+      4
+    ],
+    [
+      "outcome",
+      "ground",
+      60,
+      4
+    ],
+    [
+      "outcome",
+      "geometric",
+      60,
+      4
+    ],
+    [
+      "candidate",
+      "outcome",
+      120,
+      2
+    ]
+  ],
+  "seeds": [
+    11101011,
+    11102020,
+    11103029,
+    11104038
+  ],
+  "training_seed_disjoint": true,
+  "Hz": "60primary;120separate",
+  "greedy": true,
+  "fullmatches": "300active sec, floor proxy,120sec overtimecap censored,900wall-simulation cap",
+  "selection": "Candidate must beat initializer convincingly, improve common-opponent results without movement regressions. This is screening, no native acceptance or promotion.",
+  "runtime_changed": false
+}

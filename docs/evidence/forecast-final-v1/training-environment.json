@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "torch": "2.11.0+cpu",
+  "numpy": "1.26.4",
+  "RocketSim": "2.2.1",
+  "rlgym": "not separately registered",
+  "rlgym-rocket-league": "2.0.1",
+  "rlbot": "2.0.0b55",
+  "rlbot-flatbuffers": "0.19.0"
+}

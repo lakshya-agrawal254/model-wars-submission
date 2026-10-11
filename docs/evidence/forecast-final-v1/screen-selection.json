@@ -1,0 +1,20 @@
+{
+  "competitive_screen_qualified": false,
+  "promoted": false,
+  "paired_seed_win_minus_loss_95": [
+    0.0,
+    0.75
+  ],
+  "paired_units": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "common_opponent_candidate_wins": 7,
+  "common_opponent_initializer_wins": 13,
+  "selected_playing_checkpoint": "runs/outcome-flip-learning-v1/candidate.pt",
+  "selected_sha256": "8bf824f43c295bf397e443f019940c00cb7f3e0ec3b61da13b274d30e8211043",
+  "reason": "No convincing independent competitive improvement; previous recommendation retained pending native acceptance.",
+  "submission_authorized": false
+}

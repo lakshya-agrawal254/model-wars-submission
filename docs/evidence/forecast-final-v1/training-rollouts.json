@@ -1,0 +1,574 @@
+[
+  {
+    "index": 0,
+    "seed": 11001011,
+    "side": 0,
+    "scenario": "E",
+    "opponent": "runs/outcome-flip-learning-v1/candidate.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 10,
+    "opponent_touch_callbacks": 2,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      0.6444931954239304,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      8,
+      1276,
+      399,
+      365
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.11075824499130249,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.10403738915920258,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 1,
+    "seed": 11002020,
+    "side": 1,
+    "scenario": "O",
+    "opponent": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+    "goals": [
+      {
+        "step": 1504,
+        "goal_for": true
+      }
+    ],
+    "contacts": {
+      "touch": 1,
+      "goalward": 1,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 29,
+    "opponent_touch_callbacks": 15,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      10.0,
+      1.148199459011658,
+      0.08,
+      0.0,
+      0.0,
+      -0.6380842627924771
+    ],
+    "modes": [
+      10,
+      1334,
+      361,
+      343
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.23142462968826294,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.07696773111820221,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 2,
+    "seed": 11003029,
+    "side": 0,
+    "scenario": "F",
+    "opponent": "model/V13.pt",
+    "goals": [
+      {
+        "step": 1734,
+        "goal_for": true
+      }
+    ],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 17,
+    "opponent_touch_callbacks": 7,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      10.0,
+      1.2347136177712656,
+      0.0,
+      0.0,
+      0.0,
+      -0.695200886754781
+    ],
+    "modes": [
+      11,
+      1347,
+      356,
+      334
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.17696000635623932,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.12386741489171982,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 3,
+    "seed": 11004038,
+    "side": 1,
+    "scenario": "E",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 7,
+    "opponent_touch_callbacks": 3,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      -0.24756087078775235,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      10,
+      1328,
+      379,
+      331
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.10921245813369751,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.14369340240955353,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 4,
+    "seed": 11005047,
+    "side": 0,
+    "scenario": "B0",
+    "opponent": "runs/outcome-flip-learning-v1/candidate.pt",
+    "goals": [
+      {
+        "step": 1880,
+        "goal_for": false
+      }
+    ],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 9,
+    "opponent_touch_callbacks": 4,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -10.0,
+      0.1237639737471771,
+      0.0,
+      0.0,
+      0.0,
+      0.6597131924520454
+    ],
+    "modes": [
+      9,
+      1294,
+      398,
+      347
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.09048323333263397,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.13503357768058777,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 5,
+    "seed": 11006056,
+    "side": 1,
+    "scenario": "B1",
+    "opponent": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 1,
+      "goalward": 1,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 13,
+    "opponent_touch_callbacks": 2,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      -0.4679397081890557,
+      0.08,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      18,
+      1387,
+      330,
+      313
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.17664802074432373,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.11060503870248795,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 6,
+    "seed": 11007065,
+    "side": 0,
+    "scenario": "B2",
+    "opponent": "model/V13.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 11,
+    "opponent_touch_callbacks": 4,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      0.5575268275788363,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      3,
+      1283,
+      430,
+      332
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.10088149458169937,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.10574410855770111,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 7,
+    "seed": 11008074,
+    "side": 1,
+    "scenario": "B3",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 7,
+    "opponent_touch_callbacks": 3,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      -0.2073872287825444,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      17,
+      1333,
+      403,
+      295
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.1092124730348587,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.12079065293073654,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 8,
+    "seed": 11009083,
+    "side": 0,
+    "scenario": "B4",
+    "opponent": "runs/outcome-flip-learning-v1/candidate.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 10,
+    "opponent_touch_callbacks": 2,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      0.6021719688679411,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      4,
+      1316,
+      398,
+      330
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.11075825244188309,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.12972331047058105,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 9,
+    "seed": 11010092,
+    "side": 1,
+    "scenario": "R",
+    "opponent": "runs/ground-trajectory-learning-v1/screened-actor.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 2,
+      "goalward": 0,
+      "backward": 1,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 14,
+    "opponent_touch_callbacks": 8,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      0.7620441562380466,
+      -0.027258324133831523,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      10,
+      1340,
+      368,
+      330
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.14988161623477936,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.14687488973140717,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 10,
+    "seed": 11011101,
+    "side": 0,
+    "scenario": "O",
+    "opponent": "model/V13.pt",
+    "goals": [],
+    "contacts": {
+      "touch": 0,
+      "goalward": 0,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 14,
+    "opponent_touch_callbacks": 5,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      0.0,
+      -1.036163327600997,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "modes": [
+      19,
+      1315,
+      381,
+      333
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.15919587016105652,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.07082628458738327,
+    "recurrent_and_behavior_replay": "PASS"
+  },
+  {
+    "index": 11,
+    "seed": 11012110,
+    "side": 1,
+    "scenario": "F",
+    "opponent": "runs/retained/baseline/V13.pt",
+    "goals": [
+      {
+        "step": 261,
+        "goal_for": false
+      }
+    ],
+    "contacts": {
+      "touch": 2,
+      "goalward": 1,
+      "backward": 0,
+      "meaningless": 0
+    },
+    "abrupt_ball_velocity_changes": 6,
+    "opponent_touch_callbacks": 2,
+    "reward_component_order": [
+      "goal",
+      "potential",
+      "productive_velocity",
+      "nonproductive_contact",
+      "stationary",
+      "goal_reset_potential"
+    ],
+    "reward_sums": [
+      -10.0,
+      -0.7718029342604549,
+      0.0340053859544837,
+      0.0,
+      0.0,
+      0.6557767233694238
+    ],
+    "modes": [
+      11,
+      1284,
+      381,
+      372
+    ],
+    "forecast_valid_fraction": 1.0,
+    "forecast_difference_mean": 0.133918896317482,
+    "callback_delta_range": [
+      1.0,
+      1.0
+    ],
+    "nonterminal_bootstrap": -0.04750032722949982,
+    "recurrent_and_behavior_replay": "PASS"
+  }
+]
