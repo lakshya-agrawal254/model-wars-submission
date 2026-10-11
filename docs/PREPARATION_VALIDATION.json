@@ -37,7 +37,8 @@
   "baseline_cosine_similarity": 0.05932,
   "SDK_preflight": "PASS non-live Blue/Orange configuration, model loading and native-control mapping; not actual RocketLeague",
   "private_repository": true,
-  "github_actions": "PENDING manual dispatch attempt; automatic preparation-branch push is not an official trigger",
+  "github_actions": "BLOCKED: cloud gh workflow dispatch failed before starting a run; Actions API returned Forbidden. No preparation CI pass is claimed. Owner can dispatch unchanged official workflow on this branch through GitHub UI.",
   "main_preserved": "c151310b5c36996aeb1fe192be5eea7cc328e846",
-  "submission_approval": false
+  "submission_approval": false,
+  "dispatch_error": "Get \"https://api.github.com/repos/lakshya-agrawal254/model-wars-submission/actions/workflows/validate.yml\": Forbidden"
 }
