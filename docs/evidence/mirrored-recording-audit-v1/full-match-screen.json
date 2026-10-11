@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "candidate_vs_outcome": {
+      "W": 4,
+      "L": 3,
+      "D": 0,
+      "U": 1,
+      "GF": 11,
+      "GA": 10,
+      "stationary_seconds": 3.466666666666667,
+      "circling": 4,
+      "observed_seconds": 2622.75,
+      "actual_dodges": 0
+    },
+    "candidate_vs_original": {
+      "W": 8,
+      "L": 0,
+      "D": 0,
+      "U": 0,
+      "GF": 42,
+      "GA": 3,
+      "stationary_seconds": 4.500000000000002,
+      "circling": 10,
+      "observed_seconds": 2578.7166666666667,
+      "actual_dodges": 0
+    },
+    "candidate_vs_geometric": {
+      "W": 1,
+      "L": 3,
+      "D": 0,
+      "U": 0,
+      "GF": 2,
+      "GA": 6,
+      "stationary_seconds": 1.2999999999999998,
+      "circling": 3,
+      "observed_seconds": 1316.6166666666668,
+      "actual_dodges": 0
+    }
+  },
+  "elapsed_seconds": 71.24024736300635,
+  "promoted": false,
+  "native": "UNTESTED",
+  "new_optimizer_updates": 0,
+  "matched_reference_original": {
+    "W": 4,
+    "L": 3,
+    "U": 1,
+    "GF": 11,
+    "GA": 11,
+    "stationary_seconds": 3.8500000000000014,
+    "circling": 12
+  },
+  "matched_reference_geometric": {
+    "W": 0,
+    "L": 4,
+    "U": 0,
+    "GF": 1,
+    "GA": 7
+  },
+  "full_matches_including_benchmarks": 32,
+  "confirmation": "NOT RUN; guard failed and no convincing head-to-head evidence"
+}

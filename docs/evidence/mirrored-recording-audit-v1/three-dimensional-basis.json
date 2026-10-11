@@ -1,0 +1,7 @@
+{
+  "random_orientations": 200,
+  "availability_cases_per_orientation": 3,
+  "max_feature_error": 0.0,
+  "native_basis_mirror": "pitch unchanged, yaw pi-yaw, roll -roll; globalx positions/polar velocities reflected, angular velocity axial -M*omega",
+  "training_updates": 0
+}

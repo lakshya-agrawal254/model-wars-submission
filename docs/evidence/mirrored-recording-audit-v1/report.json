@@ -1,0 +1,108 @@
+{
+  "physical": [
+    {
+      "side": 0,
+      "kind": "kickoff",
+      "callbacks": 60,
+      "max_feature_error": 4.291534423828125e-06,
+      "max_car_position_UU_error": 0.00209808349609375
+    },
+    {
+      "side": 0,
+      "kind": "curve",
+      "callbacks": 60,
+      "max_feature_error": 3.7997961044311523e-07,
+      "max_car_position_UU_error": 0.00067138671875
+    },
+    {
+      "side": 1,
+      "kind": "kickoff",
+      "callbacks": 60,
+      "max_feature_error": 4.291534423828125e-06,
+      "max_car_position_UU_error": 0.00209808349609375
+    },
+    {
+      "side": 1,
+      "kind": "curve",
+      "callbacks": 60,
+      "max_feature_error": 4.3213367462158203e-07,
+      "max_car_position_UU_error": 0.000732421875
+    }
+  ],
+  "decoder_mirror_pass": true,
+  "kickoff_index_mapping_blue_orange": [
+    [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    [
+      1,
+      0,
+      3,
+      2,
+      4
+    ]
+  ],
+  "datasets": {
+    "geometric-retained": {
+      "sequences": 88,
+      "rows": 42240,
+      "roles": {
+        "controller_demonstration_or_missing_ball_augmentation": 88
+      },
+      "SHA256": "a8654b33c227e08f80ef36b3e4b4c8f02ebd791535c0ced7f06e512703c2cc1e",
+      "chronological_arrays": true,
+      "midsequence_zero_dt": 0
+    },
+    "outcome-flip-learning-v1": {
+      "sequences": 104,
+      "rows": 54075,
+      "roles": {
+        "positive": 42,
+        "own_driving": 62
+      },
+      "SHA256": "5c8c575712decb7490d2e654744bd78f6130f890313e02d58a456ba065557353",
+      "chronological_arrays": true,
+      "midsequence_zero_dt": 0
+    },
+    "ground-trajectory-learning-v1": {
+      "sequences": 55,
+      "rows": 44501,
+      "roles": {
+        "positive": 21,
+        "own": 34
+      },
+      "SHA256": "151ff1c7851f2d7ea245f5e647457cb9608b203746365a1d205ff3a12727d5e6",
+      "chronological_arrays": true,
+      "midsequence_zero_dt": 0
+    }
+  },
+  "GRU": {
+    "geometric": {
+      "mirrored_whole_vs_carried_chunk_max_error": 0.0,
+      "mean_steering_non_equivariance": 0.07703546361697654,
+      "mirror_mode_change_fraction": 0.0,
+      "scope": "Six old dataset prefixes; diagnostic only, not fresh gameplay improvement."
+    },
+    "outcome128": {
+      "mirrored_whole_vs_carried_chunk_max_error": 0.0,
+      "mean_steering_non_equivariance": 0.07284684667367912,
+      "mirror_mode_change_fraction": 0.0,
+      "scope": "Six old dataset prefixes; diagnostic only, not fresh gameplay improvement."
+    },
+    "ground64": {
+      "mirrored_whole_vs_carried_chunk_max_error": 0.0,
+      "mean_steering_non_equivariance": 0.06540459170258232,
+      "mirror_mode_change_fraction": 0.0,
+      "scope": "Six old dataset prefixes; diagnostic only, not fresh gameplay improvement."
+    }
+  },
+  "mirror": "Global x reflection, same team/goals: negate existing local-right columns1,4 and steering; unchanged modes/time/masks/otherfeatures. Angular velocity is an axial vector. No arbitrary transform of64Dhidden: rerun mirrored full chronological prefix from h=None at original match start.",
+  "new_optimizer_updates": 0,
+  "checkpoints_written": false,
+  "full_match_records_have_chronological_observations": false,
+  "native_acceptance": "UNTESTED"
+}

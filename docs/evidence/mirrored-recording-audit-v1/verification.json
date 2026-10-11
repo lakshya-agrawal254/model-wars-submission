@@ -1,0 +1,11 @@
+{
+  "parameters": 26181,
+  "observations": 13,
+  "finite_Adam_states": 8,
+  "optimizer_steps": 4,
+  "inference_state_matches_complete": true,
+  "forecast_columns_original_zero": true,
+  "carried_GRU_chunk_max_error": 2.384185791015625e-07,
+  "checkpoint_SHA256": "407e8fe69c510f7947aca1146985384059fb4d2c43093a6533f82e85a54a4f65",
+  "native": "UNTESTED"
+}

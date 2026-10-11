@@ -1,0 +1,10 @@
+{
+  "outcome128": {
+    "held_out_original_source_sequences": 19,
+    "mean_steering_non_equivariance": 0.07145317923266666
+  },
+  "mirrored4": {
+    "held_out_original_source_sequences": 19,
+    "mean_steering_non_equivariance": 0.08041347929671831
+  }
+}
